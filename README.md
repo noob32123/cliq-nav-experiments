@@ -336,12 +336,12 @@ The backbone and Heading Prediction point-interval plots use `scripts/render_ado
 Both scripts use the archived FIG data as their inputs.
 In the Heading Prediction ablation plot, open markers identify the last-segment condition (Ablated), and filled markers identify weighted-history initialization (Unablated).
 Gray dashed lines connect condition means; capped colored bars show marginal 95% intervals in panels a, c-f and route-paired 95% SR-difference intervals in panel b.
-The Figure 3 schematic is supplied as an editable native PPTX. The schematic and both point-interval plots use Cambria Math; the benchmark target and navigation-sequence plates retain Cambria.
+The Heading Prediction schematic is supplied as an editable native PPTX. The schematic and both point-interval plots use Cambria Math; the benchmark target and navigation-sequence plates retain Cambria.
 The Downtown West plate uses eight archived route reference views, with their route identifiers and native crops documented in the figure-source manifest.
 The navigation-sequence plate retains twenty full-frame front-camera observations from four successful recorded episodes and is supplied as an editable PPTX.
 The source records in `source_data/navigation_maneuvers/` identify the episodes, capture times, target descriptions, trajectories, and executed lateral or turning actions.
 The repository supplies editable PPTX and MATLAB FIG/M sources, LaTeX, scoring trajectories, configurations, and checksums.
-Figure 1 is schematic; its source illustration has no retained route/repeat identifiers.
+The four-method navigation illustration is schematic; its source illustration has no retained route/repeat identifiers.
 
 ### R7. Revised success radii and original-threshold sensitivity
 The initial Downtown West evaluation used a uniform 6 m radius.
