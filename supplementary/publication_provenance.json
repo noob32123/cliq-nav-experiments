@@ -36836,7 +36836,7 @@
     "supplementary/README.md": {
       "source": "paper/kbs_submission/supplementary/README.md",
       "source_sha256": "a6fa4f2d63454fa67ef42e37b5f50a16a679415b52d36984944fd3b0db03b80c",
-      "published_sha256": "a6fa4f2d63454fa67ef42e37b5f50a16a679415b52d36984944fd3b0db03b80c"
+      "published_sha256": "bc593b4d0eb1b6953f5087cc20ec696b353ce2a4fee64f662308ca518a33b16d"
     },
     "supplementary/cue_prior_control/README.md": {
       "source": "paper/kbs_submission/supplementary/cue_prior_control/README.md",
@@ -60391,12 +60391,12 @@
     "README.md": {
       "source": null,
       "source_sha256": null,
-      "published_sha256": "71f064a5107d35660e6b0e3879482833bb3fe4342ac3d4ff5ab5c595d39a42bd"
+      "published_sha256": "90c9d8167a3fe4183401abcef584ce2218804c272c332e40b3e3743d06f9b43f"
     },
     "scripts/reproduce_all.py": {
       "source": null,
       "source_sha256": null,
-      "published_sha256": "86ac98de9a76caeba1e7320ef9262c4bb4d4743167d7f8e5f92944584ee8ab0f"
+      "published_sha256": "d608c73dabb06734e6a2fa92954fde796f8807b9da094c78545306fb7cd80b13"
     },
     "scripts/layout_result_labels.m": {
       "source": "paper/kbs_submission/scripts/layout_result_labels.m",
@@ -60417,11 +60417,68 @@
       "source": "paper/kbs_submission/qa/adopted_figures_20261030/matlab_data_verification.json",
       "source_sha256": "ed47c3b61cf896c618e413802f1d97852eecd2d829d3b6828ce2a40711da39a0",
       "published_sha256": "ed47c3b61cf896c618e413802f1d97852eecd2d829d3b6828ce2a40711da39a0"
+    },
+    "map2/README.md": {
+      "source": null,
+      "source_sha256": null,
+      "published_sha256": "8d2c38ab4b4cee1b138f614eab187be04acbcd50a4c5f74961b639437df10eee"
+    },
+    "scripts/export_current_paper_results.py": {
+      "source": null,
+      "source_sha256": null,
+      "published_sha256": "18318f4b30c913615a6910136939e68d14989b6130d89248514d19dfdacb707e"
+    },
+    "supplementary/current_paper_results/heading.csv": {
+      "source": null,
+      "source_sha256": null,
+      "published_sha256": "c9e3d29946f9fb8a2b654b3de1b04063d3efc16508f4c459c79bba2860b77cbf"
+    },
+    "supplementary/current_paper_results/heading_differences.csv": {
+      "source": null,
+      "source_sha256": null,
+      "published_sha256": "8d1c1ab26cf3ad745eaebac0e13b9a3085c398a66df7db0df71946c8e38b32d0"
+    },
+    "supplementary/current_paper_results/scoring_version.json": {
+      "source": null,
+      "source_sha256": null,
+      "published_sha256": "c120cf3a4b30847369160ab24b91b4fb396b26c008afc33cf673a8800f85d756"
+    },
+    "supplementary/current_paper_results/summary.csv": {
+      "source": null,
+      "source_sha256": null,
+      "published_sha256": "79611c696f88eec4d36616aa098ef86ff3a7779f08d2a90abca4eaec31cdaa44"
+    },
+    "map2/heading_ablation/20261016_heading_prediction/analysis/README.md": {
+      "source": null,
+      "source_sha256": null,
+      "published_sha256": "772a0d56f8cfad9fc3698bc00fe9e2dc3ce74c88a7abe57c414ca3f3e3b0bb37"
     }
   },
   "scope_exclusions": [
     "manuscripts and submission materials",
     "model weights and simulator assets",
     "full step-by-step sensor/request dumps, failed attempts and discarded batches"
+  ],
+  "publication_changes": [
+    {
+      "date": "2026-11-02",
+      "purpose": "Display the current KBS revised-radius results as the default publication view; keep original-6-m sensitivity explicitly optional.",
+      "changed_files": [
+        "README.md",
+        "scripts/reproduce_all.py",
+        "supplementary/README.md"
+      ],
+      "added_files": [
+        "map2/README.md",
+        "map2/heading_ablation/20261016_heading_prediction/analysis/README.md",
+        "scripts/export_current_paper_results.py",
+        "supplementary/current_paper_results/heading.csv",
+        "supplementary/current_paper_results/heading_differences.csv",
+        "supplementary/current_paper_results/scoring_version.json",
+        "supplementary/current_paper_results/summary.csv"
+      ],
+      "scoring_trajectories_changed": false,
+      "canonical_result_values_changed": false
+    }
   ]
 }

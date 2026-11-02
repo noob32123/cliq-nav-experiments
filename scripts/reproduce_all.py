@@ -1,4 +1,7 @@
-"""Verify the complete public archive and reproduce both scoring versions and cue contrasts."""
+"""Verify the archive and reproduce current revised-radius paper results.
+
+Use --include-original-6m to add the historical threshold-sensitivity replay.
+"""
 from __future__ import annotations
 
 import argparse
@@ -76,25 +79,32 @@ def compare(saved, generated):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=ROOT/'reproduced_results')
+    parser.add_argument('--include-original-6m', action='store_true',
+                        help='Also replay the historical uniform-6-m sensitivity analysis')
     args = parser.parse_args()
     output = args.output.resolve()
     assert output != SUPP and not output.is_relative_to(SUPP), 'Choose an output outside the published supplementary data'
     verify_archive()
-    for manifest, saved, target in (
-        ('episodes_manifest.csv','results','current'),
-        ('episodes_manifest_original_6m.csv','results_original_6m','original_6m')):
+    replays = [('episodes_manifest.csv','results','current')]
+    if args.include_original_6m:
+        replays.append(('episodes_manifest_original_6m.csv','results_original_6m','original_6m'))
+    for manifest, saved, target in replays:
         subprocess.run([sys.executable,'-B',str(SUPP/'reproduce_results.py'),
             '--manifest',str(SUPP/manifest),'--output',str(output/target)],check=True)
         compare(SUPP/saved/'results.json',output/target/'results.json')
     subprocess.run([sys.executable,'-B',str(SUPP/'reproduce_cue_control.py'),
         '--output',str(output/'cue_control')],check=True)
     compare(SUPP/'cue_prior_control/results.json',output/'cue_control/results.json')
-    a = read_csv(output/'current/episode_metrics.csv')
-    b = read_csv(output/'original_6m/episode_metrics.csv')
-    assert len(a) == len(b) == 3340
-    for x,y in zip(a,b):
-        assert all(x[k] == y[k] for k in ('environment','condition','route','repeat','NE','TL'))
-    print('All published means, interval bounds, cue contrasts and radius-sensitivity checks reproduced.')
+    subprocess.run([sys.executable,'-B',str(ROOT/'scripts/export_current_paper_results.py'),
+        '--output',str(output/'paper_results')],check=True)
+    if args.include_original_6m:
+        a = read_csv(output/'current/episode_metrics.csv')
+        b = read_csv(output/'original_6m/episode_metrics.csv')
+        assert len(a) == len(b) == 3340
+        for x,y in zip(a,b):
+            assert all(x[k] == y[k] for k in ('environment','condition','route','repeat','NE','TL'))
+        print('Optional original-6-m sensitivity and NE/TL invariance checks passed.')
+    print('Current revised-radius paper means, intervals and cue contrasts reproduced.')
     print('Output: '+str(output))
 
 if __name__ == '__main__':

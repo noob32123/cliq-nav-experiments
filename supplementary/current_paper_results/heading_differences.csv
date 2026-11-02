@@ -1,0 +1,11 @@
+environment,contrast,metric,mean,low,high,coverage,unit,evaluation_version
+City Park,Unablated minus Ablated,SR,77.85714285714286,70.71428571428571,84.28571428571432,0.95,percentage points,revised_v2
+City Park,Unablated minus Ablated,NE,-27.14054954236474,-40.87270559131511,-15.864116778360193,0.95,m,revised_v2
+City Park,Unablated minus Ablated,SPL,66.47110330429733,59.20106878379568,74.0302622054029,0.95,percentage points,revised_v2
+City Park,Unablated minus Ablated,OR,76.42857142857142,68.57142857142857,84.2857142857143,0.95,percentage points,revised_v2
+City Park,Unablated minus Ablated,TL,2.3469640146888957,-12.650307269285639,13.747696819386094,0.95,m,revised_v2
+Downtown West,Unablated minus Ablated,SR,43.33333333333333,33.666666666666664,52.66666666666665,0.95,percentage points,revised_v2
+Downtown West,Unablated minus Ablated,NE,-5.175103668080722,-6.939715436945673,-3.570323520642638,0.95,m,revised_v2
+Downtown West,Unablated minus Ablated,SPL,38.92449521138478,29.59987117121818,47.740998679123855,0.95,percentage points,revised_v2
+Downtown West,Unablated minus Ablated,OR,42.666666666666664,32.66666666666667,52.666666666666664,0.95,percentage points,revised_v2
+Downtown West,Unablated minus Ablated,TL,-0.725760350456192,-4.397020637757749,2.5353024592221627,0.95,m,revised_v2

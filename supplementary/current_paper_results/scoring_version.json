@@ -1,0 +1,41 @@
+{
+  "evaluation_version": "revised_v2",
+  "unique_episodes": 3780,
+  "city_park_radii_m": {
+    "03": 15,
+    "05": 20,
+    "all_other_routes": 10
+  },
+  "downtown_radii_m": {
+    "3_m_routes": [
+      9,
+      14,
+      16,
+      17,
+      21,
+      25,
+      29
+    ],
+    "all_other_routes": 6
+  },
+  "radius_revision_timing": "During manuscript revision, after original outcomes were available.",
+  "units": {
+    "SR": "percent",
+    "NE": "m",
+    "SPL": "percent",
+    "OR": "percent",
+    "TL": "m"
+  },
+  "marginal_confidence_level": 0.95,
+  "heading_difference_confidence_level": 0.95,
+  "interval_sources": "Actual/no/random cue: unified three-condition streams; other benchmark conditions: original benchmark seeds; heading: seed 20260823.",
+  "heading_full_rows_reuse_benchmark_episodes": true,
+  "historical_6m_results": "Retained separately for optional sensitivity analysis; not displayed in the current results.",
+  "source_sha256": {
+    "supplementary/routes.csv": "99a435b72b1aa2f5970936da16b5bf9843e881efe71cb53aa3cbd8cb2003c232",
+    "supplementary/episodes_manifest.csv": "bb4f160fa07edaf8fdb01a699fc5bba1b5b537281151de51afa876126903ce75",
+    "supplementary/cue_prior_control/episodes_manifest.csv": "defc25378b94eae5e6662bd9563ae79f3de63cd4c974c08fe7e3f4a7336f52ab",
+    "supplementary/results/results.json": "ceddc4b7183e40cfdbd67c143bc0a9fa8ad65901a5f537b2ce27d4d45fd07971",
+    "supplementary/cue_prior_control/results.json": "b7307a4f729a2f0e13f9190253f96ec54f257b973e787babfd40bfa429e801d6"
+  }
+}

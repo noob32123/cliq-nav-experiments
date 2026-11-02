@@ -1,5 +1,7 @@
 # Offline reproducibility bundle
 
+**Current displayed results use `revised_v2`: Downtown routes 09, 14, 16, 17, 21, 25 and 29 use 3 m; all other Downtown routes use 6 m. City Park radii remain 10 m except route 03 (15 m) and route 05 (20 m).** See `current_paper_results/summary.csv` and the root README for the current tables. Files named `original_6m` and archived batch analyses are historical sensitivity/provenance records.
+
 This archive reproduces 3,780 distinct navigation episodes: 3,340 original benchmark/heading episodes in 17 groups and 440 new uniform random-cue episodes in two groups, without simulation or model calls. All required scoring trajectories are present. The accompanying Supplementary Methods describes the exact endpoint conventions and available camera/prompt records.
 
 Run `python reproduce_results.py` with Python 3.10+ and NumPy. It verifies heading/metric edge cases and writes `results/`. The original replay retains its fixed seeds. Main-text Qwen3.5-35B-A3B cue intervals and three-condition whiskers use the unified replay in `reproduce_cue_control.py`; the Qwen3.5-Flash and heading comparisons retain their original intervals.
