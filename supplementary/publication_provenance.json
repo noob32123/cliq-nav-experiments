@@ -60391,7 +60391,7 @@
     "README.md": {
       "source": null,
       "source_sha256": null,
-      "published_sha256": "90c9d8167a3fe4183401abcef584ce2218804c272c332e40b3e3743d06f9b43f"
+      "published_sha256": "5c41b64870176f90707e17fca3d3af1d7a6d0ac3d51d2ba0cebea9363afc6876"
     },
     "scripts/reproduce_all.py": {
       "source": null,
@@ -60476,6 +60476,15 @@
         "supplementary/current_paper_results/heading_differences.csv",
         "supplementary/current_paper_results/scoring_version.json",
         "supplementary/current_paper_results/summary.csv"
+      ],
+      "scoring_trajectories_changed": false,
+      "canonical_result_values_changed": false
+    },
+    {
+      "date": "2026-11-02",
+      "purpose": "Integrate the supporting reproduction protocol into README after merging essential methods and results into the paper.",
+      "changed_files": [
+        "README.md"
       ],
       "scoring_trajectories_changed": false,
       "canonical_result_values_changed": false
