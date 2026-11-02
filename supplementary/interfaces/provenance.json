@@ -1,0 +1,10 @@
+{
+  "city_park": {
+    "source": "map1/heading_ablation/20261015_heading_prediction_corrected_frame/source_snapshot/nav_qwen.py",
+    "sha256": "f86c59fba4d4ca00189b21a261c0f7479ee8d5552e1c8183d48e50141b24648a"
+  },
+  "downtown_west": {
+    "source": "map2/formal_20260909_170427/nav_qwen_zgc_snapshot.py.txt",
+    "sha256": "212b8fa98793a35d74d26c04affb5536d29fe57bfc085d16bab37d816124a375"
+  }
+}

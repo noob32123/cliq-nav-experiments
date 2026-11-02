@@ -1,0 +1,9 @@
+{
+  "transformation": "Exact archived strings; no translation, underscore replacement or target-name substitution.",
+  "sources": {
+    "map1/heading_ablation/20261015_heading_prediction_corrected_frame/routes.json": "4934e1694d44d6474d1cb922c4ae6b277f95626775ccb0c58723f29706fc8a13",
+    "map2/formal_20260909_170427/nav_qwen_zgc_snapshot.py.txt": "212b8fa98793a35d74d26c04affb5536d29fe57bfc085d16bab37d816124a375"
+  },
+  "route_count": 44,
+  "same_string_assumed": false
+}

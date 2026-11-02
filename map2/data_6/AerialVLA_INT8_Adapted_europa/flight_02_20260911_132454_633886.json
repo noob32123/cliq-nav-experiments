@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "06_aerialvla_02",
+  "route_id": "06",
+  "baseline": "aerialvla",
+  "repeat": 2,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 15,
+  "actions": 15,
+  "valid_decisions": 15,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "signs_sign_europa_65",
+  "navigation_end_position": [
+    -77.66978454589844,
+    -15.97849178314209,
+    -3.566842555999756
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 0.8460413932800295,
+    "position": [
+      -77.66978454589844,
+      -15.978229522705078,
+      0.6543058753013611
+    ],
+    "contact_object": "ground_mod_tile_a137_26",
+    "contact_timestamp": 1789105013162840320,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 113.03404500009492,
+  "trajectory": "map2\\data_6\\AerialVLA_INT8_Adapted_europa\\flight_02_20260911_132454_633886.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\06_aerialvla_02\\001"
+}

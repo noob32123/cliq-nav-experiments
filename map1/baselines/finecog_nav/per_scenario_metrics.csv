@@ -1,0 +1,15 @@
+Scenario,Target,Model,Num_Flights,SR(%),NE(m),SPL(%),OR(%),TL(m)
+data_1,orangewhite_umbrella,FineCogNav,10,0.0,44.1960,0.0,0.0,0.0000
+data_2,statue,FineCogNav,10,0.0,19.4363,0.0,0.0,0.0000
+data_3,restaurant_across_river,FineCogNav,10,0.0,53.5337,0.0,0.0,22.6322
+data_4,hotel_front_door,FineCogNav,10,0.0,52.3965,0.0,0.0,1.4695
+data_5,blue_amusement_park,FineCogNav,10,0.0,59.4484,0.0,0.0,25.8386
+data_6,fountain,FineCogNav,10,0.0,24.1666,0.0,0.0,1.5640
+data_7,house,FineCogNav,10,0.0,33.3241,0.0,0.0,0.0000
+data_8,playground,FineCogNav,10,0.0,65.8078,0.0,0.0,21.3890
+data_9,parkbench,FineCogNav,10,0.0,20.9107,0.0,0.0,0.0000
+data_10,umbrella,FineCogNav,10,0.0,37.2258,0.0,0.0,18.2315
+data_11,house2,FineCogNav,10,0.0,30.4134,0.0,0.0,0.0000
+data_12,fountain2,FineCogNav,10,0.0,15.1706,0.0,0.0,7.8187
+data_13,sculpture,FineCogNav,10,0.0,32.1885,0.0,0.0,0.0000
+data_14,sculpture2,FineCogNav,10,40.0,9.9124,40.0,40.0,3.6796

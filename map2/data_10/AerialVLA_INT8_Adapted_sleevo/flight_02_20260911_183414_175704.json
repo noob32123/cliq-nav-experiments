@@ -1,0 +1,39 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "10_aerialvla_02",
+  "route_id": "10",
+  "baseline": "aerialvla",
+  "repeat": 2,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "max_iterations",
+  "decisions": 30,
+  "actions": 30,
+  "valid_decisions": 30,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "navigation_end_position": [
+    -280.77557373046875,
+    -18.63360595703125,
+    -1.8109748363494873
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 2.240583372116089,
+    "position": [
+      -280.76837158203125,
+      -18.635011672973633,
+      2.0139987468719482
+    ],
+    "contact_object": "Landscape_0",
+    "contact_timestamp": 1789124372527259648,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 220.08010620018467,
+  "trajectory": "map2\\data_10\\AerialVLA_INT8_Adapted_sleevo\\flight_02_20260911_183414_175704.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\10_aerialvla_02\\001"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "formal_30_06",
+  "kind": "formal",
+  "route": 30,
+  "repeat": 6,
+  "complete": true,
+  "heading_check": {
+    "route": 30,
+    "baseline_turn_deg": -131.0167,
+    "weighted_yaw_deg": -176.0167,
+    "last_segment_yaw_deg": -152.4933069294329,
+    "delta_deg": 23.523393070567096,
+    "ablation_turn_deg": -107.49330692943289,
+    "baseline_start_yaw_deg": -44.999996039382296,
+    "baseline_end_yaw_deg": -175.93787111163616,
+    "ablation_start_yaw_deg": -44.999996039382296,
+    "ablation_end_yaw_deg": -152.41459399689464,
+    "actual_delta_deg": 23.523277114741518,
+    "actual_delta_error_deg": 0.00011595582557788475,
+    "initial_yaw_error_deg": 0.0,
+    "command_delta_error_deg": 0.0,
+    "passed": true
+  },
+  "started_at": "2026-10-16T18:09:15.473584+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "collision",
+  "decisions": 3,
+  "actions_executed": 3,
+  "max_action_position_change_m": 8.41361691313645,
+  "max_action_yaw_change_deg": 1.2978190775193639,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 0.0,
+  "navigation_collision": {
+    "has_collided": true,
+    "time_stamp_ns": 1792155722299124480,
+    "object_name": "building_awning_a37",
+    "object_id": 56,
+    "position": [
+      -212.36805725097656,
+      -15.53075122833252,
+      -3.1626484394073486
+    ],
+    "impact_point": [
+      -212.7443084716797,
+      -15.891130447387695,
+      -3.233883857727051
+    ],
+    "normal": [
+      0.8899387717247009,
+      0.45607998967170715,
+      -7.450580596923828e-08
+    ],
+    "penetration_depth": 0.0
+  },
+  "navigation_end": {
+    "wall_time": "2026-10-16T18:09:27.513262+08:00",
+    "yaw_deg": -154.2740383895965,
+    "orientation_xyzw": [
+      -0.02069977857172489,
+      0.004646578803658485,
+      -0.9747246503829956,
+      0.22239947319030762
+    ],
+    "position": [
+      -211.24676513671875,
+      -15.069689750671387,
+      -3.0946285724639893
+    ]
+  },
+  "navigation_ended_at": "2026-10-16T18:09:27.513275+08:00",
+  "trajectory_sha256": "3fd0e409a3b846379544bd0ff548d15d6a51ae8c18cd84feb1b20911bd72b1d6",
+  "metrics": {
+    "NE": 3.8686593830657525,
+    "TL": 11.587893873696366,
+    "SR": 1,
+    "OR": 1,
+    "SPL": 1.0,
+    "oracle_dist": 3.8686593830657525,
+    "shortest_path": 13.163333696294425,
+    "num_steps": 4
+  }
+}

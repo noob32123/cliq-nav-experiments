@@ -1,0 +1,37 @@
+{
+  "batch_id": "formal_20260909_170427",
+  "id": "12_clip_04",
+  "route_id": "12",
+  "clip": true,
+  "repeat": 4,
+  "status": "running",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 4,
+  "actions": 4,
+  "clip_enabled": true,
+  "model": "qwen3.5-35b-a3b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "collision_object": "Prop_Poster_Stand4",
+  "navigation_end_position": [
+    -133.58294677734375,
+    -8.440439224243164,
+    -2.338670253753662
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 0.8474995613098144,
+    "position": [
+      -133.57754516601562,
+      -8.443717002868652,
+      0.6537290215492249
+    ],
+    "contact_object": "ground_mod_tile_a278",
+    "contact_timestamp": 1788955438314136064,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 94.77484009996988,
+  "trajectory": "map2\\data_12\\qwen3.5-35b-a3b_CLIP_ufoods\\flight_04_20260909_201820_684439.csv",
+  "attempt_directory": "map2\\formal_20260909_170427\\attempts\\12_clip_04\\001"
+}

@@ -1,0 +1,16 @@
+[TASK]: You are a UAV Navigation Strategist. Perform means-end analysis to decompose the <current instruction> into sequential, executable subgoals.
+
+[RULES]:
+- Sequence subgoals by PHYSICAL EXECUTION ORDER (temporal logic over syntax).
+  Example: "Do A when B" → ["B", "A"]
+- Replace pronouns ("it", "them") with explicit referents from the instruction.
+- Cross-reference <Current Observation> for executability — can each subgoal be physically done with current drone state?
+- DO NOT add extra information not present in the landmarks or instruction.
+
+[INPUTS]:
+- <Current Instruction>: {current_instruction}
+- <Landmarks>: {landmarks}
+- <Current Observation>: {perception_output}
+
+[OUTPUT]: A JSON array of ordered subgoal strings:
+["SUBGOAL1", "SUBGOAL2", "..."]

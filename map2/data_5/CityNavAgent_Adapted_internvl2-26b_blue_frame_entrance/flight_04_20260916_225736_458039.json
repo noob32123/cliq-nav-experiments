@@ -1,0 +1,41 @@
+{
+  "batch_id": "citynav_internvl2_26b_formal_20260916_201057",
+  "id": "05_citynav_04",
+  "route_id": "05",
+  "baseline": "citynav",
+  "repeat": 4,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 5,
+  "actions": 5,
+  "valid_decisions": 5,
+  "invalid_decisions": 0,
+  "model": "internvl2-26b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "observation_mode": "front_rgb_only",
+  "collision_object": "lightpost_light_post_a7",
+  "navigation_end_position": [
+    -157.6927947998047,
+    7.347535610198975,
+    -3.629795789718628
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 0.8478109359741213,
+    "position": [
+      -157.67323303222656,
+      7.370715618133545,
+      0.5005790591239929
+    ],
+    "contact_object": "ground_mod_tile_a422",
+    "contact_timestamp": 1789566265397968128,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 95.23796959966421,
+  "trajectory": "map2\\data_5\\CityNavAgent_Adapted_internvl2-26b_blue_frame_entrance\\flight_04_20260916_225736_458039.csv",
+  "attempt_directory": "map2\\citynav_internvl2_26b_formal_20260916_201057\\attempts\\05_citynav_04\\001"
+}

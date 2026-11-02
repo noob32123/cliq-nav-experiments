@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "25_aerialvla_02",
+  "route_id": "25",
+  "baseline": "aerialvla",
+  "repeat": 2,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 7,
+  "actions": 7,
+  "valid_decisions": 7,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "tree_generic_b10",
+  "navigation_end_position": [
+    -158.61061096191406,
+    3.547593355178833,
+    -6.17088508605957
+  ],
+  "landing": {
+    "landed": false,
+    "ground_z_from_depth": 0.8455154418945314,
+    "position": [
+      -158.62506103515625,
+      3.5565173625946045,
+      -2.084480047225952
+    ],
+    "contact_object": "food_cart5_278",
+    "contact_timestamp": 1789161380941755648,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 66.5157087999396,
+  "trajectory": "map2\\data_25\\AerialVLA_INT8_Adapted_west_food_cart\\flight_02_20260912_011729_034696.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\25_aerialvla_02\\001"
+}

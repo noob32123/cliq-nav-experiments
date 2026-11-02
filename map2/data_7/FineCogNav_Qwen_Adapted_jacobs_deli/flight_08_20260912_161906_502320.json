@@ -1,0 +1,39 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "07_finecog_08",
+  "route_id": "07",
+  "baseline": "finecog",
+  "repeat": 8,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "max_iterations",
+  "decisions": 30,
+  "actions": 18,
+  "valid_decisions": 18,
+  "invalid_decisions": 12,
+  "model": "qwen3.5-35b-a3b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "navigation_end_position": [
+    22.716999053955078,
+    -9.0,
+    -2.92162823677063
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 0.8467339992523195,
+    "position": [
+      22.716999053955078,
+      -9.0,
+      0.6356239914894104
+    ],
+    "contact_object": "ground_mod_tile_a26",
+    "contact_timestamp": 1789190991178275840,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 852.6620962000452,
+  "trajectory": "map2\\data_7\\FineCogNav_Qwen_Adapted_jacobs_deli\\flight_08_20260912_161906_502320.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\07_finecog_08\\001"
+}

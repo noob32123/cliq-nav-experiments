@@ -1,0 +1,39 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "22_finecog_08",
+  "route_id": "22",
+  "baseline": "finecog",
+  "repeat": 8,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "model_stop",
+  "decisions": 5,
+  "actions": 4,
+  "valid_decisions": 5,
+  "invalid_decisions": 0,
+  "model": "qwen3.5-35b-a3b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "navigation_end_position": [
+    -162.0,
+    -8.0,
+    -1.9868781566619873
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 0.8459367275238037,
+    "position": [
+      -162.0,
+      -8.0,
+      0.6039614677429199
+    ],
+    "contact_object": "ground_mod_walkway_a38",
+    "contact_timestamp": 1789255296280493824,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 115.48148840013891,
+  "trajectory": "map2\\data_22\\FineCogNav_Qwen_Adapted_deer_statue\\flight_08_20260913_091222_544235.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\22_finecog_08\\001"
+}

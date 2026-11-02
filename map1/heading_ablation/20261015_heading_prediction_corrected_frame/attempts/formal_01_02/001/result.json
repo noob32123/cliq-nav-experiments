@@ -1,0 +1,82 @@
+{
+  "id": "formal_01_02",
+  "kind": "formal",
+  "route": 1,
+  "repeat": 2,
+  "complete": true,
+  "heading_check": {
+    "route": 1,
+    "baseline_turn_deg": 160.0,
+    "weighted_yaw_deg": 160.18474415307446,
+    "last_segment_yaw_deg": -145.19058324024022,
+    "delta_deg": 54.624672606685294,
+    "ablation_turn_deg": 214.6246726066853,
+    "baseline_start_yaw_deg": 2.3011123877391617e-08,
+    "baseline_end_yaw_deg": 159.92273238828275,
+    "ablation_start_yaw_deg": 2.1774107167000615e-09,
+    "ablation_end_yaw_deg": -145.4533836412323,
+    "actual_delta_deg": 54.62388397048494,
+    "actual_delta_error_deg": 0.000788636200354631,
+    "initial_yaw_error_deg": 2.0833709868384176e-08,
+    "command_delta_error_deg": 0.0,
+    "passed": true
+  },
+  "started_at": "2026-10-15T16:15:22.996320+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "collision",
+  "decisions": 1,
+  "actions_executed": 1,
+  "max_action_position_change_m": 36.52487313648946,
+  "max_action_yaw_change_deg": 7.59969414206941,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 1.6470766581733187e-05,
+  "navigation_collision": {
+    "has_collided": true,
+    "time_stamp_ns": 1792053667389069824,
+    "object_name": "SM_AmurCork12HISMA",
+    "object_id": 91,
+    "position": [
+      -273.7210388183594,
+      -84.92518615722656,
+      -0.8917782306671143
+    ],
+    "impact_point": [
+      -273.5923767089844,
+      -84.33112335205078,
+      -0.9587525725364685
+    ],
+    "normal": [
+      -0.2445787936449051,
+      -0.9651594758033752,
+      0.09299687296152115
+    ],
+    "penetration_depth": 0.0
+  },
+  "navigation_end": {
+    "wall_time": "2026-10-15T16:15:35.982872+08:00",
+    "yaw_deg": -153.0448908384061,
+    "orientation_xyzw": [
+      -0.0001784159248927608,
+      0.0006689962465316057,
+      -0.9724610447883606,
+      0.23306433856487274
+    ],
+    "position": [
+      -273.7210388183594,
+      -84.92518615722656,
+      -0.8917782306671143
+    ]
+  },
+  "navigation_ended_at": "2026-10-15T16:15:35.982880+08:00",
+  "trajectory_sha256": "2399f9c20969afc82d55a391d9795a31444cd5dc26156efb5b3895a1ab57246e",
+  "metrics": {
+    "NE": 26.103128245758977,
+    "TL": 36.524829859129575,
+    "SR": 0,
+    "OR": 0,
+    "SPL": 0.0,
+    "oracle_dist": 26.103128245758977,
+    "shortest_path": 43.350130674428186,
+    "num_steps": 2
+  }
+}

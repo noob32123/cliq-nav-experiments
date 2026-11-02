@@ -1,0 +1,37 @@
+{
+  "batch_id": "formal_20260909_170427",
+  "id": "20_clip_02",
+  "route_id": "20",
+  "clip": true,
+  "repeat": 2,
+  "status": "running",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 15,
+  "actions": 10,
+  "clip_enabled": true,
+  "model": "qwen3.5-35b-a3b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "collision_object": "tree_narrowleaf_a13",
+  "navigation_end_position": [
+    10.35389232635498,
+    48.20578384399414,
+    -3.805238962173462
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 1.028007221221924,
+    "position": [
+      10.433978080749512,
+      48.326942443847656,
+      0.6388024687767029
+    ],
+    "contact_object": "ground_mod_curb_a60",
+    "contact_timestamp": 1788962562479115008,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 103.65943880006671,
+  "trajectory": "map2\\data_20\\qwen3.5-35b-a3b_CLIP_roadside_green_awning\\flight_02_20260909_214940_191626.csv",
+  "attempt_directory": "map2\\formal_20260909_170427\\attempts\\20_clip_02\\001"
+}

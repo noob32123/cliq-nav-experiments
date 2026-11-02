@@ -1,0 +1,17 @@
+[TASK]: Imagine the final VISUAL state when the <subgoal> is fully achieved. Use first-person view perspective (camera facing forward).
+
+[INPUTS]:
+- <Current Subgoal>: {current_subgoal}
+- <Landmarks>: {landmarks}
+- <Next Subgoal>: {next_subgoal}
+
+[OUTPUT]: A JSON object:
+{{"state": "When I have finished the <subgoal>, I might see ..."}}
+
+[NOTE]:
+- Write ONE concise sentence about the visual state of the landmarks after achieving the current subgoal.
+- Prefer SPATIAL terms: LEFT / RIGHT / CENTER / AHEAD / BELOW / ABOVE
+- Only describe what would be in the field of view (~45 degrees in each direction).
+- If something would end up behind you or out of view, do NOT mention it.
+- Use approximate distances: "nearby (less than 10m)", "moderate distance (10-30m)", "far (more than 30m)".
+- This is a BLIND GUESS — it will be cross-checked with actual observations later.

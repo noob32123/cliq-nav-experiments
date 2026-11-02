@@ -1,0 +1,39 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "28_aerialvla_07",
+  "route_id": "28",
+  "baseline": "aerialvla",
+  "repeat": 7,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "max_iterations",
+  "decisions": 30,
+  "actions": 30,
+  "valid_decisions": 30,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "navigation_end_position": [
+    2.0477523803710938,
+    -4.7606987953186035,
+    -17.322702407836914
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 1.0179187774658196,
+    "position": [
+      2.056110382080078,
+      -4.770430564880371,
+      0.8243340253829956
+    ],
+    "contact_object": "ground_mod_walkway_a35",
+    "contact_timestamp": 1789170749730618880,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 287.19321459997445,
+  "trajectory": "map2\\data_28\\AerialVLA_INT8_Adapted_fountain_side\\flight_07_20260912_030520_592927.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\28_aerialvla_07\\001"
+}

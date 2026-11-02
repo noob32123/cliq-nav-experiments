@@ -1,0 +1,60 @@
+{
+  "id": "formal_13_04",
+  "kind": "formal",
+  "route": 13,
+  "repeat": 4,
+  "complete": true,
+  "heading_check": {
+    "route": 13,
+    "baseline_turn_deg": 60.0,
+    "weighted_yaw_deg": 53.031615125017126,
+    "last_segment_yaw_deg": 35.6269250329808,
+    "delta_deg": -17.404690092036333,
+    "ablation_turn_deg": 42.59530990796367,
+    "baseline_start_yaw_deg": 0.0,
+    "baseline_end_yaw_deg": 59.93603733002091,
+    "ablation_start_yaw_deg": 0.0,
+    "ablation_end_yaw_deg": 42.51463399541661,
+    "actual_delta_deg": -17.421403334604292,
+    "actual_delta_error_deg": 0.016713242567959696,
+    "initial_yaw_error_deg": 0.0,
+    "command_delta_error_deg": 0.0,
+    "passed": true
+  },
+  "started_at": "2026-10-16T01:58:11.501357+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "model_stop",
+  "decisions": 13,
+  "actions_executed": 12,
+  "max_action_position_change_m": 10.182919263839722,
+  "max_action_yaw_change_deg": 1.358761681988966,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 1.8271998584395988e-05,
+  "navigation_end": {
+    "wall_time": "2026-10-16T01:59:51.667016+08:00",
+    "yaw_deg": 32.39565705523195,
+    "orientation_xyzw": [
+      0.00011532710050232708,
+      0.0014021106762811542,
+      0.27895379066467285,
+      0.960303544998169
+    ],
+    "position": [
+      426.0318603515625,
+      -33.40664291381836,
+      1.0834187269210815
+    ]
+  },
+  "navigation_ended_at": "2026-10-16T01:59:51.667024+08:00",
+  "trajectory_sha256": "ec582d7afcdbe30e7269741a4c709f0bd255d649bd999f48cdcb99b77241418b",
+  "metrics": {
+    "NE": 17.833728068192883,
+    "TL": 16.77748465377759,
+    "SR": 0,
+    "OR": 0,
+    "SPL": 0.0,
+    "oracle_dist": 17.753870224724157,
+    "shortest_path": 30.808004844520525,
+    "num_steps": 13
+  }
+}

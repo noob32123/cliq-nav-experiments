@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "17_aerialvla_01",
+  "route_id": "17",
+  "baseline": "aerialvla",
+  "repeat": 1,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 10,
+  "actions": 10,
+  "valid_decisions": 10,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "build_d_mod_wall_lvl2_window19",
+  "navigation_end_position": [
+    -154.2694549560547,
+    15.644672393798828,
+    -7.864171504974365
+  ],
+  "landing": {
+    "landed": false,
+    "ground_z_from_depth": -2.671972560882568,
+    "position": [
+      -154.2694549560547,
+      15.644816398620605,
+      -5.201700210571289
+    ],
+    "contact_object": "build_b_mod_lvl2_trim_end35",
+    "contact_timestamp": 1789142877165016832,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 83.0374839999713,
+  "trajectory": "map2\\data_17\\AerialVLA_INT8_Adapted_cafe_vendie\\flight_01_20260911_214625_905764.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\17_aerialvla_01\\001"
+}

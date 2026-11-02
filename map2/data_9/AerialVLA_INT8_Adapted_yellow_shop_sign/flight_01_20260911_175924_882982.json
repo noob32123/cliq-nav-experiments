@@ -1,0 +1,39 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "09_aerialvla_01",
+  "route_id": "09",
+  "baseline": "aerialvla",
+  "repeat": 1,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "max_iterations",
+  "decisions": 30,
+  "actions": 22,
+  "valid_decisions": 22,
+  "invalid_decisions": 8,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "navigation_end_position": [
+    -279.25238037109375,
+    29.5305233001709,
+    -9.479708671569824
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 1.204666328430175,
+    "position": [
+      -279.24951171875,
+      29.50876808166504,
+      0.9924435019493103
+    ],
+    "contact_object": "Landscape_0",
+    "contact_timestamp": 1789120790357841664,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 206.6230951999314,
+  "trajectory": "map2\\data_9\\AerialVLA_INT8_Adapted_yellow_shop_sign\\flight_01_20260911_175924_882982.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\09_aerialvla_01\\001"
+}

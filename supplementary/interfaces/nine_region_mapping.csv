@@ -1,0 +1,10 @@
+﻿index,row,column,actual_phrase_zh,image_region_en
+1,1,1,前上方偏左,upper left
+2,1,2,正前上方,upper center
+3,1,3,前上方偏右,upper right
+4,2,1,前方偏左,middle left
+5,2,2,正前方,middle center
+6,2,3,前方偏右,middle right
+7,3,1,前下方偏左,lower left
+8,3,2,正前下方,lower center
+9,3,3,前下方偏右,lower right

@@ -1,0 +1,37 @@
+{
+  "batch_id": "formal_20260909_170427",
+  "id": "23_qwen_02",
+  "route_id": "23",
+  "clip": false,
+  "repeat": 2,
+  "status": "running",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 4,
+  "actions": 4,
+  "clip_enabled": false,
+  "model": "qwen3.5-35b-a3b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "collision_object": "FountainFX_2",
+  "navigation_end_position": [
+    61.313720703125,
+    -42.4449348449707,
+    -2.6326286792755127
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 0.6050455093383789,
+    "position": [
+      61.31624221801758,
+      -42.052978515625,
+      -0.03867508843541145
+    ],
+    "contact_object": "FountainFX_2",
+    "contact_timestamp": 1788968515062574848,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 33.50363179994747,
+  "trajectory": "map2\\data_23\\qwen3.5-35b-a3b_park_fountain\\flight_02_20260909_233818_537403.csv",
+  "attempt_directory": "map2\\formal_20260909_170427\\attempts\\23_qwen_02\\001"
+}

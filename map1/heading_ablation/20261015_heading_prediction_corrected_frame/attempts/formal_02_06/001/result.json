@@ -1,0 +1,82 @@
+{
+  "id": "formal_02_06",
+  "kind": "formal",
+  "route": 2,
+  "repeat": 6,
+  "complete": true,
+  "heading_check": {
+    "route": 2,
+    "baseline_turn_deg": 0.0,
+    "weighted_yaw_deg": 5.277198655953334e-14,
+    "last_segment_yaw_deg": 31.017437895990195,
+    "delta_deg": 31.017437895990156,
+    "ablation_turn_deg": 31.017437895990156,
+    "baseline_start_yaw_deg": 0.0,
+    "baseline_end_yaw_deg": 0.0,
+    "ablation_start_yaw_deg": 0.0,
+    "ablation_end_yaw_deg": 30.955900523410982,
+    "actual_delta_deg": 30.955900523410975,
+    "actual_delta_error_deg": 0.06153737257918124,
+    "initial_yaw_error_deg": 0.0,
+    "command_delta_error_deg": 0.0,
+    "passed": true
+  },
+  "started_at": "2026-10-15T16:34:23.491602+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "collision",
+  "decisions": 5,
+  "actions_executed": 5,
+  "max_action_position_change_m": 8.30935742591003,
+  "max_action_yaw_change_deg": 8.582312893773178,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 1.3477002852368969e-05,
+  "navigation_collision": {
+    "has_collided": true,
+    "time_stamp_ns": 1792059496030411520,
+    "object_name": "SM_AmurCork10HISMA",
+    "object_id": 91,
+    "position": [
+      -120.9505844116211,
+      -401.8346862792969,
+      -5.4138102531433105
+    ],
+    "impact_point": [
+      -120.86136627197266,
+      -401.2366638183594,
+      -5.519298553466797
+    ],
+    "normal": [
+      -0.21515396237373352,
+      -0.9084717035293579,
+      0.35831207036972046
+    ],
+    "penetration_depth": 0.0005463491543196142
+  },
+  "navigation_end": {
+    "wall_time": "2026-10-15T16:35:04.494697+08:00",
+    "yaw_deg": 36.66477742920119,
+    "orientation_xyzw": [
+      0.0012103295885026455,
+      -0.0010022876085713506,
+      0.31452977657318115,
+      0.9492462873458862
+    ],
+    "position": [
+      -120.9505844116211,
+      -401.8346862792969,
+      -5.4138102531433105
+    ]
+  },
+  "navigation_ended_at": "2026-10-15T16:35:04.494704+08:00",
+  "trajectory_sha256": "15a8479a5e18509ec94d48d122db94f3d0eead5a2ef2377fe74332b08de52489",
+  "metrics": {
+    "NE": 13.399601317548312,
+    "TL": 21.972615767795826,
+    "SR": 0,
+    "OR": 0,
+    "SPL": 0.0,
+    "oracle_dist": 12.408951222448042,
+    "shortest_path": 19.7200230996315,
+    "num_steps": 6
+  }
+}

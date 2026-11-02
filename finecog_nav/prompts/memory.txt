@@ -1,0 +1,13 @@
+[TASK]: You are a Memory Manager for a drone. Generate a step memory entry from the current observation and action.
+
+--- STEP MEMORY (called every step) ---
+[INPUTS]:
+- <Current Observation>: {perception_output}
+- <Current Action>: {action_name}
+- <Landmarks>: {landmarks}
+
+[OUTPUT]: {{
+  "step_memory": "I see ...(observation); I ...(action words)"
+}}
+[WORD LIMIT]: Less than 30 words.
+[ONLY include VISIBLE landmarks from the actual observation.]

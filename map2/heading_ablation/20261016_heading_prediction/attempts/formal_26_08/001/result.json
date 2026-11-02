@@ -1,0 +1,82 @@
+{
+  "id": "formal_26_08",
+  "kind": "formal",
+  "route": 26,
+  "repeat": 8,
+  "complete": true,
+  "heading_check": {
+    "route": 26,
+    "baseline_turn_deg": -134.8605,
+    "weighted_yaw_deg": -179.8605,
+    "last_segment_yaw_deg": -155.32489757804777,
+    "delta_deg": 24.535602421952234,
+    "ablation_turn_deg": -110.32489757804777,
+    "baseline_start_yaw_deg": -44.999996039382296,
+    "baseline_end_yaw_deg": -179.78980764903312,
+    "ablation_start_yaw_deg": -44.999996039382296,
+    "ablation_end_yaw_deg": -155.25899706935252,
+    "actual_delta_deg": 24.530810579680605,
+    "actual_delta_error_deg": 0.004791842271629321,
+    "initial_yaw_error_deg": 0.0,
+    "command_delta_error_deg": 0.0,
+    "passed": true
+  },
+  "started_at": "2026-10-16T17:36:31.244511+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "collision",
+  "decisions": 2,
+  "actions_executed": 2,
+  "max_action_position_change_m": 7.8355057722720804,
+  "max_action_yaw_change_deg": 1.4110358489484724,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 1.8177647433503807e-05,
+  "navigation_collision": {
+    "has_collided": true,
+    "time_stamp_ns": 1792152026583284224,
+    "object_name": "light_streetlight_complete2",
+    "object_id": 37,
+    "position": [
+      -0.3289509117603302,
+      -26.634531021118164,
+      -3.086597204208374
+    ],
+    "impact_point": [
+      -0.4437269866466522,
+      -27.236867904663086,
+      -3.1465389728546143
+    ],
+    "normal": [
+      7.295515842997702e-06,
+      1.0,
+      7.450581485102248e-09
+    ],
+    "penetration_depth": 0.0
+  },
+  "navigation_end": {
+    "wall_time": "2026-10-16T17:36:43.551645+08:00",
+    "yaw_deg": -156.91408384109144,
+    "orientation_xyzw": [
+      -0.02114376612007618,
+      0.006205264944583178,
+      -0.9795771837234497,
+      0.1998571902513504
+    ],
+    "position": [
+      0.4686436355113983,
+      -26.332643508911133,
+      -3.074521064758301
+    ]
+  },
+  "navigation_ended_at": "2026-10-16T17:36:43.551660+08:00",
+  "trajectory_sha256": "db7438e10690ed4855556d7e4b60fbd96d1146694a376206a2c473554a34d998",
+  "metrics": {
+    "NE": 2.3775619350504593,
+    "TL": 8.615116481909787,
+    "SR": 1,
+    "OR": 1,
+    "SPL": 1.0,
+    "oracle_dist": 2.3662934023312685,
+    "shortest_path": 9.902666408599252,
+    "num_steps": 3
+  }
+}

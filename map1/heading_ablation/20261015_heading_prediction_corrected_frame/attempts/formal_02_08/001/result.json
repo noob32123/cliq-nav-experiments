@@ -1,0 +1,82 @@
+{
+  "id": "formal_02_08",
+  "kind": "formal",
+  "route": 2,
+  "repeat": 8,
+  "complete": true,
+  "heading_check": {
+    "route": 2,
+    "baseline_turn_deg": 0.0,
+    "weighted_yaw_deg": 5.277198655953334e-14,
+    "last_segment_yaw_deg": 31.017437895990195,
+    "delta_deg": 31.017437895990156,
+    "ablation_turn_deg": 31.017437895990156,
+    "baseline_start_yaw_deg": 0.0,
+    "baseline_end_yaw_deg": 0.0,
+    "ablation_start_yaw_deg": 0.0,
+    "ablation_end_yaw_deg": 30.95579177805775,
+    "actual_delta_deg": 30.955791778057744,
+    "actual_delta_error_deg": 0.061646117932411926,
+    "initial_yaw_error_deg": 0.0,
+    "command_delta_error_deg": 0.0,
+    "passed": true
+  },
+  "started_at": "2026-10-15T16:36:37.553525+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "collision",
+  "decisions": 8,
+  "actions_executed": 8,
+  "max_action_position_change_m": 8.317771281756958,
+  "max_action_yaw_change_deg": 16.920246106471836,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 7.520061359400643e-06,
+  "navigation_collision": {
+    "has_collided": true,
+    "time_stamp_ns": 1792060374359148800,
+    "object_name": "Statue02HISMA",
+    "object_id": 173,
+    "position": [
+      -121.16472625732422,
+      -416.8219299316406,
+      -5.557496070861816
+    ],
+    "impact_point": [
+      -120.62535095214844,
+      -417.0513916015625,
+      -5.531570911407471
+    ],
+    "normal": [
+      -0.912297248840332,
+      -0.12394775450229645,
+      -0.3903212249279022
+    ],
+    "penetration_depth": 0.0
+  },
+  "navigation_end": {
+    "wall_time": "2026-10-15T16:38:00.554817+08:00",
+    "yaw_deg": 7.727085045571091,
+    "orientation_xyzw": [
+      9.301069076173007e-05,
+      -0.0010366067290306091,
+      0.06738043576478958,
+      0.9977267980575562
+    ],
+    "position": [
+      -121.16472625732422,
+      -416.8219299316406,
+      -5.557496070861816
+    ]
+  },
+  "navigation_ended_at": "2026-10-15T16:38:00.554827+08:00",
+  "trajectory_sha256": "d36db8c362d68233ce228df37b6bab9746e9d2217b2cf70b6d9c276d3e74832f",
+  "metrics": {
+    "NE": 1.7344295501340772,
+    "TL": 25.724329612008066,
+    "SR": 1,
+    "OR": 1,
+    "SPL": 0.7665903600623369,
+    "oracle_dist": 1.7344295501340772,
+    "shortest_path": 19.7200230996315,
+    "num_steps": 9
+  }
+}

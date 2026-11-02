@@ -1,0 +1,82 @@
+{
+  "id": "formal_06_01",
+  "kind": "formal",
+  "route": 6,
+  "repeat": 1,
+  "complete": true,
+  "heading_check": {
+    "route": 6,
+    "baseline_turn_deg": -90.0,
+    "weighted_yaw_deg": -96.19421126234883,
+    "last_segment_yaw_deg": -63.91716681282003,
+    "delta_deg": 32.2770444495288,
+    "ablation_turn_deg": -57.7229555504712,
+    "baseline_start_yaw_deg": 0.0,
+    "baseline_end_yaw_deg": -89.92055813729378,
+    "ablation_start_yaw_deg": 0.0,
+    "ablation_end_yaw_deg": -57.603316017269066,
+    "actual_delta_deg": 32.31724212002473,
+    "actual_delta_error_deg": 0.04019767049592815,
+    "initial_yaw_error_deg": 0.0,
+    "command_delta_error_deg": 0.0,
+    "passed": true
+  },
+  "started_at": "2026-10-16T02:46:28.255699+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "collision",
+  "decisions": 9,
+  "actions_executed": 9,
+  "max_action_position_change_m": 14.609848381429037,
+  "max_action_yaw_change_deg": 8.51261179144413,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 1.314559261800241e-05,
+  "navigation_collision": {
+    "has_collided": true,
+    "time_stamp_ns": 1792242743710611968,
+    "object_name": "SM_Maple06HISMA",
+    "object_id": 6,
+    "position": [
+      -9.036483764648438,
+      -146.37425231933594,
+      0.36453643441200256
+    ],
+    "impact_point": [
+      -8.442265510559082,
+      -146.52157592773438,
+      0.33652380108833313
+    ],
+    "normal": [
+      -0.9754593968391418,
+      0.2201795130968094,
+      8.601708714195411e-07
+    ],
+    "penetration_depth": 0.008396205492317677
+  },
+  "navigation_end": {
+    "wall_time": "2026-10-16T02:47:34.580034+08:00",
+    "yaw_deg": -49.94774104389279,
+    "orientation_xyzw": [
+      -0.0003362410352565348,
+      -0.001162191852927208,
+      -0.4222043752670288,
+      0.9064999222755432
+    ],
+    "position": [
+      -9.036483764648438,
+      -146.37425231933594,
+      0.36453643441200256
+    ]
+  },
+  "navigation_ended_at": "2026-10-16T02:47:34.580042+08:00",
+  "trajectory_sha256": "0e5c7be547907064a2d3222fb6fadd818336d21078810237223b5cf7363d12ac",
+  "metrics": {
+    "NE": 34.55795189439459,
+    "TL": 48.77570986157919,
+    "SR": 0,
+    "OR": 0,
+    "SPL": 0.0,
+    "oracle_dist": 18.97205238206079,
+    "shortest_path": 27.053017711523427,
+    "num_steps": 10
+  }
+}

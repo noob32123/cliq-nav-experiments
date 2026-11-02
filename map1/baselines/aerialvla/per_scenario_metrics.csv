@@ -1,0 +1,15 @@
+Scenario,Target,Model,Num_Flights,SR(%),NE(m),SPL(%),OR(%),TL(m)
+data_1,orangewhite_umbrella,AerialVLA,10,0.0,33.4438,0.0,0.0,11.0948
+data_2,statue,AerialVLA,10,0.0,14.9368,0.0,100.0,34.1752
+data_3,restaurant_across_river,AerialVLA,10,10.0,15.9856,9.0,10.0,52.9344
+data_4,hotel_front_door,AerialVLA,10,0.0,15.8332,0.0,0.0,42.1763
+data_5,blue_amusement_park,AerialVLA,10,100.0,12.4436,100.0,100.0,47.6851
+data_6,fountain,AerialVLA,10,20.0,13.1244,15.7,100.0,37.6230
+data_7,house,AerialVLA,10,100.0,8.8108,79.2,100.0,42.0062
+data_8,playground,AerialVLA,10,20.0,17.3756,20.0,20.0,42.1249
+data_9,parkbench,AerialVLA,10,0.0,21.4723,0.0,100.0,42.6907
+data_10,umbrella,AerialVLA,10,0.0,16.4512,0.0,100.0,42.1266
+data_11,house2,AerialVLA,10,0.0,15.4619,0.0,100.0,42.1955
+data_12,fountain2,AerialVLA,10,0.0,22.3949,0.0,100.0,42.4887
+data_13,sculpture,AerialVLA,10,0.0,13.5331,0.0,100.0,44.4926
+data_14,sculpture2,AerialVLA,10,0.0,23.0485,0.0,100.0,35.6503

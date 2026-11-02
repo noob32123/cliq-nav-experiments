@@ -1,0 +1,82 @@
+{
+  "id": "formal_21_04",
+  "kind": "formal",
+  "route": 21,
+  "repeat": 4,
+  "complete": true,
+  "heading_check": {
+    "route": 21,
+    "baseline_turn_deg": -125.2137,
+    "weighted_yaw_deg": -170.2137,
+    "last_segment_yaw_deg": 147.889390660347,
+    "delta_deg": -41.89690933965301,
+    "ablation_turn_deg": -167.11060933965302,
+    "baseline_start_yaw_deg": -44.999996039382296,
+    "baseline_end_yaw_deg": -170.13633415253653,
+    "ablation_start_yaw_deg": -44.999996039382296,
+    "ablation_end_yaw_deg": 147.95517343787324,
+    "actual_delta_deg": -41.908492409590224,
+    "actual_delta_error_deg": 0.011583069937216806,
+    "initial_yaw_error_deg": 0.0,
+    "command_delta_error_deg": 1.4210854715202004e-14,
+    "passed": true
+  },
+  "started_at": "2026-10-16T17:10:16.686939+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "collision",
+  "decisions": 12,
+  "actions_executed": 12,
+  "max_action_position_change_m": 7.979619781298854,
+  "max_action_yaw_change_deg": 37.218702645416556,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 1.649761500743807e-05,
+  "navigation_collision": {
+    "has_collided": true,
+    "time_stamp_ns": 1792148574223635456,
+    "object_name": "build_d_mod_trim_lvl2_a13",
+    "object_id": 36,
+    "position": [
+      83.30249786376953,
+      14.346843719482422,
+      -2.6675963401794434
+    ],
+    "impact_point": [
+      83.52299499511719,
+      14.907782554626465,
+      -2.773603677749634
+    ],
+    "normal": [
+      7.618219797222991e-07,
+      -0.8576311469078064,
+      0.5142654180526733
+    ],
+    "penetration_depth": 0.0006714665796607733
+  },
+  "navigation_end": {
+    "wall_time": "2026-10-16T17:11:09.956902+08:00",
+    "yaw_deg": -156.65343925699142,
+    "orientation_xyzw": [
+      0.0016181310638785362,
+      0.0012295388150960207,
+      -0.9793149828910828,
+      0.2023318111896515
+    ],
+    "position": [
+      83.30249786376953,
+      14.346843719482422,
+      -2.6675963401794434
+    ]
+  },
+  "navigation_ended_at": "2026-10-16T17:11:09.956912+08:00",
+  "trajectory_sha256": "88fafbbad1df8628c03174a73aadcb5e3caa2cf2fc69358278de4fe5a2f78719",
+  "metrics": {
+    "NE": 18.839843669144322,
+    "TL": 23.898547619236414,
+    "SR": 0,
+    "OR": 1,
+    "SPL": 0.0,
+    "oracle_dist": 4.546094662486506,
+    "shortest_path": 5.525448850545986,
+    "num_steps": 13
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "formal_29_03",
+  "kind": "formal",
+  "route": 29,
+  "repeat": 3,
+  "complete": true,
+  "heading_check": {
+    "route": 29,
+    "baseline_turn_deg": 44.4769,
+    "weighted_yaw_deg": -0.5231000000000069,
+    "last_segment_yaw_deg": 40.85549868399034,
+    "delta_deg": 41.37859868399033,
+    "ablation_turn_deg": 85.85549868399033,
+    "baseline_start_yaw_deg": -44.999996039382296,
+    "baseline_end_yaw_deg": -0.583190918857073,
+    "ablation_start_yaw_deg": -44.999996039382296,
+    "ablation_end_yaw_deg": 40.78983403853593,
+    "actual_delta_deg": 41.373024957393,
+    "actual_delta_error_deg": 0.0055737265973334615,
+    "initial_yaw_error_deg": 0.0,
+    "command_delta_error_deg": 0.0,
+    "passed": true
+  },
+  "started_at": "2026-10-16T17:59:47.974470+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "collision",
+  "decisions": 15,
+  "actions_executed": 15,
+  "max_action_position_change_m": 17.962691440964722,
+  "max_action_yaw_change_deg": 16.92007467087774,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 0.0,
+  "navigation_collision": {
+    "has_collided": true,
+    "time_stamp_ns": 1792154590203973632,
+    "object_name": "Landscape_0",
+    "object_id": -1,
+    "position": [
+      155.628662109375,
+      2.2488503456115723,
+      -1.3884598016738892
+    ],
+    "impact_point": [
+      156.06158447265625,
+      2.059744358062744,
+      -1.1893494129180908
+    ],
+    "normal": [
+      -0.11616705358028412,
+      0.061956051737070084,
+      -0.9912954568862915
+    ],
+    "penetration_depth": 0.0
+  },
+  "navigation_end": {
+    "wall_time": "2026-10-16T18:00:56.800757+08:00",
+    "yaw_deg": 20.49495026890541,
+    "orientation_xyzw": [
+      -0.0,
+      0.0,
+      0.17790018022060394,
+      0.9840485453605652
+    ],
+    "position": [
+      155.628662109375,
+      2.2488503456115723,
+      -1.3884598016738892
+    ]
+  },
+  "navigation_ended_at": "2026-10-16T18:00:56.800773+08:00",
+  "trajectory_sha256": "f054db09391aac522b60c544d96ef5b9e6a5e283f82475e6d18310549a03f635",
+  "metrics": {
+    "NE": 39.59976785493643,
+    "TL": 47.1259525145638,
+    "SR": 0,
+    "OR": 1,
+    "SPL": 0.0,
+    "oracle_dist": 2.768395971955465,
+    "shortest_path": 5.996060790218854,
+    "num_steps": 16
+  }
+}

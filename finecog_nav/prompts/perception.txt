@@ -1,0 +1,17 @@
+[TASK]: You are an advanced multimodal perception system for a drone. Analyze the first-person view (FPV) RGB image and generate a comprehensive environmental semantic description.
+
+[INPUTS]:
+- <Attention Questions>: {attention_questions}
+  (Focus your description on answering these questions about specific landmarks)
+
+[OUTPUT]: A JSON object:
+{{
+  "overall": "Overall scene description: I see a ... (describe the general environment, terrain, sky, road, buildings, etc. in 2-3 sentences)",
+  "details": "In Front: ... (estimate position and distance in meters)\nOn my Left: ...\nOn my Right: ...\nAbove: ...\nBelow: ..."
+}}
+
+[NOTE]: 
+- ONLY include landmarks and objects that are CURRENTLY VISIBLE in the image.
+- For each mentioned landmark, estimate its position (direction) and approximate distance in meters.
+- If a landmark from the attention questions is NOT visible, state "Not visible in current view" for that landmark.
+- Be specific about colors, shapes, sizes, and spatial relationships.

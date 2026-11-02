@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "21_aerialvla_03",
+  "route_id": "21",
+  "baseline": "aerialvla",
+  "repeat": 3,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 3,
+  "actions": 3,
+  "valid_decisions": 3,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "prop_statue_eagle_11",
+  "navigation_end_position": [
+    93.96257781982422,
+    8.834965705871582,
+    -1.719537615776062
+  ],
+  "landing": {
+    "landed": false,
+    "ground_z_from_depth": 0.21873993873596187,
+    "position": [
+      94.00301361083984,
+      8.8362455368042,
+      -0.020691225305199623
+    ],
+    "contact_object": "ground_garden_rails_b57",
+    "contact_timestamp": 1789151928595109888,
+    "speed_before_disarm": 0.20584732224893432
+  },
+  "wall_seconds": 37.883039500098675,
+  "trajectory": "map2\\data_21\\AerialVLA_INT8_Adapted_eagle_statue\\flight_03_20260911_232329_539364.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\21_aerialvla_03\\001"
+}

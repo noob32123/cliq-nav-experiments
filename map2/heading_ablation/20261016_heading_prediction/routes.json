@@ -1,0 +1,3332 @@
+{
+  "1": {
+    "id": "01",
+    "name": "corner_striped_awning",
+    "start_position": [
+      -5,
+      15,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 43.6015,
+    "heading_deg": -1.3985,
+    "altitude": 3,
+    "target": "前方街角米黄色建筑底层蓝白条纹遮阳棚旁的入口附近",
+    "clip_text": "blue and white striped restaurant awnings",
+    "actor": "signs_sign_sandwich_5",
+    "target_position": [
+      16.71731948852539,
+      14.469796180725098,
+      -3.9880566596984863
+    ],
+    "goal_position": [
+      11.139,
+      23.011,
+      0.6
+    ],
+    "route": 1,
+    "display_name": "街角蓝白条纹棚侧向接近",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_1_history.csv",
+    "history_sha256": "439948c5ba2076d91425a54835106400fe59a86e6e22b6ccec9e5f794521205a",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -0.6031066680241832,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -22.957839760860367,
+        16.946625658571204,
+        -3.0
+      ],
+      [
+        -19.995531936072787,
+        15.36609009030724,
+        -3.0
+      ],
+      [
+        -17.018504686314415,
+        14.388481542124284,
+        -3.0
+      ],
+      [
+        -14.026758011585255,
+        14.013800014022333,
+        -3.0
+      ],
+      [
+        -11.020291911885302,
+        14.242045506001388,
+        -3.0
+      ],
+      [
+        -7.999106387214558,
+        15.073218018061448,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        2.9623078247875796,
+        -1.5805355682639632
+      ],
+      [
+        2.977027249758372,
+        -0.9776085481829568
+      ],
+      [
+        2.9917466747291606,
+        -0.37468152810195043
+      ],
+      [
+        3.006466099699953,
+        0.2282454919790542
+      ],
+      [
+        3.021185524670744,
+        0.8311725120600606
+      ]
+    ],
+    "weighted_vector_xy": [
+      2.999106387214557,
+      -0.07321801806144822
+    ],
+    "last_vector_xy": [
+      3.021185524670744,
+      0.8311725120600606
+    ],
+    "weighted_yaw_deg": -1.398500000000002,
+    "last_segment_yaw_deg": 15.382360187956301,
+    "baseline_turn_deg": 43.6015,
+    "delta_deg": 16.780860187956307,
+    "cross_dot_delta_deg": 16.780860187956307,
+    "ablation_turn_deg": 60.38236018795631,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 60.38236018795631
+  },
+  "2": {
+    "id": "02",
+    "name": "brun_perez",
+    "start_position": [
+      -84.991,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 45.0,
+    "heading_deg": -90.0,
+    "altitude": 3,
+    "target": "前方 BRUN & PEREZ 黑色长招牌下的内凹入口附近，两侧有橘红色促销海报",
+    "clip_text": "black storefront entrance with orange sale posters",
+    "actor": "signs_sign_brunperez_11",
+    "target_position": [
+      -84.99101257324219,
+      -16.731689453125,
+      -3.743428945541382
+    ],
+    "goal_position": [
+      -85.64,
+      -11.577,
+      0.6
+    ],
+    "route": 2,
+    "display_name": "BRUN & PEREZ 黑色门面",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_2_history.csv",
+    "history_sha256": "76bc132bb6dacbafd5d2a8fcf260b87a01b03a41d38246b4a4047245092292f5",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -0.9379023570904519,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -82.64624410727387,
+        27.0,
+        -3.0
+      ],
+      [
+        -84.991,
+        24.0,
+        -3.0
+      ],
+      [
+        -86.39785353563568,
+        21.0,
+        -3.0
+      ],
+      [
+        -86.8668047141809,
+        18.0,
+        -3.0
+      ],
+      [
+        -86.39785353563568,
+        15.0,
+        -3.0
+      ],
+      [
+        -84.991,
+        12.0,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -2.344755892726127,
+        -3.0
+      ],
+      [
+        -1.4068535356356762,
+        -3.0
+      ],
+      [
+        -0.4689511785452254,
+        -3.0
+      ],
+      [
+        0.4689511785452254,
+        -3.0
+      ],
+      [
+        1.4068535356356762,
+        -3.0
+      ]
+    ],
+    "weighted_vector_xy": [
+      -1.3877787807814457e-17,
+      -3.0
+    ],
+    "last_vector_xy": [
+      1.4068535356356762,
+      -3.0
+    ],
+    "weighted_yaw_deg": -90.0,
+    "last_segment_yaw_deg": -64.87571562680635,
+    "baseline_turn_deg": -45.0,
+    "delta_deg": 25.124284373193632,
+    "cross_dot_delta_deg": 25.12428437319366,
+    "ablation_turn_deg": -19.875715626806368,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 19.875715626806368
+  },
+  "3": {
+    "id": "03",
+    "name": "striped_bistro",
+    "start_position": [
+      -57,
+      8,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 57.1919,
+    "heading_deg": -102.1919,
+    "altitude": 3,
+    "target": "前方蓝白条纹遮阳棚、户外深色桌椅和绿色立柱旁的餐厅入口附近",
+    "clip_text": "restaurant entrance with striped awnings and outdoor tables",
+    "actor": "signs_sign_bistro_14",
+    "target_position": [
+      -62.30513381958008,
+      -16.553997039794922,
+      -3.946885824203491
+    ],
+    "goal_position": [
+      -63.71,
+      -10.79,
+      0.6
+    ],
+    "route": 3,
+    "display_name": "条纹棚餐厅与绿色立柱",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_3_history.csv",
+    "history_sha256": "62a587d3feeab2abb8e3bd88bcfecb6d6625a6a5620ad8f5269d84e294d7bbc9",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 1.1067934961317643,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -55.9032174468877,
+        26.178373608506234,
+        -3.0
+      ],
+      [
+        -53.83220076858898,
+        22.661686397869513,
+        -3.0
+      ],
+      [
+        -52.84301470012264,
+        19.37873915965792,
+        -3.0
+      ],
+      [
+        -52.93565924148866,
+        16.32953189387145,
+        -3.0
+      ],
+      [
+        -54.110134392687044,
+        13.514064600510112,
+        -3.0
+      ],
+      [
+        -56.3664401537178,
+        10.932337279573902,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        2.0710166782987187,
+        -3.5166872106367215
+      ],
+      [
+        0.9891860684663456,
+        -3.2829472382115945
+      ],
+      [
+        -0.0926445413660204,
+        -3.0492072657864675
+      ],
+      [
+        -1.1744751511983864,
+        -2.8154672933613387
+      ],
+      [
+        -2.2563057610307524,
+        -2.58172732093621
+      ]
+    ],
+    "weighted_vector_xy": [
+      -0.6335598462822027,
+      -2.9323372795739027
+    ],
+    "last_vector_xy": [
+      -2.2563057610307524,
+      -2.58172732093621
+    ],
+    "weighted_yaw_deg": -102.1919,
+    "last_segment_yaw_deg": -131.15189922544508,
+    "baseline_turn_deg": -57.1919,
+    "delta_deg": -28.959999225445074,
+    "cross_dot_delta_deg": -28.959999225445102,
+    "ablation_turn_deg": -86.15189922544508,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 86.15189922544508
+  },
+  "4": {
+    "id": "04",
+    "name": "weefit",
+    "start_position": [
+      -97.044,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 45.0009,
+    "heading_deg": -90.0009,
+    "altitude": 3,
+    "target": "前方白色门框、红色 Weefit 招牌的商店入口附近",
+    "clip_text": "white double doors at the entrance of a shop",
+    "actor": "signs_sign_weefit_24",
+    "target_position": [
+      -97.0444107055664,
+      -16.71669578552246,
+      -3.952580451965332
+    ],
+    "goal_position": [
+      -94.468,
+      -1.227,
+      0.6
+    ],
+    "route": 4,
+    "display_name": "Weefit 白色门面",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_4_history.csv",
+    "history_sha256": "dea1f96e1cfd9cfe710624a7ec3d33aea60d2ccbd36e2f82bc1e5d65573819d1",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -1.6676056404030395,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -92.87470315616793,
+        26.999934511058978,
+        -3.0
+      ],
+      [
+        -97.043764380551,
+        23.99999999814945,
+        -3.0
+      ],
+      [
+        -99.54521996473676,
+        21.000039290551776,
+        -3.0
+      ],
+      [
+        -100.37906990872521,
+        18.000052388265956,
+        -3.0
+      ],
+      [
+        -99.54531421251636,
+        15.000039291291994,
+        -3.0
+      ],
+      [
+        -97.0439528761102,
+        11.999999999629889,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -4.169061224383071,
+        -2.9999345129095296
+      ],
+      [
+        -2.501455584185763,
+        -2.9999607075976726
+      ],
+      [
+        -0.8338499439884544,
+        -2.999986902285819
+      ],
+      [
+        0.8337556962088541,
+        -3.0000130969739622
+      ],
+      [
+        2.5013613364061626,
+        -3.0000392916621053
+      ]
+    ],
+    "weighted_vector_xy": [
+      -4.7123889800160246e-05,
+      -2.99999999962989
+    ],
+    "last_vector_xy": [
+      2.5013613364061626,
+      -3.0000392916621053
+    ],
+    "weighted_yaw_deg": -90.00089999999997,
+    "last_segment_yaw_deg": -50.17945738953526,
+    "baseline_turn_deg": -45.0009,
+    "delta_deg": 39.821442610464715,
+    "cross_dot_delta_deg": 39.821442610464715,
+    "ablation_turn_deg": -5.179457389535287,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 5.179457389535287
+  },
+  "5": {
+    "id": "05",
+    "name": "blue_frame_entrance",
+    "start_position": [
+      -164.18,
+      -9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 134.9997,
+    "heading_deg": 89.9997,
+    "altitude": 3,
+    "target": "前方蓝灰色框架、深色玻璃的内凹商店入口附近",
+    "clip_text": "recessed storefront entrance with dark blue frames and glass windows",
+    "actor": "signs_sign_electronics_47",
+    "target_position": [
+      -164.1798858642578,
+      15.900839805603027,
+      -3.049642324447632
+    ],
+    "goal_position": [
+      -164.18,
+      11.382,
+      0.6
+    ],
+    "route": 5,
+    "display_name": "蓝灰框内凹入口",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_5_history.csv",
+    "history_sha256": "f508d32906fbc21067ccd8678484055ea0f55c1fcd2fd6002611e40d4eb41460",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 2.910317314169374,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -156.9043009624559,
+        -27.000038095717816,
+        -3.0
+      ],
+      [
+        -164.18007853981632,
+        -23.999999999794383,
+        -3.0
+      ],
+      [
+        -168.54553880304726,
+        -20.999977142256775,
+        -3.0
+      ],
+      [
+        -170.00068175214875,
+        -17.999969523104987,
+        -3.0
+      ],
+      [
+        -168.54550738712075,
+        -14.99997714233902,
+        -3.0
+      ],
+      [
+        -164.18001570796326,
+        -11.999999999958877,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -7.275777577360429,
+        3.0000380959234327
+      ],
+      [
+        -4.365460263230943,
+        3.0000228575376084
+      ],
+      [
+        -1.4551429491014858,
+        3.0000076191517877
+      ],
+      [
+        1.4551743650280002,
+        2.999992380765967
+      ],
+      [
+        4.365491679157486,
+        2.9999771423801427
+      ]
+    ],
+    "weighted_vector_xy": [
+      1.5707963264388614e-05,
+      2.9999999999588765
+    ],
+    "last_vector_xy": [
+      4.365491679157486,
+      2.9999771423801427
+    ],
+    "weighted_yaw_deg": 89.99970000000008,
+    "last_segment_yaw_deg": 34.496949811757176,
+    "baseline_turn_deg": 134.9997,
+    "delta_deg": -55.5027501882429,
+    "cross_dot_delta_deg": -55.502750188242885,
+    "ablation_turn_deg": 79.49694981175709,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 79.49694981175709
+  },
+  "6": {
+    "id": "06",
+    "name": "europa",
+    "start_position": [
+      -78.646,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 44.9996,
+    "heading_deg": -89.9996,
+    "altitude": 3,
+    "target": "前方 EUROPA 黑色招牌下、红色门框的商店入口附近",
+    "clip_text": "red framed storefront entrance with a black EUROPA sign",
+    "actor": "signs_sign_europa_65",
+    "target_position": [
+      -78.64580535888672,
+      -16.772363662719727,
+      -3.578608989715576
+    ],
+    "goal_position": [
+      -80.728,
+      -10.956,
+      0.6
+    ],
+    "route": 6,
+    "display_name": "EUROPA 红框门面",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_6_history.csv",
+    "history_sha256": "6fcef78a4628902ed40de03c2f8ce806e812559f92318f4f2fc5d34b92a88d91",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 0.9346700556187588,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -80.9828008026961,
+        26.999983686491454,
+        -3.0
+      ],
+      [
+        -78.64610471975513,
+        23.999999999634454,
+        -3.0
+      ],
+      [
+        -77.24407869241013,
+        21.000009787549498,
+        -3.0
+      ],
+      [
+        -76.77672272066111,
+        18.000013050236586,
+        -3.0
+      ],
+      [
+        -77.24403680450808,
+        15.000009787695717,
+        -3.0
+      ],
+      [
+        -78.64602094395103,
+        11.999999999926892,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        2.336696082940975,
+        -2.999983686857
+      ],
+      [
+        1.402026027345002,
+        -2.999990212084956
+      ],
+      [
+        0.467355971749015,
+        -2.9999967373129124
+      ],
+      [
+        -0.46731408384697204,
+        -3.0000032625408686
+      ],
+      [
+        -1.4019841394429449,
+        -3.0000097877688248
+      ]
+    ],
+    "weighted_vector_xy": [
+      2.0943951024338103e-05,
+      -2.9999999999268905
+    ],
+    "last_vector_xy": [
+      -1.4019841394429449,
+      -3.0000097877688248
+    ],
+    "weighted_yaw_deg": -89.9996,
+    "last_segment_yaw_deg": -115.04793144975746,
+    "baseline_turn_deg": -44.9996,
+    "delta_deg": -25.048331449757455,
+    "cross_dot_delta_deg": -25.048331449757455,
+    "ablation_turn_deg": -70.04793144975746,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 70.04793144975746
+  },
+  "7": {
+    "id": "07",
+    "name": "jacobs_deli",
+    "start_position": [
+      22.717,
+      -9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 134.9995,
+    "heading_deg": 89.9995,
+    "altitude": 3,
+    "target": "前方蓝白条纹遮阳棚之间、Jacob's Downtown Deli 招牌下的入口附近",
+    "clip_text": "deli entrance between blue and white striped awnings",
+    "actor": "signs_sign_locafe_68",
+    "target_position": [
+      22.717199325561523,
+      14.48806095123291,
+      -4.0690717697143555
+    ],
+    "goal_position": [
+      26.524,
+      15.407,
+      0.6
+    ],
+    "route": 7,
+    "display_name": "Jacob's Deli 正面接近",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_7_history.csv",
+    "history_sha256": "2f728d944437c1122a87245cf73c3870fe6cdd5c1891c77dbae435412589b163",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 2.498035177804121,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        28.961930864639825,
+        -27.00005449798796,
+        -3.0
+      ],
+      [
+        22.7168691003061,
+        -23.999999999428837,
+        -3.0
+      ],
+      [
+        18.969842513681375,
+        -20.99996730033906,
+        -3.0
+      ],
+      [
+        17.720851104765654,
+        -17.99995640071862,
+        -3.0
+      ],
+      [
+        18.969894873558935,
+        -14.999967300567523,
+        -3.0
+      ],
+      [
+        22.71697382006122,
+        -11.999999999885768,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -6.245061764333727,
+        3.0000544985591233
+      ],
+      [
+        -3.747026586624724,
+        3.000032699089779
+      ],
+      [
+        -1.248991408915721,
+        3.000010899620438
+      ],
+      [
+        1.2490437687932818,
+        2.9999891001510974
+      ],
+      [
+        3.7470789465022847,
+        2.999967300681755
+      ]
+    ],
+    "weighted_vector_xy": [
+      2.6179938780401812e-05,
+      2.999999999885768
+    ],
+    "last_vector_xy": [
+      3.7470789465022847,
+      2.999967300681755
+    ],
+    "weighted_yaw_deg": 89.99949999999998,
+    "last_segment_yaw_deg": 38.68128483728906,
+    "baseline_turn_deg": 134.9995,
+    "delta_deg": -51.31821516271091,
+    "cross_dot_delta_deg": -51.31821516271094,
+    "ablation_turn_deg": 83.6812848372891,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 83.6812848372891
+  },
+  "8": {
+    "id": "08",
+    "name": "blue_awning",
+    "start_position": [
+      -221.655,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 44.9991,
+    "heading_deg": -89.9991,
+    "altitude": 3,
+    "target": "前方街尾浅色建筑底层浅蓝色遮阳棚下的门口附近",
+    "clip_text": "light blue shop awning",
+    "actor": "signs_sign_suni_75",
+    "target_position": [
+      -221.6545867919922,
+      -17.051128387451172,
+      -4.133761405944824
+    ],
+    "goal_position": [
+      -218.872,
+      -2.013,
+      0.6
+    ],
+    "route": 8,
+    "display_name": "街尾浅蓝遮阳棚",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_8_history.csv",
+    "history_sha256": "aa70de29880696d9d739d0c9d8b9790897a47048f9bb638197649853fad9ddb1",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -1.242896818966792,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -218.54804069630515,
+        27.000048806223283,
+        -3.0
+      ],
+      [
+        -221.655235619449,
+        23.999999998149452,
+        -3.0
+      ],
+      [
+        -223.51953372377938,
+        20.999970713453195,
+        -3.0
+      ],
+      [
+        -224.1409350092963,
+        17.999960952134515,
+        -3.0
+      ],
+      [
+        -223.51943947599977,
+        14.999970714193413,
+        -3.0
+      ],
+      [
+        -221.6550471238898,
+        11.999999999629889,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -3.107194923143851,
+        -3.0000488080738315
+      ],
+      [
+        -1.8642981043303735,
+        -3.0000292846962573
+      ],
+      [
+        -0.6214012855169244,
+        -3.0000097613186796
+      ],
+      [
+        0.6214955332965246,
+        -2.999990237941102
+      ],
+      [
+        1.8643923521099737,
+        -2.999970714563524
+      ]
+    ],
+    "weighted_vector_xy": [
+      4.712388979724591e-05,
+      -2.9999999996298907
+    ],
+    "last_vector_xy": [
+      1.8643923521099737,
+      -2.999970714563524
+    ],
+    "weighted_yaw_deg": -89.9991000000001,
+    "last_segment_yaw_deg": -58.140281134310065,
+    "baseline_turn_deg": -44.9991,
+    "delta_deg": 31.85881886569004,
+    "cross_dot_delta_deg": 31.85881886569001,
+    "ablation_turn_deg": -13.140281134309959,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 13.140281134309959
+  },
+  "9": {
+    "id": "09",
+    "name": "yellow_shop_sign",
+    "start_position": [
+      -193,
+      11,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 144.2748,
+    "heading_deg": 170.7252,
+    "altitude": 3,
+    "target": "前方浅色建筑底层、黄色 SHOP 图案招牌旁的商店入口附近",
+    "clip_text": "shop entrance with a yellow hanging sign",
+    "actor": "signs_sign_shop_78",
+    "target_position": [
+      -208.4520263671875,
+      13.523380279541016,
+      -3.8973917961120605
+    ],
+    "goal_position": [
+      -194.682,
+      15.099,
+      0.6
+    ],
+    "route": 9,
+    "display_name": "西段黄色 SHOP 标志",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_9_history.csv",
+    "history_sha256": "8ffe0a538af339dd310f3d9817e812f0e01af63497819b0c07f8fb54598160d2",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 2.5672044245042978,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -174.20093010952783,
+        14.433050718472867,
+        -3.0
+      ],
+      [
+        -178.19609952960192,
+        8.582453544904155,
+        -3.0
+      ],
+      [
+        -181.77751321927823,
+        5.265498957170594,
+        -3.0
+      ],
+      [
+        -184.94517117855673,
+        4.482186955272187,
+        -3.0
+      ],
+      [
+        -187.69907340743745,
+        6.232517539208932,
+        -3.0
+      ],
+      [
+        -190.0392199059204,
+        10.51649070898083,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -3.9951694200740917,
+        -5.850597173568712
+      ],
+      [
+        -3.5814136896763102,
+        -3.3169545877335604
+      ],
+      [
+        -3.1676579592785004,
+        -0.7833120018984072
+      ],
+      [
+        -2.753902228880719,
+        1.7503305839367451
+      ],
+      [
+        -2.3401464984829374,
+        4.283973169771898
+      ]
+    ],
+    "weighted_vector_xy": [
+      -2.9607800940796167,
+      0.48350929101916895
+    ],
+    "last_vector_xy": [
+      -2.3401464984829374,
+      4.283973169771898
+    ],
+    "weighted_yaw_deg": 170.72519999999997,
+    "last_segment_yaw_deg": 118.64584292857207,
+    "baseline_turn_deg": -144.2748,
+    "delta_deg": -52.07935707142791,
+    "cross_dot_delta_deg": -52.07935707142789,
+    "ablation_turn_deg": -196.3541570714279,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 196.3541570714279
+  },
+  "10": {
+    "id": "10",
+    "name": "sleevo",
+    "start_position": [
+      -160,
+      -13,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 121.7917,
+    "heading_deg": -166.7917,
+    "altitude": 1.8,
+    "target": "前方白色 Sleevo 招牌、深色玻璃门面的商店入口附近",
+    "clip_text": "black glass storefront with a white Sleevo sign",
+    "actor": "signs_sign_sleevo_84",
+    "target_position": [
+      -176.56314086914062,
+      -16.88739013671875,
+      -3.237053155899048
+    ],
+    "goal_position": [
+      -174.784,
+      -20.293,
+      0.6
+    ],
+    "route": 10,
+    "display_name": "Sleevo 黑白门面",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_10_history.csv",
+    "history_sha256": "434dd63f450bce867d1374eed804ce99f51b2c7cd8249527e27839eb912aca7d",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -2.708656454909304,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -140.92891019473356,
+        -15.479648630647866,
+        -1.8
+      ],
+      [
+        -145.3968128017101,
+        -9.572621460693096,
+        -1.8
+      ],
+      [
+        -149.2458093417592,
+        -6.302595441864788,
+        -1.8
+      ],
+      [
+        -152.4758998148809,
+        -5.669570574162939,
+        -1.8
+      ],
+      [
+        -155.08708422107517,
+        -7.673546857587549,
+        -1.8
+      ],
+      [
+        -157.07936256034202,
+        -12.31452429213862,
+        -1.8
+      ]
+    ],
+    "segments_xy": [
+      [
+        -4.467902606976537,
+        5.90702716995477
+      ],
+      [
+        -3.8489965400491144,
+        3.2700260188283083
+      ],
+      [
+        -3.2300904731216917,
+        0.6330248677018488
+      ],
+      [
+        -2.611184406194269,
+        -2.0039762834246106
+      ],
+      [
+        -1.9922783392668464,
+        -4.64097743455107
+      ]
+    ],
+    "weighted_vector_xy": [
+      -2.9206374396579804,
+      -0.6854757078613808
+    ],
+    "last_vector_xy": [
+      -1.9922783392668464,
+      -4.64097743455107
+    ],
+    "weighted_yaw_deg": -166.79169999999996,
+    "last_segment_yaw_deg": -113.2328754204743,
+    "baseline_turn_deg": -121.7917,
+    "delta_deg": 53.55882457952566,
+    "cross_dot_delta_deg": 53.55882457952566,
+    "ablation_turn_deg": -68.23287542047434,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 68.23287542047434
+  },
+  "11": {
+    "id": "11",
+    "name": "corner_green_awning",
+    "start_position": [
+      -185,
+      -3,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 131.4209,
+    "heading_deg": 86.4209,
+    "altitude": 3,
+    "target": "前方建筑转角绿色遮阳棚下的店铺入口附近",
+    "clip_text": "green awning above a corner shop entrance",
+    "actor": "signs_sign_deli_222",
+    "target_position": [
+      -183.8603515625,
+      15.220085144042969,
+      -4.079463481903076
+    ],
+    "goal_position": [
+      -195.422,
+      6.159,
+      0.6
+    ],
+    "route": 11,
+    "display_name": "转角绿色遮阳棚",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_11_history.csv",
+    "history_sha256": "143aafd80a2969f6d2edf2becabf5c9c12266d1b6c43e7eb8b0249455200d404",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 2.1370414490824965,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -180.79149307528394,
+        -21.298412033123824,
+        -3.0
+      ],
+      [
+        -185.936396920161,
+        -17.970743495495242,
+        -3.0
+      ],
+      [
+        -188.94842747347437,
+        -14.776482893278471,
+        -3.0
+      ],
+      [
+        -189.827584735224,
+        -11.715630226473516,
+        -3.0
+      ],
+      [
+        -188.57386870540995,
+        -8.788185495080375,
+        -3.0
+      ],
+      [
+        -185.1872793840322,
+        -5.994148699099048,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -5.144903844877064,
+        3.3276685376285826
+      ],
+      [
+        -3.012030553313366,
+        3.1942606022167706
+      ],
+      [
+        -0.8791572617496399,
+        3.060852666804955
+      ],
+      [
+        1.2537160298140577,
+        2.927444731393141
+      ],
+      [
+        3.3865893213777554,
+        2.7940367959813273
+      ]
+    ],
+    "weighted_vector_xy": [
+      0.18727938403220182,
+      2.9941486990990485
+    ],
+    "last_vector_xy": [
+      3.3865893213777554,
+      2.7940367959813273
+    ],
+    "weighted_yaw_deg": 86.4208999999999,
+    "last_segment_yaw_deg": 39.523644030276955,
+    "baseline_turn_deg": 131.4209,
+    "delta_deg": -46.89725596972295,
+    "cross_dot_delta_deg": -46.89725596972295,
+    "ablation_turn_deg": 84.52364403027704,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 84.52364403027704
+  },
+  "12": {
+    "id": "12",
+    "name": "ufoods",
+    "start_position": [
+      -133.423,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 44.9998,
+    "heading_deg": -89.9998,
+    "altitude": 3,
+    "target": "前方带红色番茄标志和 uFoods 字样、绿色遮阳棚下的入口附近",
+    "clip_text": "green awning shop with a red tomato sign",
+    "actor": "signs_sign_uFoods_225",
+    "target_position": [
+      -133.4229278564453,
+      -17.014875411987305,
+      -3.563486337661743
+    ],
+    "goal_position": [
+      -133.583,
+      -6.551,
+      0.6
+    ],
+    "route": 12,
+    "display_name": "uFoods 食品店",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_12_history.csv",
+    "history_sha256": "d39884ed5be583491f4565e998ba38b4e420c6eadb5bacfc883d31ace40706d7",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -2.93609833703965,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -126.08281698929868,
+        27.000025622181912,
+        -3.0
+      ],
+      [
+        -133.42305235987757,
+        23.999999999908617,
+        -3.0
+      ],
+      [
+        -137.8271893934347,
+        20.99998462655195,
+        -3.0
+      ],
+      [
+        -139.29522808997007,
+        17.999979502111913,
+        -3.0
+      ],
+      [
+        -137.82716844948368,
+        14.999984626588503,
+        -3.0
+      ],
+      [
+        -133.42301047197552,
+        11.999999999981723,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -7.340235370578895,
+        -3.000025622273295
+      ],
+      [
+        -4.404137033557134,
+        -3.0000153733566677
+      ],
+      [
+        -1.4680386965353591,
+        -3.0000051244400368
+      ],
+      [
+        1.4680596404863877,
+        -2.9999948755234094
+      ],
+      [
+        4.404157977508163,
+        -2.9999846266067802
+      ]
+    ],
+    "weighted_vector_xy": [
+      1.0471975514292353e-05,
+      -2.9999999999817235
+    ],
+    "last_vector_xy": [
+      4.404157977508163,
+      -2.9999846266067802
+    ],
+    "weighted_yaw_deg": -89.99979999999996,
+    "last_segment_yaw_deg": -34.261555496109175,
+    "baseline_turn_deg": -44.9998,
+    "delta_deg": 55.7382445038908,
+    "cross_dot_delta_deg": 55.73824450389077,
+    "ablation_turn_deg": 10.738444503890797,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 10.738444503890797
+  },
+  "13": {
+    "id": "13",
+    "name": "upsway",
+    "start_position": [
+      -90.598,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 44.9995,
+    "heading_deg": -89.9995,
+    "altitude": 3,
+    "target": "前方 UPSWAY 招牌下橘色遮阳棚覆盖的小门口附近",
+    "clip_text": "orange awning over a narrow shop doorway",
+    "actor": "signs_sign_upsway2_229",
+    "target_position": [
+      -90.5977783203125,
+      -16.80732536315918,
+      -3.7266228199005127
+    ],
+    "goal_position": [
+      -90.722,
+      -11.391,
+      0.6
+    ],
+    "route": 13,
+    "display_name": "UPSWAY 橘色遮阳棚",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_13_history.csv",
+    "history_sha256": "2506f2ff85522e65800712d36676596825eb88d8e57550e48cda22e325f708d8",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -1.4880508021111691,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -86.87803007449641,
+        27.000032463547026,
+        -3.0
+      ],
+      [
+        -90.5981308996939,
+        23.99999999942884,
+        -3.0
+      ],
+      [
+        -92.83018092283689,
+        20.99998052100362,
+        -3.0
+      ],
+      [
+        -93.57418014392536,
+        17.99997402827137,
+        -3.0
+      ],
+      [
+        -92.83012856295933,
+        14.999980521232086,
+        -3.0
+      ],
+      [
+        -90.59802617993878,
+        11.999999999885768,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -3.720100825197491,
+        -3.000032464118185
+      ],
+      [
+        -2.232050023142989,
+        -3.0000194784252194
+      ],
+      [
+        -0.7439992210884725,
+        -3.0000064927322505
+      ],
+      [
+        0.7440515809660297,
+        -2.999993507039285
+      ],
+      [
+        2.232102383020546,
+        -2.999980521346318
+      ]
+    ],
+    "weighted_vector_xy": [
+      2.6179938779319345e-05,
+      -2.9999999998857683
+    ],
+    "last_vector_xy": [
+      2.232102383020546,
+      -2.999980521346318
+    ],
+    "weighted_yaw_deg": -89.99950000000001,
+    "last_segment_yaw_deg": -53.34931573036732,
+    "baseline_turn_deg": -44.9995,
+    "delta_deg": 36.65018426963269,
+    "cross_dot_delta_deg": 36.65018426963269,
+    "ablation_turn_deg": -8.349315730367309,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 8.349315730367309
+  },
+  "14": {
+    "id": "14",
+    "name": "antiques",
+    "start_position": [
+      44,
+      -2,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 166.6169,
+    "heading_deg": 121.6169,
+    "altitude": 3,
+    "target": "前方棕红色遮阳棚下的店铺入口附近",
+    "clip_text": "antique shop entrance with a dark red awning",
+    "actor": "signs_sign_antiques2_232",
+    "target_position": [
+      33.67453384399414,
+      14.772706985473633,
+      -3.5950474739074707
+    ],
+    "goal_position": [
+      41.211,
+      3.036,
+      0.6
+    ],
+    "route": 14,
+    "display_name": "古董店门面",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_14_history.csv",
+    "history_sha256": "f47ef8def2d22bd7c8d6e89d2471203f71ed739bf1e2b769d53a3816a3619777",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -1.2569185952505941,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        50.76037518449286,
+        -18.975610580600193,
+        -3.0
+      ],
+      [
+        51.86355663645857,
+        -14.7735851281153,
+        -3.0
+      ],
+      [
+        51.89638097672131,
+        -11.230483046375141,
+        -3.0
+      ],
+      [
+        50.858848205281085,
+        -8.346304335379715,
+        -3.0
+      ],
+      [
+        48.75095832213788,
+        -6.121048995129021,
+        -3.0
+      ],
+      [
+        45.572711327291714,
+        -4.55471702562306,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        1.1031814519657104,
+        4.202025452484893
+      ],
+      [
+        0.03282434026274217,
+        3.543102081740159
+      ],
+      [
+        -1.037532771440226,
+        2.8841787109954264
+      ],
+      [
+        -2.1078898831432014,
+        2.225255340250694
+      ],
+      [
+        -3.1782469948461696,
+        1.5663319695059608
+      ]
+    ],
+    "weighted_vector_xy": [
+      -1.572711327291714,
+      2.5547170256230602
+    ],
+    "last_vector_xy": [
+      -3.1782469948461696,
+      1.5663319695059608
+    ],
+    "weighted_yaw_deg": 121.6169,
+    "last_segment_yaw_deg": 153.76458977596775,
+    "baseline_turn_deg": 166.6169,
+    "delta_deg": 32.14768977596776,
+    "cross_dot_delta_deg": 32.147689775967734,
+    "ablation_turn_deg": 198.76458977596775,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 198.76458977596775
+  },
+  "15": {
+    "id": "15",
+    "name": "red_frame_restaurant",
+    "start_position": [
+      -49,
+      -8,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 112.7623,
+    "heading_deg": 67.7623,
+    "altitude": 3,
+    "target": "前方红色门窗框、绿色长遮阳棚和户外桌椅的餐厅入口附近",
+    "clip_text": "restaurant with red window frames and a long green awning",
+    "actor": "signs_sign_inkasipas_90",
+    "target_position": [
+      -40.260276794433594,
+      13.375778198242188,
+      -3.6075525283813477
+    ],
+    "goal_position": [
+      -42.135,
+      -1.408,
+      0.6
+    ],
+    "route": 15,
+    "display_name": "红框绿色棚餐厅",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_15_history.csv",
+    "history_sha256": "167e260b1016b393a24ed5ec5affcd004d86b27ca84ae6b1c3b5d677de0023a8",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -2.788477031614859,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -62.26478612861716,
+        -22.022944588640016,
+        -3.0
+      ],
+      [
+        -54.676748766403385,
+        -21.8843265390561,
+        -3.0
+      ],
+      [
+        -49.66978644776285,
+        -20.690409586181264,
+        -3.0
+      ],
+      [
+        -47.243899172695556,
+        -18.441193730015506,
+        -3.0
+      ],
+      [
+        -47.399086941201496,
+        -15.136678970558824,
+        -3.0
+      ],
+      [
+        -50.13534975328068,
+        -10.77686530781122,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        7.588037362213775,
+        0.13861804958391488
+      ],
+      [
+        5.006962318640532,
+        1.1939169528748366
+      ],
+      [
+        2.4258872750672964,
+        2.2492158561657583
+      ],
+      [
+        -0.15518776850593952,
+        3.3045147594566817
+      ],
+      [
+        -2.7362628120791825,
+        4.359813662747603
+      ]
+    ],
+    "weighted_vector_xy": [
+      1.135349753280677,
+      2.77686530781122
+    ],
+    "last_vector_xy": [
+      -2.7362628120791825,
+      4.359813662747603
+    ],
+    "weighted_yaw_deg": 67.76230000000001,
+    "last_segment_yaw_deg": 122.11279439700292,
+    "baseline_turn_deg": 112.7623,
+    "delta_deg": 54.350494397002905,
+    "cross_dot_delta_deg": 54.35049439700293,
+    "ablation_turn_deg": 167.11279439700292,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 167.11279439700292
+  },
+  "16": {
+    "id": "16",
+    "name": "striped_cafe",
+    "start_position": [
+      -194,
+      0,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 19.794,
+    "heading_deg": -64.794,
+    "altitude": 3,
+    "target": "前方白色咖啡店招牌、红白条纹小遮阳棚、黄色门框的入口附近",
+    "clip_text": "cafe with a white sign and striped awning",
+    "actor": "signs_sign_locafe3_116",
+    "target_position": [
+      -186.06468200683594,
+      -16.858808517456055,
+      -3.971292018890381
+    ],
+    "goal_position": [
+      -195.973,
+      -3.479,
+      0.6
+    ],
+    "route": 16,
+    "display_name": "红白条纹棚咖啡店",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_16_history.csv",
+    "history_sha256": "704e08bbabf1f3d9e54c47adf7a926999988a53239b4377d5f26f4106d92e434",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 1.5470734654610794,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -205.16514510466595,
+        14.638938203088358,
+        -3.0
+      ],
+      [
+        -200.38811063746496,
+        13.571736900025254,
+        -3.0
+      ],
+      [
+        -197.01084110614715,
+        11.845677166185371,
+        -3.0
+      ],
+      [
+        -195.03333651071256,
+        9.46075900156871,
+        -3.0
+      ],
+      [
+        -194.45559685116118,
+        6.41698240617527,
+        -3.0
+      ],
+      [
+        -195.277622127493,
+        2.714347380005051,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        4.777034467200991,
+        -1.0672013030631042
+      ],
+      [
+        3.3772695313178076,
+        -1.7260597338398824
+      ],
+      [
+        1.9775045954345956,
+        -2.3849181646166606
+      ],
+      [
+        0.5777396595513835,
+        -3.0437765953934406
+      ],
+      [
+        -0.8220252763318285,
+        -3.7026350261702192
+      ]
+    ],
+    "weighted_vector_xy": [
+      1.2776221274929866,
+      -2.714347380005051
+    ],
+    "last_vector_xy": [
+      -0.8220252763318285,
+      -3.7026350261702192
+    ],
+    "weighted_yaw_deg": -64.79400000000004,
+    "last_segment_yaw_deg": -102.51726824538603,
+    "baseline_turn_deg": -19.794,
+    "delta_deg": -37.72326824538601,
+    "cross_dot_delta_deg": -37.72326824538601,
+    "ablation_turn_deg": -57.517268245386006,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 57.517268245386006
+  },
+  "17": {
+    "id": "17",
+    "name": "cafe_vendie",
+    "start_position": [
+      -154,
+      -3,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 138.2452,
+    "heading_deg": 93.2452,
+    "altitude": 3,
+    "target": "前方 CAFE VENDIE 白色咖啡杯招牌、蓝白条纹遮阳棚下的咖啡店入口附近",
+    "clip_text": "cafe entrance with blue and white striped awnings and a coffee cup sign",
+    "actor": "signs_sign_cafe_358",
+    "target_position": [
+      -155.09999084472656,
+      16.399999618530273,
+      -4.068830966949463
+    ],
+    "goal_position": [
+      -154.596,
+      1.223,
+      0.6
+    ],
+    "route": 17,
+    "display_name": "CAFE VENDIE 条纹棚",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_17_history.csv",
+    "history_sha256": "10efb369a08710cfea4ead080c172214778edf1dc69d1625056e7a17eeaebcee",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -2.8013106819792943,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -159.97308173285052,
+        -21.36758501324434,
+        -3.0
+      ],
+      [
+        -153.1508628055071,
+        -17.975946248064886,
+        -3.0
+      ],
+      [
+        -149.1254624246605,
+        -14.742887289112023,
+        -3.0
+      ],
+      [
+        -147.89688059031067,
+        -11.66840813638575,
+        -3.0
+      ],
+      [
+        -149.46511730245766,
+        -8.752508789886068,
+        -3.0
+      ],
+      [
+        -153.83017256110142,
+        -5.995189249612977,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        6.822218927343414,
+        3.3916387651794544
+      ],
+      [
+        4.025400380846605,
+        3.2330589589528635
+      ],
+      [
+        1.228581834349825,
+        3.0744791527262727
+      ],
+      [
+        -1.5682367121469838,
+        2.915899346499682
+      ],
+      [
+        -4.365055258643764,
+        2.757319540273091
+      ]
+    ],
+    "weighted_vector_xy": [
+      -0.169827438898578,
+      2.9951892496129773
+    ],
+    "last_vector_xy": [
+      -4.365055258643764,
+      2.757319540273091
+    ],
+    "weighted_yaw_deg": 93.2452,
+    "last_segment_yaw_deg": 147.72020350445564,
+    "baseline_turn_deg": 138.2452,
+    "delta_deg": 54.47500350445563,
+    "cross_dot_delta_deg": 54.47500350445563,
+    "ablation_turn_deg": 192.72020350445564,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 192.72020350445564
+  },
+  "18": {
+    "id": "18",
+    "name": "thrifty",
+    "start_position": [
+      66.096,
+      -9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 134.9998,
+    "heading_deg": 89.9998,
+    "altitude": 3,
+    "target": "前方 THRIFTY 字样下方的内凹商店入口附近",
+    "clip_text": "recessed shop doorway under a THRIFTY sign",
+    "actor": "signs_sign_sleevo2",
+    "target_position": [
+      66.0960693359375,
+      14.626176834106445,
+      -2.3370532989501953
+    ],
+    "goal_position": [
+      62.114,
+      11.001,
+      0.6
+    ],
+    "route": 18,
+    "display_name": "THRIFTY 内凹入口",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_18_history.csv",
+    "history_sha256": "9f8934809aab03866976f4386bf9fdbbd8755d0aecc20d88a7376b0348f21c8d",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 0.7801441177665309,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        68.04629746255137,
+        -27.000006807932085,
+        -3.0
+      ],
+      [
+        66.09594764012243,
+        -23.999999999908614,
+        -3.0
+      ],
+      [
+        64.92574193545528,
+        -20.99999591510184,
+        -3.0
+      ],
+      [
+        64.5356803485499,
+        -17.99999455351177,
+        -3.0
+      ],
+      [
+        64.9257628794063,
+        -14.999995915138397,
+        -3.0
+      ],
+      [
+        66.09598952802449,
+        -11.999999999981723,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -1.950349822428933,
+        3.000006808023471
+      ],
+      [
+        -1.1702057046671541,
+        3.000004084806772
+      ],
+      [
+        -0.3900615869053752,
+        3.0000013615900727
+      ],
+      [
+        0.39008253085640376,
+        2.9999986383733717
+      ],
+      [
+        1.1702266486181827,
+        2.999995915156674
+      ]
+    ],
+    "weighted_vector_xy": [
+      1.047197551425072e-05,
+      2.9999999999817226
+    ],
+    "last_vector_xy": [
+      1.1702266486181827,
+      2.999995915156674
+    ],
+    "weighted_yaw_deg": 89.99979999999996,
+    "last_segment_yaw_deg": 68.69043286583168,
+    "baseline_turn_deg": 134.9998,
+    "delta_deg": -21.30936713416827,
+    "cross_dot_delta_deg": -21.30936713416827,
+    "ablation_turn_deg": 113.69043286583172,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 113.69043286583172
+  },
+  "19": {
+    "id": "19",
+    "name": "locafe",
+    "start_position": [
+      76.735,
+      -9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 134.9992,
+    "heading_deg": 89.9992,
+    "altitude": 3,
+    "target": "前方 LOCAFE 白色招牌和咖啡杯圆形标志下、白色框架的内凹入口附近",
+    "clip_text": "recessed cafe entrance with white window frames and a coffee cup sign",
+    "actor": "signs_sign_locafe4",
+    "target_position": [
+      76.73531341552734,
+      14.650792121887207,
+      -3.4212920665740967
+    ],
+    "goal_position": [
+      76.823,
+      9.89,
+      0.6
+    ],
+    "route": 19,
+    "display_name": "LOCAFE 咖啡店",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_19_history.csv",
+    "history_sha256": "d5cea02e9e1fd32726b70e14bb176885436ff77e4067a9598af12469d7cf2000",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -1.1112231894244193,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        73.95669069929747,
+        -26.99996120923865,
+        -3.0
+      ],
+      [
+        76.73479056048977,
+        -23.999999998537838,
+        -3.0
+      ],
+      [
+        78.40166723236597,
+        -21.000023272234326,
+        -3.0
+      ],
+      [
+        78.95732071492607,
+        -18.00003103032811,
+        -3.0
+      ],
+      [
+        78.40175100817007,
+        -15.00002327281919,
+        -3.0
+      ],
+      [
+        76.73495811209796,
+        -11.999999999707567,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        2.7780998611923025,
+        2.9999612107008105
+      ],
+      [
+        1.6668766718761958,
+        2.9999767263035118
+      ],
+      [
+        0.5556534825601034,
+        2.9999922419062166
+      ],
+      [
+        -0.5555697067560033,
+        3.0000077575089197
+      ],
+      [
+        -1.66679289607211,
+        3.0000232731116228
+      ]
+    ],
+    "weighted_vector_xy": [
+      4.188790204656678e-05,
+      2.999999999707568
+    ],
+    "last_vector_xy": [
+      -1.66679289607211,
+      3.0000232731116228
+    ],
+    "weighted_yaw_deg": 89.9992,
+    "last_segment_yaw_deg": 119.05625758203011,
+    "baseline_turn_deg": 134.9992,
+    "delta_deg": 29.057057582030097,
+    "cross_dot_delta_deg": 29.057057582030097,
+    "ablation_turn_deg": 164.0562575820301,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 164.0562575820301
+  },
+  "20": {
+    "id": "20",
+    "name": "roadside_green_awning",
+    "start_position": [
+      -7,
+      39.642,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 44.9989,
+    "heading_deg": -0.0011,
+    "altitude": 3,
+    "target": "道路对面浅色建筑底层、浅绿色遮阳棚下的门口附近",
+    "clip_text": "light green awning above a doorway in a pale stone building",
+    "actor": "signs_sign_suni2",
+    "target_position": [
+      16.70755386352539,
+      39.641544342041016,
+      -3.8485467433929443
+    ],
+    "goal_position": [
+      11.159,
+      44.288,
+      0.6
+    ],
+    "route": 20,
+    "display_name": "道路对面浅绿色棚",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_20_history.csv",
+    "history_sha256": "e779d4412155fd3c6c19782adecd4fd4ae8dce639f5ee35dfc2e2ed6aea1cd47",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 1.3774013926792814,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -25.000066107203626,
+        36.198842094128295,
+        -3.0
+      ],
+      [
+        -21.999999997235594,
+        39.64228797932657,
+        -3.0
+      ],
+      [
+        -18.99996033147593,
+        41.70833247209941,
+        -3.0
+      ],
+      [
+        -15.999947109924628,
+        42.39697557244681,
+        -3.0
+      ],
+      [
+        -12.999960332581692,
+        41.708217280368785,
+        -3.0
+      ],
+      [
+        -9.99999999944712,
+        39.64205759586532,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        3.0000661099680315,
+        3.4434458851982725
+      ],
+      [
+        3.0000396657596653,
+        2.066044492772839
+      ],
+      [
+        3.000013221551301,
+        0.6886431003474058
+      ],
+      [
+        2.9999867773429365,
+        -0.6887582920780275
+      ],
+      [
+        2.999960333134572,
+        -2.066159684503468
+      ]
+    ],
+    "weighted_vector_xy": [
+      2.9999999994471187,
+      -5.75958653129538e-05
+    ],
+    "last_vector_xy": [
+      2.999960333134572,
+      -2.066159684503468
+    ],
+    "weighted_yaw_deg": -0.0011000000000129702,
+    "last_segment_yaw_deg": -34.556311600204175,
+    "baseline_turn_deg": 44.9989,
+    "delta_deg": -34.55521160020416,
+    "cross_dot_delta_deg": -34.55521160020416,
+    "ablation_turn_deg": 10.443688399795839,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 10.443688399795839
+  },
+  "21": {
+    "id": "21",
+    "name": "eagle_statue",
+    "start_position": [
+      106,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 125.2137,
+    "heading_deg": -170.2137,
+    "altitude": 2,
+    "target": "前方花坛中的鹰雕像附近，在花坛外侧空地降落",
+    "clip_text": "eagle statue in a flower bed",
+    "actor": "prop_statue_eagle_11",
+    "target_position": [
+      94.84300231933594,
+      7.075596809387207,
+      0.3154473900794983
+    ],
+    "goal_position": [
+      100.757,
+      7.256,
+      0.6
+    ],
+    "route": 21,
+    "display_name": "鹰雕像花坛",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_21_history.csv",
+    "history_sha256": "ef52f439ca9d51a8b3072da0cab173f4e0f7aaa4f7b0ae0de071543d0d9e445f",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 1.7943026404773965,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        122.9756128200027,
+        16.480012143740897,
+        -2.0
+      ],
+      [
+        120.78172853687605,
+        11.54960809970953,
+        -2.0
+      ],
+      [
+        118.28285968404997,
+        8.387397025313948,
+        -2.0
+      ],
+      [
+        115.47900626152448,
+        6.99337892055415,
+        -2.0
+      ],
+      [
+        112.37016826929955,
+        7.367553785430136,
+        -2.0
+      ],
+      [
+        108.9563457073752,
+        9.509921619941906,
+        -2.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -2.19388428312665,
+        -4.930404044031366
+      ],
+      [
+        -2.498868852826078,
+        -3.1622110743955822
+      ],
+      [
+        -2.803853422525492,
+        -1.3940181047597981
+      ],
+      [
+        -3.1088379922249203,
+        0.37417486487598595
+      ],
+      [
+        -3.4138225619243485,
+        2.14236783451177
+      ]
+    ],
+    "weighted_vector_xy": [
+      -2.9563457073752097,
+      -0.5099216199419062
+    ],
+    "last_vector_xy": [
+      -3.4138225619243485,
+      2.14236783451177
+    ],
+    "weighted_yaw_deg": -170.2137,
+    "last_segment_yaw_deg": 147.889390660347,
+    "baseline_turn_deg": -125.2137,
+    "delta_deg": -41.89690933965301,
+    "cross_dot_delta_deg": -41.89690933965301,
+    "ablation_turn_deg": -167.11060933965302,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 167.11060933965302
+  },
+  "22": {
+    "id": "22",
+    "name": "deer_statue",
+    "start_position": [
+      -162,
+      -8,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 171.0788,
+    "heading_deg": 126.0788,
+    "altitude": 2,
+    "target": "前方花坛中的鹿雕像附近，在花坛外侧空地降落",
+    "clip_text": "deer statue in a flower bed",
+    "actor": "SM_prop_statue_deer_5",
+    "target_position": [
+      -169.0281982421875,
+      1.645551085472107,
+      0.2626204490661621
+    ],
+    "goal_position": [
+      -167.749,
+      -3.849,
+      0.6
+    ],
+    "route": 22,
+    "display_name": "鹿雕像花坛",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_22_history.csv",
+    "history_sha256": "6966f0f158951d3654b8db16865007c157faf3c6ca84300937a017fec6c94258",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -2.6651936260254576,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -156.78492358794108,
+        -26.471554744191913,
+        -2.0
+      ],
+      [
+        -153.16653970723434,
+        -20.123117555156036,
+        -2.0
+      ],
+      [
+        -151.70218620223156,
+        -15.344205837322026,
+        -2.0
+      ],
+      [
+        -152.39186307293272,
+        -12.134819590689885,
+        -2.0
+      ],
+      [
+        -155.23557031933782,
+        -10.494958815259611,
+        -2.0
+      ],
+      [
+        -160.23330794144687,
+        -10.424623511031207,
+        -2.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        3.6183838807067445,
+        6.348437189035877
+      ],
+      [
+        1.4643535050027765,
+        4.77891171783401
+      ],
+      [
+        -0.6896768707011631,
+        3.209386246632141
+      ],
+      [
+        -2.8437072464051028,
+        1.6398607754302734
+      ],
+      [
+        -4.997737622109042,
+        0.07033530422840428
+      ]
+    ],
+    "weighted_vector_xy": [
+      -1.7666920585531298,
+      2.424623511031207
+    ],
+    "last_vector_xy": [
+      -4.997737622109042,
+      0.07033530422840428
+    ],
+    "weighted_yaw_deg": 126.07879999999996,
+    "last_segment_yaw_deg": 179.1937051597292,
+    "baseline_turn_deg": 171.0788,
+    "delta_deg": 53.11490515972923,
+    "cross_dot_delta_deg": 53.11490515972923,
+    "ablation_turn_deg": 224.19370515972923,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 224.19370515972923
+  },
+  "23": {
+    "id": "23",
+    "name": "park_fountain",
+    "start_position": [
+      61.6,
+      -20,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 45.0277,
+    "heading_deg": -90.0277,
+    "altitude": 3,
+    "target": "前方公园圆形喷泉附近，在喷泉外侧铺装空地降落",
+    "clip_text": "circular fountain in a park",
+    "actor": "FountainFX_2",
+    "target_position": [
+      61.5884895324707,
+      -43.776023864746094,
+      1.0200068950653076
+    ],
+    "goal_position": [
+      65.118,
+      -38.904,
+      0.6
+    ],
+    "route": 23,
+    "display_name": "公园喷泉",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_23_history.csv",
+    "history_sha256": "5a26d95b05db94b27ef112456fe9a759a9213866040b5342214b16771332963d",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 0.545772654227684,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        60.244270735196466,
+        -1.9993424606572363,
+        -3.0
+      ],
+      [
+        61.60725184275954,
+        -5.000001752974213,
+        -3.0
+      ],
+      [
+        62.42446035987662,
+        -8.000397188126462,
+        -3.0
+      ],
+      [
+        62.69589628654771,
+        -11.000528766113982,
+        -3.0
+      ],
+      [
+        62.421559622772804,
+        -14.000396486936776,
+        -3.0
+      ],
+      [
+        61.60145036855191,
+        -17.000000350594842,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        1.3629811075630727,
+        -3.0006592923169766
+      ],
+      [
+        0.8172085171170806,
+        -3.0003954351522486
+      ],
+      [
+        0.2714359266710886,
+        -3.0001315779875206
+      ],
+      [
+        -0.2743366637749034,
+        -2.9998677208227935
+      ],
+      [
+        -0.8201092542208954,
+        -2.9996038636580664
+      ]
+    ],
+    "weighted_vector_xy": [
+      -0.0014503685519073883,
+      -2.9999996494051575
+    ],
+    "last_vector_xy": [
+      -0.8201092542208954,
+      -2.9996038636580664
+    ],
+    "weighted_yaw_deg": -90.02769999999998,
+    "last_segment_yaw_deg": -105.2913005955571,
+    "baseline_turn_deg": -45.0277,
+    "delta_deg": -15.263600595557136,
+    "cross_dot_delta_deg": -15.263600595557108,
+    "ablation_turn_deg": -60.29130059555714,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 60.29130059555714
+  },
+  "24": {
+    "id": "24",
+    "name": "east_food_cart",
+    "start_position": [
+      35,
+      -3,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 61.5435,
+    "heading_deg": 16.5435,
+    "altitude": 3,
+    "target": "前方步行街上红黄相间遮阳伞下的餐车附近，在餐车旁空地降落",
+    "clip_text": "food cart with a red and yellow umbrella",
+    "actor": "food_cart2",
+    "target_position": [
+      49.87188720703125,
+      1.417551875114441,
+      1.0045961141586304
+    ],
+    "goal_position": [
+      43.533,
+      -0.1,
+      0.6
+    ],
+    "route": 24,
+    "display_name": "东段红黄伞餐车",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_24_history.csv",
+    "history_sha256": "30946b235024e7976d0512b2b4eec482d5da8dada92fd6190f8bc5a6520b7db8",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 1.1551516802320256,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        18.56743509090107,
+        -10.893709950675504,
+        -3.0
+      ],
+      [
+        20.620942566118988,
+        -7.271148242937857,
+        -3.0
+      ],
+      [
+        23.003371645960218,
+        -4.75591935886024,
+        -3.0
+      ],
+      [
+        25.714722330424763,
+        -3.3480232984426532,
+        -3.0
+      ],
+      [
+        28.754994619512622,
+        -3.047460061685097,
+        -3.0
+      ],
+      [
+        32.1241885132238,
+        -3.8542296485875713,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        2.0535074752179163,
+        3.6225617077376473
+      ],
+      [
+        2.3824290798412306,
+        2.515228884077617
+      ],
+      [
+        2.711350684464545,
+        1.4078960604175865
+      ],
+      [
+        3.0402722890878593,
+        0.30056323675755614
+      ],
+      [
+        3.369193893711177,
+        -0.8067695869024742
+      ]
+    ],
+    "weighted_vector_xy": [
+      2.875811486776203,
+      0.8542296485875713
+    ],
+    "last_vector_xy": [
+      3.369193893711177,
+      -0.8067695869024742
+    ],
+    "weighted_yaw_deg": 16.5435,
+    "last_segment_yaw_deg": -13.466192249763429,
+    "baseline_turn_deg": 61.5435,
+    "delta_deg": -30.009692249763418,
+    "cross_dot_delta_deg": -30.009692249763418,
+    "ablation_turn_deg": 31.533807750236583,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 31.533807750236583
+  },
+  "25": {
+    "id": "25",
+    "name": "west_food_cart",
+    "start_position": [
+      -142,
+      -1,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 149.1697,
+    "heading_deg": 165.8303,
+    "altitude": 3,
+    "target": "前方步行街上红黄相间遮阳伞下的餐车附近，在餐车旁空地降落",
+    "clip_text": "street food cart with a red and yellow umbrella",
+    "actor": "food_cart5_278",
+    "target_position": [
+      -157.7163848876953,
+      2.968005895614624,
+      0.9942361116409302
+    ],
+    "goal_position": [
+      -147.806,
+      0.511,
+      0.6
+    ],
+    "route": 25,
+    "display_name": "西段红黄伞餐车",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_25_history.csv",
+    "history_sha256": "6a12f704d33423b2e3fcd1f00f3dc795bf28d13c9f2d5704ae0bb3cd6e05ae37",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 2.121389240511389,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -123.24938907951474,
+        -0.2641895321727308,
+        -3.0
+      ],
+      [
+        -127.45637587897143,
+        -4.671920127976149,
+        -3.0
+      ],
+      [
+        -131.14405788832772,
+        -7.022804875220108,
+        -3.0
+      ],
+      [
+        -134.31243510758364,
+        -7.3168437739046075,
+        -3.0
+      ],
+      [
+        -136.96150753673916,
+        -5.554036824029648,
+        -3.0
+      ],
+      [
+        -139.0912751757943,
+        -1.7343840255952299,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -4.206986799456686,
+        -4.407730595803418
+      ],
+      [
+        -3.687682009356294,
+        -2.350884747243959
+      ],
+      [
+        -3.168377219255916,
+        -0.2940388986844997
+      ],
+      [
+        -2.649072429155524,
+        1.7628069498749595
+      ],
+      [
+        -2.1297676390551317,
+        3.819652798434418
+      ]
+    ],
+    "weighted_vector_xy": [
+      -2.9087248242057164,
+      0.7343840255952296
+    ],
+    "last_vector_xy": [
+      -2.1297676390551317,
+      3.819652798434418
+    ],
+    "weighted_yaw_deg": 165.83030000000002,
+    "last_segment_yaw_deg": 119.14322784965196,
+    "baseline_turn_deg": -149.1697,
+    "delta_deg": -46.68707215034806,
+    "cross_dot_delta_deg": -46.68707215034806,
+    "ablation_turn_deg": -195.85677215034806,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 195.85677215034806
+  },
+  "26": {
+    "id": "26",
+    "name": "purple_umbrellas",
+    "start_position": [
+      8,
+      -22.4,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 134.8605,
+    "heading_deg": -179.8605,
+    "altitude": 3,
+    "target": "前方米黄色街角建筑旁的紫色遮阳伞桌椅区附近，在桌椅外侧空地降落",
+    "clip_text": "purple patio umbrellas outside a corner cafe",
+    "actor": "prop_table_umbrella_a_7",
+    "target_position": [
+      -7.530877590179443,
+      -22.437816619873047,
+      0.9942368865013123
+    ],
+    "goal_position": [
+      -1.539,
+      -25.059,
+      0.6
+    ],
+    "route": 26,
+    "display_name": "街角紫色遮阳伞",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_26_history.csv",
+    "history_sha256": "1cba25e4ee1b80d7695aac890dae73a10e4a011f9a807b4ce0f800f3cac7d9a0",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -0.9129537995224521,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        26.00550364299576,
+        -24.638552559681614,
+        -3.0
+      ],
+      [
+        22.99995554053839,
+        -22.36347902148435,
+        -3.0
+      ],
+      [
+        19.9966302358209,
+        -21.00135657684724,
+        -3.0
+      ],
+      [
+        16.995527728843282,
+        -20.55218522577029,
+        -3.0
+      ],
+      [
+        13.99664801960554,
+        -21.0159649682535,
+        -3.0
+      ],
+      [
+        10.999991108107677,
+        -22.392695804296867,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -3.005548102457368,
+        2.2750735381972653
+      ],
+      [
+        -3.0033253047174924,
+        1.3621224446371087
+      ],
+      [
+        -3.0011025069776167,
+        0.4491713510769486
+      ],
+      [
+        -2.998879709237741,
+        -0.46377974248320797
+      ],
+      [
+        -2.9966569114978636,
+        -1.376730836043368
+      ]
+    ],
+    "weighted_vector_xy": [
+      -2.9999911081076784,
+      -0.007304195703129873
+    ],
+    "last_vector_xy": [
+      -2.9966569114978636,
+      -1.376730836043368
+    ],
+    "weighted_yaw_deg": -179.8605,
+    "last_segment_yaw_deg": -155.32489757804777,
+    "baseline_turn_deg": -134.8605,
+    "delta_deg": 24.535602421952234,
+    "cross_dot_delta_deg": 24.535602421952262,
+    "ablation_turn_deg": -110.32489757804777,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 110.32489757804777
+  },
+  "27": {
+    "id": "27",
+    "name": "black_umbrellas",
+    "start_position": [
+      5,
+      23.5,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 134.9779,
+    "heading_deg": -179.9779,
+    "altitude": 3,
+    "target": "前方街角建筑旁黑色遮阳伞、白色桌椅的休息区附近，在桌椅外侧空地降落",
+    "clip_text": "black patio umbrellas over white cafe tables and chairs",
+    "actor": "prop_table_umbrella_a8",
+    "target_position": [
+      -8.02847957611084,
+      23.494970321655273,
+      0.9942368865013123
+    ],
+    "goal_position": [
+      -5.743,
+      23.41,
+      0.6
+    ],
+    "route": 27,
+    "display_name": "街角黑伞白桌椅",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_27_history.csv",
+    "history_sha256": "752ce1ad3791738d47dff381e493e5fbcdd67c31265ef344a4b988909c5437e2",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 2.5701362243802213,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        22.997520293059182,
+        29.932283002567544,
+        -3.0
+      ],
+      [
+        19.99999888416356,
+        23.50578576632689,
+        -3.0
+      ],
+      [
+        17.001486128093102,
+        19.649424563276348,
+        -3.0
+      ],
+      [
+        14.001982024847809,
+        18.363199393415915,
+        -3.0
+      ],
+      [
+        11.001486574427679,
+        19.64711025674559,
+        -3.0
+      ],
+      [
+        7.999999776832712,
+        23.50115715326538,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -2.997521408895622,
+        -6.426497236240653
+      ],
+      [
+        -2.9985127560704576,
+        -3.856361203050543
+      ],
+      [
+        -2.999504103245293,
+        -1.2862251698604332
+      ],
+      [
+        -3.0004954504201304,
+        1.2839108633296767
+      ],
+      [
+        -3.001486797594967,
+        3.8540468965197867
+      ]
+    ],
+    "weighted_vector_xy": [
+      -2.9999997768327122,
+      -0.0011571532653783523
+    ],
+    "last_vector_xy": [
+      -3.001486797594967,
+      3.8540468965197867
+    ],
+    "weighted_yaw_deg": -179.9779,
+    "last_segment_yaw_deg": 127.91104285110497,
+    "baseline_turn_deg": -134.9779,
+    "delta_deg": -52.11105714889504,
+    "cross_dot_delta_deg": -52.11105714889503,
+    "ablation_turn_deg": -187.08895714889505,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 187.08895714889505
+  },
+  "28": {
+    "id": "28",
+    "name": "fountain_side",
+    "start_position": [
+      80,
+      -44,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 135.697,
+    "heading_deg": 179.303,
+    "altitude": 3,
+    "target": "前方圆形喷泉附近，从公园一侧接近，在喷泉外侧铺装空地降落",
+    "clip_text": "circular fountain in a park",
+    "actor": "FountainFX_2",
+    "target_position": [
+      61.5884895324707,
+      -43.776023864746094,
+      1.0200068950653076
+    ],
+    "goal_position": [
+      61.619,
+      -42.104,
+      0.6
+    ],
+    "route": 28,
+    "display_name": "公园喷泉侧向接近",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_28_history.csv",
+    "history_sha256": "8a0b4875be27d3a559598fb150e3d73b29cc823e67d7b197a0aa133e658882d2",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": 0.6786473968872571,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        98.01930690486938,
+        -42.522470651302285,
+        -3.0
+      ],
+      [
+        94.99889011955665,
+        -44.182469672729006,
+        -3.0
+      ],
+      [
+        91.98672883880448,
+        -45.163871511766715,
+        -3.0
+      ],
+      [
+        88.98282306261287,
+        -45.46667616841542,
+        -3.0
+      ],
+      [
+        85.98717279098182,
+        -45.09088364267512,
+        -3.0
+      ],
+      [
+        82.99977802391133,
+        -44.0364939345458,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -3.020416785312733,
+        -1.6599990214267208
+      ],
+      [
+        -3.012161280752167,
+        -0.9814018390377086
+      ],
+      [
+        -3.0039057761916155,
+        -0.3028046566487035
+      ],
+      [
+        -2.9956502716310496,
+        0.37579252574030164
+      ],
+      [
+        -2.9873947670704837,
+        1.0543897081293139
+      ]
+    ],
+    "weighted_vector_xy": [
+      -2.999778023911329,
+      0.03649393454580049
+    ],
+    "last_vector_xy": [
+      -2.9873947670704837,
+      1.0543897081293139
+    ],
+    "weighted_yaw_deg": 179.303,
+    "last_segment_yaw_deg": 160.5597079110911,
+    "baseline_turn_deg": -135.697,
+    "delta_deg": -18.743292088908902,
+    "cross_dot_delta_deg": -18.74329208890893,
+    "ablation_turn_deg": -154.4402920889089,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 154.4402920889089
+  },
+  "29": {
+    "id": "29",
+    "name": "traffic_island_bench",
+    "start_position": [
+      114,
+      -15,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 44.4769,
+    "heading_deg": -0.5231,
+    "altitude": 1.5,
+    "target": "前方路口小岛上、两个大花盆之间的木长椅附近，在长椅前方空地降落",
+    "clip_text": "wooden bench between two large plant pots and trash cans",
+    "actor": "bench_wood_a18",
+    "target_position": [
+      126.57122039794922,
+      -15.114774703979492,
+      0.9942365884780884
+    ],
+    "goal_position": [
+      119.996,
+      -15.027,
+      0.6
+    ],
+    "route": 29,
+    "display_name": "路口花盆之间的木长椅",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_29_history.csv",
+    "history_sha256": "2573e3ffed669efba6e1071348029ca5c8660fc4112c1f9fe8c12769ae9137df",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -1.7619099317060776,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        96.04096440770985,
+        -10.431074317590165,
+        -1.5
+      ],
+      [
+        99.00062514738946,
+        -14.863054642741371,
+        -1.5
+      ],
+      [
+        101.97637157940606,
+        -17.533198466412784,
+        -1.5
+      ],
+      [
+        104.96820370375967,
+        -18.441505788604406,
+        -1.5
+      ],
+      [
+        107.97612152045028,
+        -17.587976609316236,
+        -1.5
+      ],
+      [
+        111.00012502947789,
+        -14.972610928548274,
+        -1.5
+      ]
+    ],
+    "segments_xy": [
+      [
+        2.959660739679606,
+        -4.431980325151207
+      ],
+      [
+        2.9757464320166065,
+        -2.6701438236714132
+      ],
+      [
+        2.991832124353607,
+        -0.9083073221916216
+      ],
+      [
+        3.0079178166906075,
+        0.8535291792881701
+      ],
+      [
+        3.024003509027608,
+        2.6153656807679617
+      ]
+    ],
+    "weighted_vector_xy": [
+      2.9998749705221073,
+      -0.027389071451726033
+    ],
+    "last_vector_xy": [
+      3.024003509027608,
+      2.6153656807679617
+    ],
+    "weighted_yaw_deg": -0.5231000000000069,
+    "last_segment_yaw_deg": 40.85549868399034,
+    "baseline_turn_deg": 44.4769,
+    "delta_deg": 41.37859868399033,
+    "cross_dot_delta_deg": 41.37859868399033,
+    "ablation_turn_deg": 85.85549868399033,
+    "ablation_action": "turn_right",
+    "ablation_action_value_deg": 85.85549868399033
+  },
+  "30": {
+    "id": "30",
+    "name": "west_purple_umbrella",
+    "start_position": [
+      -202,
+      -14,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 131.0167,
+    "heading_deg": -176.0167,
+    "altitude": 3,
+    "target": "前方街尾建筑旁紫色遮阳伞、白色桌椅的休息区附近，在桌椅外侧空地降落",
+    "clip_text": "purple patio umbrella over white tables beside a shop",
+    "actor": "prop_table_umbrella_a11",
+    "target_position": [
+      -214.7767333984375,
+      -14.889687538146973,
+      0.9942368865013123
+    ],
+    "goal_position": [
+      -215.115,
+      -15.127,
+      0.6
+    ],
+    "route": 30,
+    "display_name": "街尾紫伞休息区",
+    "success_threshold": 6.0,
+    "history_path": "map2/history_tracks/data_30_history.csv",
+    "history_sha256": "98c6e572ede0b051edc1296a1f7a8b450abad1a471d7d5df8ade1206ee5d6a39",
+    "synthetic_history": true,
+    "synthetic_amplitude_m": -0.8705958771975265,
+    "weights": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "history_points": [
+      [
+        -183.89229047994164,
+        -14.920849238961644,
+        -3.0
+      ],
+      [
+        -187.03623490294007,
+        -12.958014337905173,
+        -3.0
+      ],
+      [
+        -190.11970276450393,
+        -11.863672250238876,
+        -3.0
+      ],
+      [
+        -193.1426940646332,
+        -11.637822975962754,
+        -3.0
+      ],
+      [
+        -196.10520880332788,
+        -12.280466515076807,
+        -3.0
+      ],
+      [
+        -199.007246980588,
+        -13.791602867581034,
+        -3.0
+      ]
+    ],
+    "segments_xy": [
+      [
+        -3.1439444229984304,
+        1.9628349010564712
+      ],
+      [
+        -3.083467861563861,
+        1.0943420876662966
+      ],
+      [
+        -3.022991300129263,
+        0.225849274276122
+      ],
+      [
+        -2.9625147386946935,
+        -0.6426435391140526
+      ],
+      [
+        -2.902038177260124,
+        -1.5111363525042272
+      ]
+    ],
+    "weighted_vector_xy": [
+      -2.9927530194119853,
+      -0.20839713241896524
+    ],
+    "last_vector_xy": [
+      -2.902038177260124,
+      -1.5111363525042272
+    ],
+    "weighted_yaw_deg": -176.0167,
+    "last_segment_yaw_deg": -152.4933069294329,
+    "baseline_turn_deg": -131.0167,
+    "delta_deg": 23.523393070567096,
+    "cross_dot_delta_deg": 23.523393070567124,
+    "ablation_turn_deg": -107.49330692943289,
+    "ablation_action": "turn_left",
+    "ablation_action_value_deg": 107.49330692943289
+  }
+}

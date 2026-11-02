@@ -1,0 +1,15 @@
+Scenario,Target,Model,Num_Flights,SR(%),NE(m),SPL(%),OR(%),TL(m)
+data_1,orangewhite_umbrella,CityNavAgent,10,0.0,24.1272,0.0,0.0,43.1328
+data_2,statue,CityNavAgent,10,100.0,5.6428,100.0,100.0,14.1528
+data_3,restaurant_across_river,CityNavAgent,10,0.0,45.4474,0.0,0.0,54.0266
+data_4,hotel_front_door,CityNavAgent,10,0.0,17.1196,0.0,0.0,60.1123
+data_5,blue_amusement_park,CityNavAgent,10,40.0,30.2307,39.1,50.0,63.9466
+data_6,fountain,CityNavAgent,10,20.0,19.1224,14.4,20.0,26.1616
+data_7,house,CityNavAgent,10,90.0,5.1838,89.2,100.0,34.2663
+data_8,playground,CityNavAgent,10,0.0,26.9485,0.0,0.0,32.2479
+data_9,parkbench,CityNavAgent,10,50.0,14.2187,50.0,90.0,29.4373
+data_10,umbrella,CityNavAgent,10,20.0,35.8536,19.3,30.0,50.4988
+data_11,house2,CityNavAgent,10,20.0,18.3690,20.0,20.0,32.4143
+data_12,fountain2,CityNavAgent,10,10.0,15.3292,10.0,10.0,8.6357
+data_13,sculpture,CityNavAgent,10,0.0,25.1876,0.0,0.0,40.0603
+data_14,sculpture2,CityNavAgent,10,100.0,3.7623,97.8,100.0,12.1090

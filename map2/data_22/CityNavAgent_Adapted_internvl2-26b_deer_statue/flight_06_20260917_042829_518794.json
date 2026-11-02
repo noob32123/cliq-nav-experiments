@@ -1,0 +1,41 @@
+{
+  "batch_id": "citynav_internvl2_26b_formal_20260916_201057",
+  "id": "22_citynav_06",
+  "route_id": "22",
+  "baseline": "citynav",
+  "repeat": 6,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 25,
+  "actions": 25,
+  "valid_decisions": 25,
+  "invalid_decisions": 0,
+  "model": "internvl2-26b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "observation_mode": "front_rgb_only",
+  "collision_object": "tree_generic_b15",
+  "navigation_end_position": [
+    -195.29383850097656,
+    -6.733975887298584,
+    -3.095104932785034
+  ],
+  "landing": {
+    "landed": false,
+    "ground_z_from_depth": 0.83533091545105,
+    "position": [
+      -195.3198699951172,
+      -6.8136677742004395,
+      -0.17542846500873566
+    ],
+    "contact_object": "bench_wood_a9",
+    "contact_timestamp": 1789582463937529600,
+    "speed_before_disarm": 0.2106007299882831
+  },
+  "wall_seconds": 192.8700494999066,
+  "trajectory": "map2\\data_22\\CityNavAgent_Adapted_internvl2-26b_deer_statue\\flight_06_20260917_042829_518794.csv",
+  "attempt_directory": "map2\\citynav_internvl2_26b_formal_20260916_201057\\attempts\\22_citynav_06\\001"
+}

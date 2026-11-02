@@ -1,0 +1,812 @@
+{
+  "01": {
+    "id": "01",
+    "name": "街角蓝白条纹棚侧向接近",
+    "start_position": [
+      -5,
+      15,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 43.6015,
+    "heading_deg": -1.3985,
+    "altitude": 3,
+    "target": "前方街角米黄色建筑底层蓝白条纹遮阳棚旁的入口附近",
+    "clip_text": "blue and white striped restaurant awnings",
+    "actor": "signs_sign_sandwich_5",
+    "target_position": [
+      16.71731948852539,
+      14.469796180725098,
+      -3.9880566596984863
+    ],
+    "goal_position": [
+      12,
+      15,
+      0.6
+    ]
+  },
+  "02": {
+    "id": "02",
+    "name": "BRUN & PEREZ 黑色门面",
+    "start_position": [
+      -84.991,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 45.0,
+    "heading_deg": -90.0,
+    "altitude": 3,
+    "target": "前方 BRUN & PEREZ 黑色长招牌下的内凹入口附近，两侧有橘红色促销海报",
+    "clip_text": "black storefront entrance with orange sale posters",
+    "actor": "signs_sign_brunperez_11",
+    "target_position": [
+      -84.99101257324219,
+      -16.731689453125,
+      -3.743428945541382
+    ],
+    "goal_position": [
+      -84.991,
+      -12.732,
+      0.6
+    ]
+  },
+  "03": {
+    "id": "03",
+    "name": "条纹棚餐厅与绿色立柱",
+    "start_position": [
+      -57,
+      8,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 57.1919,
+    "heading_deg": -102.1919,
+    "altitude": 3,
+    "target": "前方蓝白条纹遮阳棚、户外深色桌椅和绿色立柱旁的餐厅入口附近",
+    "clip_text": "restaurant entrance with striped awnings and outdoor tables",
+    "actor": "signs_sign_bistro_14",
+    "target_position": [
+      -62.30513381958008,
+      -16.553997039794922,
+      -3.946885824203491
+    ],
+    "goal_position": [
+      -60,
+      -11,
+      0.6
+    ]
+  },
+  "04": {
+    "id": "04",
+    "name": "Weefit 白色门面",
+    "start_position": [
+      -97.044,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 45.0009,
+    "heading_deg": -90.0009,
+    "altitude": 3,
+    "target": "前方白色门框、红色 Weefit 招牌的商店入口附近",
+    "clip_text": "white double doors at the entrance of a shop",
+    "actor": "signs_sign_weefit_24",
+    "target_position": [
+      -97.0444107055664,
+      -16.71669578552246,
+      -3.952580451965332
+    ],
+    "goal_position": [
+      -97.044,
+      -12.717,
+      0.6
+    ]
+  },
+  "05": {
+    "id": "05",
+    "name": "蓝灰框内凹入口",
+    "start_position": [
+      -164.18,
+      -9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 134.9997,
+    "heading_deg": 89.9997,
+    "altitude": 3,
+    "target": "前方蓝灰色框架、深色玻璃的内凹商店入口附近",
+    "clip_text": "recessed storefront entrance with dark blue frames and glass windows",
+    "actor": "signs_sign_electronics_47",
+    "target_position": [
+      -164.1798858642578,
+      15.900839805603027,
+      -3.049642324447632
+    ],
+    "goal_position": [
+      -164.18,
+      11.901,
+      0.6
+    ]
+  },
+  "06": {
+    "id": "06",
+    "name": "EUROPA 红框门面",
+    "start_position": [
+      -78.646,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 44.9996,
+    "heading_deg": -89.9996,
+    "altitude": 3,
+    "target": "前方 EUROPA 黑色招牌下、红色门框的商店入口附近",
+    "clip_text": "red framed storefront entrance with a black EUROPA sign",
+    "actor": "signs_sign_europa_65",
+    "target_position": [
+      -78.64580535888672,
+      -16.772363662719727,
+      -3.578608989715576
+    ],
+    "goal_position": [
+      -78.646,
+      -12.772,
+      0.6
+    ]
+  },
+  "07": {
+    "id": "07",
+    "name": "Jacob's Deli 正面接近",
+    "start_position": [
+      22.717,
+      -9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 134.9995,
+    "heading_deg": 89.9995,
+    "altitude": 3,
+    "target": "前方蓝白条纹遮阳棚之间、Jacob's Downtown Deli 招牌下的入口附近",
+    "clip_text": "deli entrance between blue and white striped awnings",
+    "actor": "signs_sign_locafe_68",
+    "target_position": [
+      22.717199325561523,
+      14.48806095123291,
+      -4.0690717697143555
+    ],
+    "goal_position": [
+      22.717,
+      10.488,
+      0.6
+    ]
+  },
+  "08": {
+    "id": "08",
+    "name": "街尾浅蓝遮阳棚",
+    "start_position": [
+      -221.655,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 44.9991,
+    "heading_deg": -89.9991,
+    "altitude": 3,
+    "target": "前方街尾浅色建筑底层浅蓝色遮阳棚下的门口附近",
+    "clip_text": "light blue shop awning",
+    "actor": "signs_sign_suni_75",
+    "target_position": [
+      -221.6545867919922,
+      -17.051128387451172,
+      -4.133761405944824
+    ],
+    "goal_position": [
+      -221.655,
+      -13.051,
+      0.6
+    ]
+  },
+  "09": {
+    "id": "09",
+    "name": "西段黄色 SHOP 标志",
+    "start_position": [
+      -193,
+      11,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 144.2748,
+    "heading_deg": 170.7252,
+    "altitude": 3,
+    "target": "前方浅色建筑底层、黄色 SHOP 图案招牌旁的商店入口附近",
+    "clip_text": "shop entrance with a yellow hanging sign",
+    "actor": "signs_sign_shop_78",
+    "target_position": [
+      -208.4520263671875,
+      13.523380279541016,
+      -3.8973917961120605
+    ],
+    "goal_position": [
+      -204.5,
+      11,
+      0.6
+    ]
+  },
+  "10": {
+    "id": "10",
+    "name": "Sleevo 黑白门面",
+    "start_position": [
+      -160,
+      -13,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 121.7917,
+    "heading_deg": -166.7917,
+    "altitude": 1.8,
+    "target": "前方白色 Sleevo 招牌、深色玻璃门面的商店入口附近",
+    "clip_text": "black glass storefront with a white Sleevo sign",
+    "actor": "signs_sign_sleevo_84",
+    "target_position": [
+      -176.56314086914062,
+      -16.88739013671875,
+      -3.237053155899048
+    ],
+    "goal_position": [
+      -172,
+      -13,
+      0.6
+    ]
+  },
+  "11": {
+    "id": "11",
+    "name": "转角绿色遮阳棚",
+    "start_position": [
+      -185,
+      -3,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 131.4209,
+    "heading_deg": 86.4209,
+    "altitude": 3,
+    "target": "前方建筑转角绿色遮阳棚下的店铺入口附近",
+    "clip_text": "green awning above a corner shop entrance",
+    "actor": "signs_sign_deli_222",
+    "target_position": [
+      -183.8603515625,
+      15.220085144042969,
+      -4.079463481903076
+    ],
+    "goal_position": [
+      -185,
+      10,
+      0.6
+    ]
+  },
+  "12": {
+    "id": "12",
+    "name": "uFoods 食品店",
+    "start_position": [
+      -133.423,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 44.9998,
+    "heading_deg": -89.9998,
+    "altitude": 3,
+    "target": "前方带红色番茄标志和 uFoods 字样、绿色遮阳棚下的入口附近",
+    "clip_text": "green awning shop with a red tomato sign",
+    "actor": "signs_sign_uFoods_225",
+    "target_position": [
+      -133.4229278564453,
+      -17.014875411987305,
+      -3.563486337661743
+    ],
+    "goal_position": [
+      -133.423,
+      -13.015,
+      0.6
+    ]
+  },
+  "13": {
+    "id": "13",
+    "name": "UPSWAY 橘色遮阳棚",
+    "start_position": [
+      -90.598,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 44.9995,
+    "heading_deg": -89.9995,
+    "altitude": 3,
+    "target": "前方 UPSWAY 招牌下橘色遮阳棚覆盖的小门口附近",
+    "clip_text": "orange awning over a narrow shop doorway",
+    "actor": "signs_sign_upsway2_229",
+    "target_position": [
+      -90.5977783203125,
+      -16.80732536315918,
+      -3.7266228199005127
+    ],
+    "goal_position": [
+      -90.598,
+      -12.807,
+      0.6
+    ]
+  },
+  "14": {
+    "id": "14",
+    "name": "古董店门面",
+    "start_position": [
+      44,
+      -2,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 166.6169,
+    "heading_deg": 121.6169,
+    "altitude": 3,
+    "target": "前方棕红色遮阳棚下的店铺入口附近",
+    "clip_text": "antique shop entrance with a dark red awning",
+    "actor": "signs_sign_antiques2_232",
+    "target_position": [
+      33.67453384399414,
+      14.772706985473633,
+      -3.5950474739074707
+    ],
+    "goal_position": [
+      37,
+      10,
+      0.6
+    ]
+  },
+  "15": {
+    "id": "15",
+    "name": "红框绿色棚餐厅",
+    "start_position": [
+      -49,
+      -8,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 112.7623,
+    "heading_deg": 67.7623,
+    "altitude": 3,
+    "target": "前方红色门窗框、绿色长遮阳棚和户外桌椅的餐厅入口附近",
+    "clip_text": "restaurant with red window frames and a long green awning",
+    "actor": "signs_sign_inkasipas_90",
+    "target_position": [
+      -40.260276794433594,
+      13.375778198242188,
+      -3.6075525283813477
+    ],
+    "goal_position": [
+      -44,
+      9,
+      0.6
+    ]
+  },
+  "16": {
+    "id": "16",
+    "name": "红白条纹棚咖啡店",
+    "start_position": [
+      -194,
+      0,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 19.794,
+    "heading_deg": -64.794,
+    "altitude": 3,
+    "target": "前方白色咖啡店招牌、红白条纹小遮阳棚、黄色门框的入口附近",
+    "clip_text": "cafe with a white sign and striped awning",
+    "actor": "signs_sign_locafe3_116",
+    "target_position": [
+      -186.06468200683594,
+      -16.858808517456055,
+      -3.971292018890381
+    ],
+    "goal_position": [
+      -194,
+      -10,
+      0.6
+    ]
+  },
+  "17": {
+    "id": "17",
+    "name": "CAFE VENDIE 条纹棚",
+    "start_position": [
+      -154,
+      -3,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 138.2452,
+    "heading_deg": 93.2452,
+    "altitude": 3,
+    "target": "前方 CAFE VENDIE 白色咖啡杯招牌、蓝白条纹遮阳棚下的咖啡店入口附近",
+    "clip_text": "cafe entrance with blue and white striped awnings and a coffee cup sign",
+    "actor": "signs_sign_cafe_358",
+    "target_position": [
+      -155.09999084472656,
+      16.399999618530273,
+      -4.068830966949463
+    ],
+    "goal_position": [
+      -153.5,
+      12,
+      0.6
+    ]
+  },
+  "18": {
+    "id": "18",
+    "name": "THRIFTY 内凹入口",
+    "start_position": [
+      66.096,
+      -9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 134.9998,
+    "heading_deg": 89.9998,
+    "altitude": 3,
+    "target": "前方 THRIFTY 字样下方的内凹商店入口附近",
+    "clip_text": "recessed shop doorway under a THRIFTY sign",
+    "actor": "signs_sign_sleevo2",
+    "target_position": [
+      66.0960693359375,
+      14.626176834106445,
+      -2.3370532989501953
+    ],
+    "goal_position": [
+      66.096,
+      10.626,
+      0.6
+    ]
+  },
+  "19": {
+    "id": "19",
+    "name": "LOCAFE 咖啡店",
+    "start_position": [
+      76.735,
+      -9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 134.9992,
+    "heading_deg": 89.9992,
+    "altitude": 3,
+    "target": "前方 LOCAFE 白色招牌和咖啡杯圆形标志下、白色框架的内凹入口附近",
+    "clip_text": "recessed cafe entrance with white window frames and a coffee cup sign",
+    "actor": "signs_sign_locafe4",
+    "target_position": [
+      76.73531341552734,
+      14.650792121887207,
+      -3.4212920665740967
+    ],
+    "goal_position": [
+      76.735,
+      10.651,
+      0.6
+    ]
+  },
+  "20": {
+    "id": "20",
+    "name": "道路对面浅绿色棚",
+    "start_position": [
+      -7,
+      39.642,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 44.9989,
+    "heading_deg": -0.0011,
+    "altitude": 3,
+    "target": "道路对面浅色建筑底层、浅绿色遮阳棚下的门口附近",
+    "clip_text": "light green awning above a doorway in a pale stone building",
+    "actor": "signs_sign_suni2",
+    "target_position": [
+      16.70755386352539,
+      39.641544342041016,
+      -3.8485467433929443
+    ],
+    "goal_position": [
+      12.708,
+      39.642,
+      0.6
+    ]
+  },
+  "21": {
+    "id": "21",
+    "name": "鹰雕像花坛",
+    "start_position": [
+      106,
+      9,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 125.2137,
+    "heading_deg": -170.2137,
+    "altitude": 2,
+    "target": "前方花坛中的鹰雕像附近，在花坛外侧空地降落",
+    "clip_text": "eagle statue in a flower bed",
+    "actor": "prop_statue_eagle_11",
+    "target_position": [
+      94.84300231933594,
+      7.075596809387207,
+      0.3154473900794983
+    ],
+    "goal_position": [
+      100,
+      8,
+      0.6
+    ]
+  },
+  "22": {
+    "id": "22",
+    "name": "鹿雕像花坛",
+    "start_position": [
+      -162,
+      -8,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 171.0788,
+    "heading_deg": 126.0788,
+    "altitude": 2,
+    "target": "前方花坛中的鹿雕像附近，在花坛外侧空地降落",
+    "clip_text": "deer statue in a flower bed",
+    "actor": "SM_prop_statue_deer_5",
+    "target_position": [
+      -169.0281982421875,
+      1.645551085472107,
+      0.2626204490661621
+    ],
+    "goal_position": [
+      -167,
+      -3,
+      0.6
+    ]
+  },
+  "23": {
+    "id": "23",
+    "name": "公园喷泉",
+    "start_position": [
+      61.6,
+      -20,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 45.0277,
+    "heading_deg": -90.0277,
+    "altitude": 3,
+    "target": "前方公园圆形喷泉附近，在喷泉外侧铺装空地降落",
+    "clip_text": "circular fountain in a park",
+    "actor": "FountainFX_2",
+    "target_position": [
+      61.5884895324707,
+      -43.776023864746094,
+      1.0200068950653076
+    ],
+    "goal_position": [
+      61.6,
+      -37,
+      0.6
+    ]
+  },
+  "24": {
+    "id": "24",
+    "name": "东段红黄伞餐车",
+    "start_position": [
+      35,
+      -3,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 61.5435,
+    "heading_deg": 16.5435,
+    "altitude": 3,
+    "target": "前方步行街上红黄相间遮阳伞下的餐车附近，在餐车旁空地降落",
+    "clip_text": "food cart with a red and yellow umbrella",
+    "actor": "food_cart2",
+    "target_position": [
+      49.87188720703125,
+      1.417551875114441,
+      1.0045961141586304
+    ],
+    "goal_position": [
+      46,
+      -1,
+      0.6
+    ]
+  },
+  "25": {
+    "id": "25",
+    "name": "西段红黄伞餐车",
+    "start_position": [
+      -142,
+      -1,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 149.1697,
+    "heading_deg": 165.8303,
+    "altitude": 3,
+    "target": "前方步行街上红黄相间遮阳伞下的餐车附近，在餐车旁空地降落",
+    "clip_text": "street food cart with a red and yellow umbrella",
+    "actor": "food_cart5_278",
+    "target_position": [
+      -157.7163848876953,
+      2.968005895614624,
+      0.9942361116409302
+    ],
+    "goal_position": [
+      -155,
+      0,
+      0.6
+    ]
+  },
+  "26": {
+    "id": "26",
+    "name": "街角紫色遮阳伞",
+    "start_position": [
+      8,
+      -22.4,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 134.8605,
+    "heading_deg": -179.8605,
+    "altitude": 3,
+    "target": "前方米黄色街角建筑旁的紫色遮阳伞桌椅区附近，在桌椅外侧空地降落",
+    "clip_text": "purple patio umbrellas outside a corner cafe",
+    "actor": "prop_table_umbrella_a_7",
+    "target_position": [
+      -7.530877590179443,
+      -22.437816619873047,
+      0.9942368865013123
+    ],
+    "goal_position": [
+      -5.5,
+      -24.5,
+      0.6
+    ]
+  },
+  "27": {
+    "id": "27",
+    "name": "街角黑伞白桌椅",
+    "start_position": [
+      5,
+      23.5,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 134.9779,
+    "heading_deg": -179.9779,
+    "altitude": 3,
+    "target": "前方街角建筑旁黑色遮阳伞、白色桌椅的休息区附近，在桌椅外侧空地降落",
+    "clip_text": "black patio umbrellas over white cafe tables and chairs",
+    "actor": "prop_table_umbrella_a8",
+    "target_position": [
+      -8.02847957611084,
+      23.494970321655273,
+      0.9942368865013123
+    ],
+    "goal_position": [
+      -4,
+      23.5,
+      0.6
+    ]
+  },
+  "28": {
+    "id": "28",
+    "name": "公园喷泉侧向接近",
+    "start_position": [
+      80,
+      -44,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 135.697,
+    "heading_deg": 179.303,
+    "altitude": 3,
+    "target": "前方圆形喷泉附近，从公园一侧接近，在喷泉外侧铺装空地降落",
+    "clip_text": "circular fountain in a park",
+    "actor": "FountainFX_2",
+    "target_position": [
+      61.5884895324707,
+      -43.776023864746094,
+      1.0200068950653076
+    ],
+    "goal_position": [
+      69,
+      -44,
+      0.6
+    ]
+  },
+  "29": {
+    "id": "29",
+    "name": "路口花盆之间的木长椅",
+    "start_position": [
+      114,
+      -15,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_right",
+    "turn_degrees": 44.4769,
+    "heading_deg": -0.5231,
+    "altitude": 1.5,
+    "target": "前方路口小岛上、两个大花盆之间的木长椅附近，在长椅前方空地降落",
+    "clip_text": "wooden bench between two large plant pots and trash cans",
+    "actor": "bench_wood_a18",
+    "target_position": [
+      126.57122039794922,
+      -15.114774703979492,
+      0.9942365884780884
+    ],
+    "goal_position": [
+      123,
+      -15,
+      0.6
+    ]
+  },
+  "30": {
+    "id": "30",
+    "name": "街尾紫伞休息区",
+    "start_position": [
+      -202,
+      -14,
+      -1
+    ],
+    "initial_yaw_deg": -45,
+    "turn_direction": "turn_left",
+    "turn_degrees": 131.0167,
+    "heading_deg": -176.0167,
+    "altitude": 3,
+    "target": "前方街尾建筑旁紫色遮阳伞、白色桌椅的休息区附近，在桌椅外侧空地降落",
+    "clip_text": "purple patio umbrella over white tables beside a shop",
+    "actor": "prop_table_umbrella_a11",
+    "target_position": [
+      -214.7767333984375,
+      -14.889687538146973,
+      0.9942368865013123
+    ],
+    "goal_position": [
+      -210,
+      -14,
+      0.6
+    ]
+  }
+}

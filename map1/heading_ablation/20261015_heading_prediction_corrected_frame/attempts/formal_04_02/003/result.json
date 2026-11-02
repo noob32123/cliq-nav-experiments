@@ -1,0 +1,82 @@
+{
+  "id": "formal_04_02",
+  "kind": "formal",
+  "route": 4,
+  "repeat": 2,
+  "complete": true,
+  "heading_check": {
+    "route": 4,
+    "baseline_turn_deg": 0.0,
+    "weighted_yaw_deg": 1.040225350592034,
+    "last_segment_yaw_deg": 41.44199712693261,
+    "delta_deg": 40.40177177634058,
+    "ablation_turn_deg": 40.40177177634058,
+    "baseline_start_yaw_deg": 2.230937447517246e-08,
+    "baseline_end_yaw_deg": 2.230937447517246e-08,
+    "ablation_start_yaw_deg": 9.742456437125006e-09,
+    "ablation_end_yaw_deg": 40.33679495283164,
+    "actual_delta_deg": 40.336794930522274,
+    "actual_delta_error_deg": 0.06497684581830754,
+    "initial_yaw_error_deg": 1.2566914620038006e-08,
+    "command_delta_error_deg": 0.0,
+    "passed": true
+  },
+  "started_at": "2026-10-16T02:24:40.040494+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "collision",
+  "decisions": 1,
+  "actions_executed": 1,
+  "max_action_position_change_m": 4.538942404474649,
+  "max_action_yaw_change_deg": 21.93758928382323,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 7.935673664860587e-06,
+  "navigation_collision": {
+    "has_collided": true,
+    "time_stamp_ns": 1792235917355986176,
+    "object_name": "SM_Elm11HISMA",
+    "object_id": 53,
+    "position": [
+      -70.50245666503906,
+      244.25762939453125,
+      -7.943769931793213
+    ],
+    "impact_point": [
+      -70.84062194824219,
+      244.0633544921875,
+      -7.748945713043213
+    ],
+    "normal": [
+      0.2814962863922119,
+      0.5520641803741455,
+      -0.78484708070755
+    ],
+    "penetration_depth": 0.003602905198931694
+  },
+  "navigation_end": {
+    "wall_time": "2026-10-16T02:24:46.283187+08:00",
+    "yaw_deg": 62.274384236654875,
+    "orientation_xyzw": [
+      0.000788533128798008,
+      0.009958667680621147,
+      0.5170227885246277,
+      0.8559132814407349
+    ],
+    "position": [
+      -70.50245666503906,
+      244.25762939453125,
+      -7.943769931793213
+    ]
+  },
+  "navigation_ended_at": "2026-10-16T02:24:46.283194+08:00",
+  "trajectory_sha256": "14b6b2488a139b6822ec8de383f91e5b79c60451cf62aa40fe8acf7a3e34700e",
+  "metrics": {
+    "NE": 50.319372691869525,
+    "TL": 4.536810683451473,
+    "SR": 0,
+    "OR": 0,
+    "SPL": 0.0,
+    "oracle_dist": 50.319372691869525,
+    "shortest_path": 51.9357931435537,
+    "num_steps": 2
+  }
+}

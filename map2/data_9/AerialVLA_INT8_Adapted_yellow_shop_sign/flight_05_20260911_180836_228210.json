@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "09_aerialvla_05",
+  "route_id": "09",
+  "baseline": "aerialvla",
+  "repeat": 5,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 5,
+  "actions": 5,
+  "valid_decisions": 5,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "building_awning_a38_163",
+  "navigation_end_position": [
+    -212.93841552734375,
+    12.255507469177246,
+    -2.9623608589172363
+  ],
+  "landing": {
+    "landed": false,
+    "ground_z_from_depth": 0.8470110416412355,
+    "position": [
+      -212.94921875,
+      12.256376266479492,
+      -2.962705373764038
+    ],
+    "contact_object": "building_awning_a38_163",
+    "contact_timestamp": 1789121783754033664,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 45.42973250010982,
+  "trajectory": "map2\\data_9\\AerialVLA_INT8_Adapted_yellow_shop_sign\\flight_05_20260911_180836_228210.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\09_aerialvla_05\\001"
+}

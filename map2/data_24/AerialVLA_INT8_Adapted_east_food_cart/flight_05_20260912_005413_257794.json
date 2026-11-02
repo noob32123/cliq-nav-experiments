@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "24_aerialvla_05",
+  "route_id": "24",
+  "baseline": "aerialvla",
+  "repeat": 5,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 11,
+  "actions": 11,
+  "valid_decisions": 11,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "tree_pine_b3_41",
+  "navigation_end_position": [
+    72.65215301513672,
+    -1.0162277221679688,
+    -8.210602760314941
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 0.8404542922973635,
+    "position": [
+      72.64657592773438,
+      -1.0120340585708618,
+      0.6515562534332275
+    ],
+    "contact_object": "ground_mod_walkway_a21",
+    "contact_timestamp": 1789159503615706880,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 110.05040659988299,
+  "trajectory": "map2\\data_24\\AerialVLA_INT8_Adapted_east_food_cart\\flight_05_20260912_005413_257794.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\24_aerialvla_05\\001"
+}

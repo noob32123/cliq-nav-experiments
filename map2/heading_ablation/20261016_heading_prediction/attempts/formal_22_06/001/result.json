@@ -1,0 +1,82 @@
+{
+  "id": "formal_22_06",
+  "kind": "formal",
+  "route": 22,
+  "repeat": 6,
+  "complete": true,
+  "heading_check": {
+    "route": 22,
+    "baseline_turn_deg": 171.0788,
+    "weighted_yaw_deg": 126.07879999999996,
+    "last_segment_yaw_deg": 179.1937051597292,
+    "delta_deg": 53.11490515972923,
+    "ablation_turn_deg": 224.19370515972923,
+    "baseline_start_yaw_deg": -44.999996039382296,
+    "baseline_end_yaw_deg": 126.01466256158936,
+    "ablation_start_yaw_deg": -44.999996039382296,
+    "ablation_end_yaw_deg": 179.1173257226315,
+    "actual_delta_deg": 53.10266316104213,
+    "actual_delta_error_deg": 0.012241998687102296,
+    "initial_yaw_error_deg": 0.0,
+    "command_delta_error_deg": 0.0,
+    "passed": true
+  },
+  "started_at": "2026-10-16T17:17:05.324511+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "collision",
+  "decisions": 1,
+  "actions_executed": 1,
+  "max_action_position_change_m": 2.4692365527153015,
+  "max_action_yaw_change_deg": 0.00010926683901857359,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 1.3658355328516336e-05,
+  "navigation_collision": {
+    "has_collided": true,
+    "time_stamp_ns": 1792149537949194496,
+    "object_name": "ground_mod_walkway_a38",
+    "object_id": 53,
+    "position": [
+      -162.0,
+      -8.0,
+      0.5989366173744202
+    ],
+    "impact_point": [
+      -161.98590087890625,
+      -7.68565034866333,
+      0.795960009098053
+    ],
+    "normal": [
+      -1.2519708577143907e-12,
+      -1.992447984378032e-09,
+      -1.0
+    ],
+    "penetration_depth": 0.0
+  },
+  "navigation_end": {
+    "wall_time": "2026-10-16T17:17:09.674025+08:00",
+    "yaw_deg": 179.1172164557925,
+    "orientation_xyzw": [
+      -0.0,
+      0.0,
+      0.9999702572822571,
+      0.007703661918640137
+    ],
+    "position": [
+      -162.0,
+      -8.0,
+      0.5989366173744202
+    ]
+  },
+  "navigation_ended_at": "2026-10-16T17:17:09.674036+08:00",
+  "trajectory_sha256": "10cb5cfc28a2c7e9a8608710b2a7f28f86ec0e90ec192678452082ded1c764a8",
+  "metrics": {
+    "NE": 7.090966224711548,
+    "TL": 0.0,
+    "SR": 0,
+    "OR": 0,
+    "SPL": 0.0,
+    "oracle_dist": 7.090966224711548,
+    "shortest_path": 7.090966224711548,
+    "num_steps": 2
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "1": {
+    "route": 1,
+    "name": "orangewhite_umbrella",
+    "start_position": [
+      -253.011,
+      -115.011,
+      -10.146
+    ],
+    "goal_position": [
+      -294.1103,
+      -101.224,
+      2.3967
+    ],
+    "success_threshold": 10.0,
+    "reference_length_m": 43.350130674428186,
+    "altitude": 1,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": 160.0,
+    "target": "前方橘白色条纹遮阳伞的附近",
+    "clip_text": "orange and white striped umbrella",
+    "evaluation_version": "revised_v2"
+  },
+  "2": {
+    "route": 2,
+    "name": "statue",
+    "start_position": [
+      -140.042,
+      -412.695,
+      -10.146
+    ],
+    "goal_position": [
+      -120.4851,
+      -415.2262,
+      -0.5565
+    ],
+    "success_threshold": 10.0,
+    "reference_length_m": 19.7200230996315,
+    "altitude": 5,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": 0.0,
+    "target": "前方人物雕塑的附近",
+    "clip_text": "statue",
+    "evaluation_version": "revised_v2"
+  },
+  "3": {
+    "route": 3,
+    "name": "restaurant_across_river",
+    "start_position": [
+      -63.832,
+      -231.185,
+      -10.146
+    ],
+    "goal_position": [
+      -52.2433,
+      -182.3261,
+      3.4642
+    ],
+    "success_threshold": 15.0,
+    "reference_length_m": 50.21444091991865,
+    "altitude": 8,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": 70.0,
+    "target": "河对岸的餐厅门口附近",
+    "clip_text": "restaurant",
+    "evaluation_version": "revised_v2"
+  },
+  "4": {
+    "route": 4,
+    "name": "hotel_front_door",
+    "start_position": [
+      -73.259,
+      247.858,
+      -10.146
+    ],
+    "goal_position": [
+      -22.9098,
+      260.5971,
+      0.4993
+    ],
+    "success_threshold": 10.0,
+    "reference_length_m": 51.9357931435537,
+    "altitude": 8,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": 0.0,
+    "target": "前方酒店正门门口",
+    "clip_text": "hotel front door",
+    "evaluation_version": "revised_v2"
+  },
+  "5": {
+    "route": 5,
+    "name": "blue_amusement_park",
+    "start_position": [
+      234.382,
+      354.169,
+      -10.146
+    ],
+    "goal_position": [
+      239.016,
+      299.1561,
+      -5.6921
+    ],
+    "success_threshold": 20.0,
+    "reference_length_m": 55.20772701723917,
+    "altitude": 12,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": -90.0,
+    "target": "前方蓝色游乐设施的附近",
+    "clip_text": "blue amusement park",
+    "evaluation_version": "revised_v2"
+  },
+  "6": {
+    "route": 6,
+    "name": "fountain",
+    "start_position": [
+      -40.335,
+      -115.93,
+      -10.146
+    ],
+    "goal_position": [
+      -43.4099,
+      -142.8077,
+      1.1649
+    ],
+    "success_threshold": 10.0,
+    "reference_length_m": 27.053017711523427,
+    "altitude": 8,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": -90.0,
+    "target": "前方喷泉的附近",
+    "clip_text": "fountain",
+    "evaluation_version": "revised_v2"
+  },
+  "7": {
+    "route": 7,
+    "name": "house",
+    "start_position": [
+      -210.679,
+      -270.122,
+      -10.146
+    ],
+    "goal_position": [
+      -181.4402,
+      -254.2189,
+      2.6455
+    ],
+    "success_threshold": 10.0,
+    "reference_length_m": 33.28387019338347,
+    "altitude": 3,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": 25.0,
+    "target": "前方房屋门口的附近",
+    "clip_text": "house",
+    "evaluation_version": "revised_v2"
+  },
+  "8": {
+    "route": 8,
+    "name": "playground",
+    "start_position": [
+      123.226,
+      -455.022,
+      -10.146
+    ],
+    "goal_position": [
+      118.197,
+      -398.046,
+      -5.657
+    ],
+    "success_threshold": 10.0,
+    "reference_length_m": 57.19751233226844,
+    "altitude": 12,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": 90.0,
+    "target": "前方游乐设施的附近",
+    "clip_text": "playground",
+    "evaluation_version": "revised_v2"
+  },
+  "9": {
+    "route": 9,
+    "name": "parkbench",
+    "start_position": [
+      238.734,
+      -9.465,
+      -10.146
+    ],
+    "goal_position": [
+      226.8201,
+      -28.6595,
+      3.9568
+    ],
+    "success_threshold": 10.0,
+    "reference_length_m": 22.5913665691122,
+    "altitude": 1,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": -120.0,
+    "target": "前方公园长椅的附近",
+    "clip_text": "park bench",
+    "evaluation_version": "revised_v2"
+  },
+  "10": {
+    "route": 10,
+    "name": "umbrella",
+    "start_position": [
+      223.761,
+      128.614,
+      -10.146
+    ],
+    "goal_position": [
+      197.7946,
+      128.1664,
+      -6.8334
+    ],
+    "success_threshold": 10.0,
+    "reference_length_m": 25.970257501996386,
+    "altitude": 18,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": 170.0,
+    "target": "前方蓝色建筑物右边遮阳伞区域的附近",
+    "clip_text": "umbrella",
+    "evaluation_version": "revised_v2"
+  },
+  "11": {
+    "route": 11,
+    "name": "house2",
+    "start_position": [
+      -16.264,
+      4.708,
+      -10.146
+    ],
+    "goal_position": [
+      11.6875,
+      -11.4835,
+      8.0586
+    ],
+    "success_threshold": 10.0,
+    "reference_length_m": 32.30249254314595,
+    "altitude": 3,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": -40.0,
+    "target": "前方房屋门口的附近",
+    "clip_text": "house",
+    "evaluation_version": "revised_v2"
+  },
+  "12": {
+    "route": 12,
+    "name": "fountain2",
+    "start_position": [
+      -29.682,
+      31.467,
+      -10.146
+    ],
+    "goal_position": [
+      -7.4304,
+      23.5018,
+      7.8896
+    ],
+    "success_threshold": 10.0,
+    "reference_length_m": 23.63425720432102,
+    "altitude": 3,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": -30.0,
+    "target": "前方喷泉的附近",
+    "clip_text": "fountain",
+    "evaluation_version": "revised_v2"
+  },
+  "13": {
+    "route": 13,
+    "name": "sculpture",
+    "start_position": [
+      418.796,
+      -44.472,
+      -10.146
+    ],
+    "goal_position": [
+      431.7079,
+      -16.5003,
+      -2.5492
+    ],
+    "success_threshold": 10.0,
+    "reference_length_m": 30.808004844520525,
+    "altitude": 8,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": 60.0,
+    "target": "前方艺术雕塑的附近",
+    "clip_text": "sculpture",
+    "evaluation_version": "revised_v2"
+  },
+  "14": {
+    "route": 14,
+    "name": "sculpture2",
+    "start_position": [
+      570.993,
+      75.063,
+      -10.146
+    ],
+    "goal_position": [
+      570.5457,
+      60.5743,
+      5.3357
+    ],
+    "success_threshold": 10.0,
+    "reference_length_m": 14.495602953309671,
+    "altitude": 3,
+    "initial_yaw_deg": 0.0,
+    "baseline_turn_deg": -90.0,
+    "target": "前方艺术雕塑的附近",
+    "clip_text": "sculpture",
+    "evaluation_version": "revised_v2"
+  }
+}

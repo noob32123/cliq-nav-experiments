@@ -1,0 +1,17 @@
+{
+  "route": 18,
+  "baseline_turn_deg": 134.9998,
+  "weighted_yaw_deg": 89.99979999999996,
+  "last_segment_yaw_deg": 68.69043286583168,
+  "delta_deg": -21.30936713416827,
+  "ablation_turn_deg": 113.69043286583172,
+  "baseline_start_yaw_deg": -44.999996039382296,
+  "baseline_end_yaw_deg": 89.99062885677706,
+  "ablation_start_yaw_deg": -44.999996039382296,
+  "ablation_end_yaw_deg": 68.62291014420538,
+  "actual_delta_deg": -21.367718712571673,
+  "actual_delta_error_deg": 0.05835157840340344,
+  "initial_yaw_error_deg": 0.0,
+  "command_delta_error_deg": 0.0,
+  "passed": true
+}

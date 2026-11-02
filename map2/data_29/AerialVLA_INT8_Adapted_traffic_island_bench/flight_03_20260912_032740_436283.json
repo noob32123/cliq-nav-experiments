@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "29_aerialvla_03",
+  "route_id": "29",
+  "baseline": "aerialvla",
+  "repeat": 3,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 12,
+  "actions": 12,
+  "valid_decisions": 12,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "Landscape_0",
+  "navigation_end_position": [
+    155.81393432617188,
+    -8.694798469543457,
+    -1.2828741073608398
+  ],
+  "landing": {
+    "landed": false,
+    "ground_z_from_depth": 3.5733687400817873,
+    "position": [
+      155.81393432617188,
+      -8.694798469543457,
+      -1.2611652612686157
+    ],
+    "contact_object": "Landscape_0",
+    "contact_timestamp": 1789172600398098944,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 106.28434110013768,
+  "trajectory": "map2\\data_29\\AerialVLA_INT8_Adapted_traffic_island_bench\\flight_03_20260912_032740_436283.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\29_aerialvla_03\\001"
+}

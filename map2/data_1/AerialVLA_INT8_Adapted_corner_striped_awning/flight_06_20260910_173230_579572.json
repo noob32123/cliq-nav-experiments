@@ -1,0 +1,39 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "01_aerialvla_06",
+  "route_id": "01",
+  "baseline": "aerialvla",
+  "repeat": 6,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "max_iterations",
+  "decisions": 30,
+  "actions": 30,
+  "valid_decisions": 30,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "navigation_end_position": [
+    121.72765350341797,
+    9.759753227233887,
+    -1.317048192024231
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 1.0333388566970825,
+    "position": [
+      121.71062469482422,
+      9.759547233581543,
+      0.8401876091957092
+    ],
+    "contact_object": "TEMP_Road5",
+    "contact_timestamp": 1789033491060473600,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 258.8229387998581,
+  "trajectory": "map2\\data_1\\AerialVLA_INT8_Adapted_corner_striped_awning\\flight_06_20260910_173230_579572.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\01_aerialvla_06\\001"
+}

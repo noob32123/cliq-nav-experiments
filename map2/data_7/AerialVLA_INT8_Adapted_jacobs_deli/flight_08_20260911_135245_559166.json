@@ -1,0 +1,39 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "07_aerialvla_08",
+  "route_id": "07",
+  "baseline": "aerialvla",
+  "repeat": 8,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "max_iterations",
+  "decisions": 30,
+  "actions": 1,
+  "valid_decisions": 1,
+  "invalid_decisions": 29,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "navigation_end_position": [
+    22.72312355041504,
+    -4.108397960662842,
+    -2.9667818546295166
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 0.8464931964874269,
+    "position": [
+      22.723711013793945,
+      -4.108397960662842,
+      0.6530532836914062
+    ],
+    "contact_object": "ground_mod_walkway_a28",
+    "contact_timestamp": 1789107274602083328,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 181.72640730021521,
+  "trajectory": "map2\\data_7\\AerialVLA_INT8_Adapted_jacobs_deli\\flight_08_20260911_135245_559166.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\07_aerialvla_08\\001"
+}

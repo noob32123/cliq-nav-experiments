@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "12_aerialvla_05",
+  "route_id": "12",
+  "baseline": "aerialvla",
+  "repeat": 5,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 5,
+  "actions": 5,
+  "valid_decisions": 5,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "light_streetlight_complete4",
+  "navigation_end_position": [
+    -128.29725646972656,
+    -10.388188362121582,
+    -8.311450958251953
+  ],
+  "landing": {
+    "landed": false,
+    "ground_z_from_depth": 0.8416378021240236,
+    "position": [
+      -128.31793212890625,
+      -10.187604904174805,
+      0.04728246107697487
+    ],
+    "contact_object": "Pot_55",
+    "contact_timestamp": 1789130588263859200,
+    "speed_before_disarm": 0.20207519386444575
+  },
+  "wall_seconds": 48.45594300003722,
+  "trajectory": "map2\\data_12\\AerialVLA_INT8_Adapted_ufoods\\flight_05_20260911_193559_017550.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\12_aerialvla_05\\001"
+}

@@ -1,0 +1,12 @@
+[TASK]: You are an Instruction Manager for UAV Navigation. Two tasks:
+1. SENTENCE SEGMENTATION — Split the input text at periods into individual instruction sentences. Preserve the original wording exactly.
+2. LANDMARK EXTRACTION — For each sentence, identify ALL navigational landmarks. Capture full noun phrases after prepositions: to, at, near, above, before, after, behind, over, in front of. Pay special attention after temporal prepositions (e.g., "after the building"). Retain all modifiers (colors, sizes, positions).
+
+[OUTPUT]: A JSON array of objects, one per sentence:
+[
+  {{"sub_instruction": "the original sentence text", "landmarks": ["LANDMARK1", "LANDMARK2", ...]}},
+  ...
+]
+
+[INPUT INSTRUCTION]:
+{instruction}

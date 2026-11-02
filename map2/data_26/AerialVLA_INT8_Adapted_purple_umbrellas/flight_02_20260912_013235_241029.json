@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "26_aerialvla_02",
+  "route_id": "26",
+  "baseline": "aerialvla",
+  "repeat": 2,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 7,
+  "actions": 7,
+  "valid_decisions": 7,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "build_cafe_a_wall_windows_long2",
+  "navigation_end_position": [
+    -9.40322208404541,
+    -21.307584762573242,
+    -9.095898628234863
+  ],
+  "landing": {
+    "landed": false,
+    "ground_z_from_depth": -5.036590385437012,
+    "position": [
+      -9.306925773620605,
+      -21.309011459350586,
+      -5.7028584480285645
+    ],
+    "contact_object": "build_cafe_a_brick_4m_horizontal_2",
+    "contact_timestamp": 1789162652647884800,
+    "speed_before_disarm": 0.20356712405450658
+  },
+  "wall_seconds": 73.19181800028309,
+  "trajectory": "map2\\data_26\\AerialVLA_INT8_Adapted_purple_umbrellas\\flight_02_20260912_013235_241029.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\26_aerialvla_02\\001"
+}

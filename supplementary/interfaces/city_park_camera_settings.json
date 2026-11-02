@@ -1,0 +1,140 @@
+{
+  "ClockSpeed": 5.0,
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 640,
+        "Height": 480,
+        "FOV_Degrees": 110
+      },
+      {
+        "ImageType": 3,
+        "Width": 640,
+        "Height": 480,
+        "FOV_Degrees": 110
+      }
+    ]
+  },
+  "Vehicles": {
+    "Drone1": {
+      "VehicleType": "SimpleFlight",
+      "Cameras": {
+        "front_center": {
+          "CaptureSettings": [
+            {
+              "ImageType": 0,
+              "Width": 640,
+              "Height": 480,
+              "FOV_Degrees": 90
+            },
+            {
+              "ImageType": 3,
+              "Width": 640,
+              "Height": 480,
+              "FOV_Degrees": 90
+            }
+          ],
+          "X": 0.5,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Pitch": 0.0,
+          "Roll": 0.0,
+          "Yaw": 0.0
+        },
+        "bottom_center": {
+          "CaptureSettings": [
+            {
+              "ImageType": 0,
+              "Width": 640,
+              "Height": 480,
+              "FOV_Degrees": 90
+            }
+          ],
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.5,
+          "Pitch": -90.0,
+          "Roll": 0.0,
+          "Yaw": 0.0
+        },
+        "right_side": {
+          "CaptureSettings": [
+            {
+              "ImageType": 0,
+              "Width": 640,
+              "Height": 480,
+              "FOV_Degrees": 90
+            }
+          ],
+          "X": 0.0,
+          "Y": 0.5,
+          "Z": 0.0,
+          "Pitch": 0.0,
+          "Roll": 0.0,
+          "Yaw": 90.0
+        },
+        "left_side": {
+          "CaptureSettings": [
+            {
+              "ImageType": 0,
+              "Width": 640,
+              "Height": 480,
+              "FOV_Degrees": 90
+            }
+          ],
+          "X": 0.0,
+          "Y": -0.5,
+          "Z": 0.0,
+          "Pitch": 0.0,
+          "Roll": 0.0,
+          "Yaw": -90.0
+        },
+        "backward": {
+          "CaptureSettings": [
+            {
+              "ImageType": 0,
+              "Width": 640,
+              "Height": 480,
+              "FOV_Degrees": 90
+            }
+          ],
+          "X": -0.5,
+          "Y": 0.0,
+          "Z": 0.0,
+          "Pitch": 0.0,
+          "Roll": 0.0,
+          "Yaw": 180.0
+        },
+        "gimbal_camera": {
+          "CaptureSettings": [
+            {
+              "ImageType": 0,
+              "Width": 1280,
+              "Height": 720,
+              "FOV_Degrees": 60
+            }
+          ],
+          "X": 0.3,
+          "Y": 0.0,
+          "Z": -0.1,
+          "Pitch": -45.0,
+          "Roll": 0.0,
+          "Yaw": 0.0,
+          "Gimbal": {
+            "Stabilization": 1,
+            "Pitch": 0,
+            "Roll": 0,
+            "Yaw": 0
+          }
+        }
+      },
+      "X": -536.8873828125,
+      "Y": 1.6456546020507812,
+      "Z": -1.812909393310547,
+      "Pitch": -31.19989013671875,
+      "Yaw": 12.0557861328125,
+      "Roll": 0.0
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "14_aerialvla_03",
+  "route_id": "14",
+  "baseline": "aerialvla",
+  "repeat": 3,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 8,
+  "actions": 8,
+  "valid_decisions": 8,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "build_e_mod_wall_lvl2_window8",
+  "navigation_end_position": [
+    36.805301666259766,
+    13.879487991333008,
+    -6.142114162445068
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": -2.48997049331665,
+    "position": [
+      36.82109451293945,
+      13.87249755859375,
+      -3.1443705558776855
+    ],
+    "contact_object": "building_awning_b8",
+    "contact_timestamp": 1789134949633899776,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 63.840252600144595,
+  "trajectory": "map2\\data_14\\AerialVLA_INT8_Adapted_antiques\\flight_03_20260911_202020_782749.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\14_aerialvla_03\\001"
+}

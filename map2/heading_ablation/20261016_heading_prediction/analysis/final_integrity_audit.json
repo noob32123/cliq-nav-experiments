@@ -1,0 +1,180 @@
+{
+  "passed": true,
+  "completed_at": "2026-10-16T18:34:56.690320+08:00",
+  "formal_results": 300,
+  "complete_routes": 30,
+  "smoke_excluded": 3,
+  "trajectory_hashes_verified": 300,
+  "formal_initializations_verified": 600,
+  "recent_segment_verified_routes": 30,
+  "protected_inputs_verified": 816,
+  "external_maps_verified": 1,
+  "bootstrap_independently_reproduced": true,
+  "max_xy_error_m": 8.911132809430455e-06,
+  "max_altitude_error_m": 0.013209104537963867,
+  "max_scene_error_m": 1.0013580322154603e-06,
+  "max_delta_error_deg": 0.3341471247905474,
+  "terminations": {
+    "model_stop": 105,
+    "collision": 195
+  },
+  "successes_by_termination": {
+    "collision": 41,
+    "model_stop": 24
+  },
+  "first_decision_stop": 11,
+  "full_successes": 211,
+  "ablation_successes": 65,
+  "route_success_counts": [
+    {
+      "route": 1,
+      "full_success": 5,
+      "ablation_success": 5
+    },
+    {
+      "route": 2,
+      "full_success": 7,
+      "ablation_success": 0
+    },
+    {
+      "route": 3,
+      "full_success": 5,
+      "ablation_success": 2
+    },
+    {
+      "route": 4,
+      "full_success": 6,
+      "ablation_success": 2
+    },
+    {
+      "route": 5,
+      "full_success": 6,
+      "ablation_success": 0
+    },
+    {
+      "route": 6,
+      "full_success": 7,
+      "ablation_success": 0
+    },
+    {
+      "route": 7,
+      "full_success": 7,
+      "ablation_success": 1
+    },
+    {
+      "route": 8,
+      "full_success": 8,
+      "ablation_success": 0
+    },
+    {
+      "route": 9,
+      "full_success": 9,
+      "ablation_success": 10
+    },
+    {
+      "route": 10,
+      "full_success": 5,
+      "ablation_success": 0
+    },
+    {
+      "route": 11,
+      "full_success": 4,
+      "ablation_success": 3
+    },
+    {
+      "route": 12,
+      "full_success": 7,
+      "ablation_success": 0
+    },
+    {
+      "route": 13,
+      "full_success": 9,
+      "ablation_success": 1
+    },
+    {
+      "route": 14,
+      "full_success": 10,
+      "ablation_success": 5
+    },
+    {
+      "route": 15,
+      "full_success": 7,
+      "ablation_success": 0
+    },
+    {
+      "route": 16,
+      "full_success": 7,
+      "ablation_success": 4
+    },
+    {
+      "route": 17,
+      "full_success": 8,
+      "ablation_success": 2
+    },
+    {
+      "route": 18,
+      "full_success": 5,
+      "ablation_success": 0
+    },
+    {
+      "route": 19,
+      "full_success": 7,
+      "ablation_success": 0
+    },
+    {
+      "route": 20,
+      "full_success": 5,
+      "ablation_success": 1
+    },
+    {
+      "route": 21,
+      "full_success": 10,
+      "ablation_success": 2
+    },
+    {
+      "route": 22,
+      "full_success": 7,
+      "ablation_success": 3
+    },
+    {
+      "route": 23,
+      "full_success": 6,
+      "ablation_success": 0
+    },
+    {
+      "route": 24,
+      "full_success": 7,
+      "ablation_success": 1
+    },
+    {
+      "route": 25,
+      "full_success": 6,
+      "ablation_success": 7
+    },
+    {
+      "route": 26,
+      "full_success": 8,
+      "ablation_success": 7
+    },
+    {
+      "route": 27,
+      "full_success": 9,
+      "ablation_success": 3
+    },
+    {
+      "route": 28,
+      "full_success": 7,
+      "ablation_success": 1
+    },
+    {
+      "route": 29,
+      "full_success": 9,
+      "ablation_success": 2
+    },
+    {
+      "route": 30,
+      "full_success": 8,
+      "ablation_success": 3
+    }
+  ]
+}

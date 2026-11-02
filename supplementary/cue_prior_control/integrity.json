@@ -1,0 +1,8 @@
+{
+  "historical_episodes": 880,
+  "new_formal_episodes": 440,
+  "old_hashes_unchanged": true,
+  "cue_checks": 2941,
+  "request_image_hash_checks": 8823,
+  "event_label_invariance_checks": 3960
+}

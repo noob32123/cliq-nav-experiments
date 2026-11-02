@@ -1,0 +1,32 @@
+{
+  "sources": {
+    "map1": {
+      "file": "map1\\heading_ablation\\20261015_heading_prediction_corrected_frame\\analysis\\bootstrap_results.json",
+      "sha256": "90bfb22ac62b5bfdb5bb05b52c8d523e171bdf6921119048388955d1b0196815"
+    },
+    "map2": {
+      "file": "map2\\heading_ablation\\20261016_heading_prediction\\analysis\\bootstrap_results.json",
+      "sha256": "3d08dbbd6f9e4d5a581e15516c7d7f27bca44646c6ac45aac81007d97711fabf"
+    }
+  },
+  "order": [
+    "map1_ablated",
+    "map1_full",
+    "map2_ablated",
+    "map2_full"
+  ],
+  "metrics": [
+    "SR",
+    "NE",
+    "SPL",
+    "OR",
+    "TL"
+  ],
+  "seed": 20260823,
+  "bootstrap_resamples": 10000,
+  "unit": "whole route, 10 repeats retained; same sampled routes across methods; no episode pairing",
+  "exclusions": "Only smoke/invalid workflow batches excluded; all formal 140+300 ablation and 140+300 historical control episodes retained",
+  "history_provenance": "map1 histories generated from historical initial movement; map2 deterministic constructed histories matched to fixed route headings; neither independent measured GNSS logs",
+  "current_scoring_source": "supplementary/results/results.json",
+  "evaluation_version": "revised_v2; original archival analysis sources retained for provenance only"
+}

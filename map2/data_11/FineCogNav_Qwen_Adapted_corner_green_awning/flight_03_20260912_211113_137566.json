@@ -1,0 +1,39 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "11_finecog_03",
+  "route_id": "11",
+  "baseline": "finecog",
+  "repeat": 3,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "model_stop",
+  "decisions": 6,
+  "actions": 3,
+  "valid_decisions": 4,
+  "invalid_decisions": 2,
+  "model": "qwen3.5-35b-a3b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "navigation_end_position": [
+    -185.0,
+    -3.0,
+    -2.980438232421875
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 0.846516799926758,
+    "position": [
+      -185.0,
+      -3.0,
+      0.6344424486160278
+    ],
+    "contact_object": "ground_mod_walkway_a39",
+    "contact_timestamp": 1789218332323669504,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 157.73229099996388,
+  "trajectory": "map2\\data_11\\FineCogNav_Qwen_Adapted_corner_green_awning\\flight_03_20260912_211113_137566.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\11_finecog_03\\001"
+}

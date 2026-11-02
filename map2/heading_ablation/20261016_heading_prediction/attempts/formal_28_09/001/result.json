@@ -1,0 +1,82 @@
+{
+  "id": "formal_28_09",
+  "kind": "formal",
+  "route": 28,
+  "repeat": 9,
+  "complete": true,
+  "heading_check": {
+    "route": 28,
+    "baseline_turn_deg": -135.697,
+    "weighted_yaw_deg": 179.303,
+    "last_segment_yaw_deg": 160.5597079110911,
+    "delta_deg": -18.743292088908902,
+    "ablation_turn_deg": -154.4402920889089,
+    "baseline_start_yaw_deg": -44.999996039382296,
+    "baseline_end_yaw_deg": 179.36582723634825,
+    "ablation_start_yaw_deg": -44.999996039382296,
+    "ablation_end_yaw_deg": 160.62703383021488,
+    "actual_delta_deg": -18.738793406133368,
+    "actual_delta_error_deg": 0.00449868277553378,
+    "initial_yaw_error_deg": 0.0,
+    "command_delta_error_deg": 0.0,
+    "passed": true
+  },
+  "started_at": "2026-10-16T17:56:10.446686+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "collision",
+  "decisions": 3,
+  "actions_executed": 3,
+  "max_action_position_change_m": 8.163114237134566,
+  "max_action_yaw_change_deg": 8.285855990283608,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 0.0,
+  "navigation_collision": {
+    "has_collided": true,
+    "time_stamp_ns": 1792154105057624064,
+    "object_name": "tree_pine_a13_111",
+    "object_id": 194,
+    "position": [
+      76.17173767089844,
+      -52.746795654296875,
+      -3.1049840450286865
+    ],
+    "impact_point": [
+      75.7418441772461,
+      -52.308162689208984,
+      -3.1376352310180664
+    ],
+    "normal": [
+      0.7502776384353638,
+      -0.655805766582489,
+      0.08367930352687836
+    ],
+    "penetration_depth": 0.0
+  },
+  "navigation_end": {
+    "wall_time": "2026-10-16T17:56:38.425046+08:00",
+    "yaw_deg": 169.4420922646867,
+    "orientation_xyzw": [
+      0.003910578787326813,
+      0.0015131057007238269,
+      0.9957504868507385,
+      0.09199704974889755
+    ],
+    "position": [
+      76.17173767089844,
+      -52.746795654296875,
+      -3.1049840450286865
+    ]
+  },
+  "navigation_ended_at": "2026-10-16T17:56:38.425061+08:00",
+  "trajectory_sha256": "0bf64678f66afcb8ba55e852212d2e8d96a54df984e5f2c74fd6cb8ca0d70628",
+  "metrics": {
+    "NE": 18.029178379979133,
+    "TL": 9.810166682815828,
+    "SR": 0,
+    "OR": 0,
+    "SPL": 0.0,
+    "oracle_dist": 18.029178379979133,
+    "shortest_path": 18.47852745756544,
+    "num_steps": 4
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "23_aerialvla_08",
+  "route_id": "23",
+  "baseline": "aerialvla",
+  "repeat": 8,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "max_iterations",
+  "decisions": 30,
+  "actions": 30,
+  "valid_decisions": 30,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "navigation_end_position": [
+    34.980873107910156,
+    -120.88456726074219,
+    -23.83474349975586
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": -0.8378684997558601,
+    "position": [
+      35.08392333984375,
+      -120.9312973022461,
+      -1.0682653188705444
+    ],
+    "contact_object": "Landscape_0",
+    "contact_timestamp": 1789157828337968384,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 315.632578200195,
+  "trajectory": "map2\\data_23\\AerialVLA_INT8_Adapted_park_fountain\\flight_08_20260912_003108_528392.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\23_aerialvla_08\\001"
+}

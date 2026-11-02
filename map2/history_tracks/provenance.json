@@ -1,0 +1,135 @@
+{
+  "synthetic": true,
+  "seed": 20260823,
+  "source_routes_sha256": "2c07fe63a856e2ac0d07ba635589f5ccaa793c6b0f0922630854b9dfafcced33",
+  "protocol": "S-curve: 3m longitudinal segments; [2,1,0,-1,-2] lateral shape centered by weights; abs amplitude U(0.5,3)m; balanced seeded signs",
+  "time_order": "indices 0..5 = History_-6..History_-1, oldest to newest; ordinal labels, not measured timestamps",
+  "last_segment": "H5-H4, newest two historical points",
+  "limitations": [
+    "Synthetic histories constructed to match frozen route heading; not independent measured GNSS tracks",
+    "Historical complete configuration did not read these histories; comparison is a synthetic initial-heading perturbation against historical control",
+    "History points were not physically flown or collision-validated; they are estimator inputs only"
+  ],
+  "routes": {
+    "01": {
+      "amplitude_m": -0.6031066680241832,
+      "sha256": "439948c5ba2076d91425a54835106400fe59a86e6e22b6ccec9e5f794521205a"
+    },
+    "02": {
+      "amplitude_m": -0.9379023570904519,
+      "sha256": "76bc132bb6dacbafd5d2a8fcf260b87a01b03a41d38246b4a4047245092292f5"
+    },
+    "03": {
+      "amplitude_m": 1.1067934961317643,
+      "sha256": "62a587d3feeab2abb8e3bd88bcfecb6d6625a6a5620ad8f5269d84e294d7bbc9"
+    },
+    "04": {
+      "amplitude_m": -1.6676056404030395,
+      "sha256": "dea1f96e1cfd9cfe710624a7ec3d33aea60d2ccbd36e2f82bc1e5d65573819d1"
+    },
+    "05": {
+      "amplitude_m": 2.910317314169374,
+      "sha256": "f508d32906fbc21067ccd8678484055ea0f55c1fcd2fd6002611e40d4eb41460"
+    },
+    "06": {
+      "amplitude_m": 0.9346700556187588,
+      "sha256": "6fcef78a4628902ed40de03c2f8ce806e812559f92318f4f2fc5d34b92a88d91"
+    },
+    "07": {
+      "amplitude_m": 2.498035177804121,
+      "sha256": "2f728d944437c1122a87245cf73c3870fe6cdd5c1891c77dbae435412589b163"
+    },
+    "08": {
+      "amplitude_m": -1.242896818966792,
+      "sha256": "aa70de29880696d9d739d0c9d8b9790897a47048f9bb638197649853fad9ddb1"
+    },
+    "09": {
+      "amplitude_m": 2.5672044245042978,
+      "sha256": "8ffe0a538af339dd310f3d9817e812f0e01af63497819b0c07f8fb54598160d2"
+    },
+    "10": {
+      "amplitude_m": -2.708656454909304,
+      "sha256": "434dd63f450bce867d1374eed804ce99f51b2c7cd8249527e27839eb912aca7d"
+    },
+    "11": {
+      "amplitude_m": 2.1370414490824965,
+      "sha256": "143aafd80a2969f6d2edf2becabf5c9c12266d1b6c43e7eb8b0249455200d404"
+    },
+    "12": {
+      "amplitude_m": -2.93609833703965,
+      "sha256": "d39884ed5be583491f4565e998ba38b4e420c6eadb5bacfc883d31ace40706d7"
+    },
+    "13": {
+      "amplitude_m": -1.4880508021111691,
+      "sha256": "2506f2ff85522e65800712d36676596825eb88d8e57550e48cda22e325f708d8"
+    },
+    "14": {
+      "amplitude_m": -1.2569185952505941,
+      "sha256": "f47ef8def2d22bd7c8d6e89d2471203f71ed739bf1e2b769d53a3816a3619777"
+    },
+    "15": {
+      "amplitude_m": -2.788477031614859,
+      "sha256": "167e260b1016b393a24ed5ec5affcd004d86b27ca84ae6b1c3b5d677de0023a8"
+    },
+    "16": {
+      "amplitude_m": 1.5470734654610794,
+      "sha256": "704e08bbabf1f3d9e54c47adf7a926999988a53239b4377d5f26f4106d92e434"
+    },
+    "17": {
+      "amplitude_m": -2.8013106819792943,
+      "sha256": "10efb369a08710cfea4ead080c172214778edf1dc69d1625056e7a17eeaebcee"
+    },
+    "18": {
+      "amplitude_m": 0.7801441177665309,
+      "sha256": "9f8934809aab03866976f4386bf9fdbbd8755d0aecc20d88a7376b0348f21c8d"
+    },
+    "19": {
+      "amplitude_m": -1.1112231894244193,
+      "sha256": "d5cea02e9e1fd32726b70e14bb176885436ff77e4067a9598af12469d7cf2000"
+    },
+    "20": {
+      "amplitude_m": 1.3774013926792814,
+      "sha256": "e779d4412155fd3c6c19782adecd4fd4ae8dce639f5ee35dfc2e2ed6aea1cd47"
+    },
+    "21": {
+      "amplitude_m": 1.7943026404773965,
+      "sha256": "ef52f439ca9d51a8b3072da0cab173f4e0f7aaa4f7b0ae0de071543d0d9e445f"
+    },
+    "22": {
+      "amplitude_m": -2.6651936260254576,
+      "sha256": "6966f0f158951d3654b8db16865007c157faf3c6ca84300937a017fec6c94258"
+    },
+    "23": {
+      "amplitude_m": 0.545772654227684,
+      "sha256": "5a26d95b05db94b27ef112456fe9a759a9213866040b5342214b16771332963d"
+    },
+    "24": {
+      "amplitude_m": 1.1551516802320256,
+      "sha256": "30946b235024e7976d0512b2b4eec482d5da8dada92fd6190f8bc5a6520b7db8"
+    },
+    "25": {
+      "amplitude_m": 2.121389240511389,
+      "sha256": "6a12f704d33423b2e3fcd1f00f3dc795bf28d13c9f2d5704ae0bb3cd6e05ae37"
+    },
+    "26": {
+      "amplitude_m": -0.9129537995224521,
+      "sha256": "1cba25e4ee1b80d7695aac890dae73a10e4a011f9a807b4ce0f800f3cac7d9a0"
+    },
+    "27": {
+      "amplitude_m": 2.5701362243802213,
+      "sha256": "752ce1ad3791738d47dff381e493e5fbcdd67c31265ef344a4b988909c5437e2"
+    },
+    "28": {
+      "amplitude_m": 0.6786473968872571,
+      "sha256": "8a0b4875be27d3a559598fb150e3d73b29cc823e67d7b197a0aa133e658882d2"
+    },
+    "29": {
+      "amplitude_m": -1.7619099317060776,
+      "sha256": "2573e3ffed669efba6e1071348029ca5c8660fc4112c1f9fe8c12769ae9137df"
+    },
+    "30": {
+      "amplitude_m": -0.8705958771975265,
+      "sha256": "98c6e572ede0b051edc1296a1f7a8b450abad1a471d7d5df8ade1206ee5d6a39"
+    }
+  }
+}

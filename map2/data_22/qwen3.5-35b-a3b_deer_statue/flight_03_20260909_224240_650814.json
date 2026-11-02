@@ -1,0 +1,36 @@
+{
+  "batch_id": "formal_20260909_170427",
+  "id": "22_qwen_03",
+  "route_id": "22",
+  "clip": false,
+  "repeat": 3,
+  "status": "running",
+  "attempts": 1,
+  "reason": "model_stop",
+  "decisions": 5,
+  "actions": 3,
+  "clip_enabled": false,
+  "model": "qwen3.5-35b-a3b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "navigation_end_position": [
+    -176.2061309814453,
+    9.583125114440918,
+    -1.4571295976638794
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 0.847509217262268,
+    "position": [
+      -176.27674865722656,
+      9.540963172912598,
+      0.6534639596939087
+    ],
+    "contact_object": "ground_mod_tile_a436",
+    "contact_timestamp": 1788964856097044480,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 142.08332119998522,
+  "trajectory": "map2\\data_22\\qwen3.5-35b-a3b_deer_statue\\flight_03_20260909_224240_650814.csv",
+  "attempt_directory": "map2\\formal_20260909_170427\\attempts\\22_qwen_03\\001"
+}

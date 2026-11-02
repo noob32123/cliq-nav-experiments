@@ -1,0 +1,41 @@
+{
+  "batch_id": "citynav_internvl2_26b_formal_20260916_201057",
+  "id": "29_citynav_06",
+  "route_id": "29",
+  "baseline": "citynav",
+  "repeat": 6,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 13,
+  "actions": 12,
+  "valid_decisions": 12,
+  "invalid_decisions": 1,
+  "model": "internvl2-26b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "observation_mode": "front_rgb_only",
+  "collision_object": "Pot_58",
+  "navigation_end_position": [
+    125.9235610961914,
+    -12.244690895080566,
+    -0.38570892810821533
+  ],
+  "landing": {
+    "landed": false,
+    "ground_z_from_depth": 0.8474941968917846,
+    "position": [
+      125.9235610961914,
+      -12.244690895080566,
+      -0.38570892810821533
+    ],
+    "contact_object": "Pot_58",
+    "contact_timestamp": 1789591911595075328,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 95.83187890006229,
+  "trajectory": "map2\\data_29\\CityNavAgent_Adapted_internvl2-26b_traffic_island_bench\\flight_06_20260917_071302_327051.csv",
+  "attempt_directory": "map2\\citynav_internvl2_26b_formal_20260916_201057\\attempts\\29_citynav_06\\001"
+}

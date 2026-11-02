@@ -1,0 +1,12 @@
+{
+  "environment": "Downtown West",
+  "condition": "Last-segment heading with CLIP cue",
+  "route": 1,
+  "repeat": 1,
+  "step": 1,
+  "target_text_for_clip": "blue and white striped restaurant awnings",
+  "target_text_for_mllm": "前方街角米黄色建筑底层蓝白条纹遮阳棚旁的入口附近",
+  "actual_user_text": "你是一架无人机的飞手，现在正在依靠无人机上搭载的相机飞行。当前任务：请智能地导航到前方街角米黄色建筑底层蓝白条纹遮阳棚旁的入口附近并降落，不必太过精细，大概到达目标附近后即可输出stop我会按顺序给你三张无人机上搭载的相机拍到的图片：前向图、前向深度图、俯视图。请依据深度图像的信息尽量避免碰撞附近的物体并灵活的导航到目标附近后降落。请根据这些图片决定下一步动作，你可以采取的动作如下列所示。输出格式必须为以下之一（数值为数字）：\n- forward X（向前飞X米）\n- backward X（向后飞X米）\n- left X（向左飞X米）\n- right X（向右飞X米）\n- up X（上升X米）\n- down X（下降X米）\n- turn_left Y（左转Y度）\n- turn_right Y（右转Y度）\n- stop（到达目标，停止导航）\n只输出一条指令，不要附加任何解释。为辅助你的判断：你的导航目标有很大的可能性在你的正前方",
+  "source_sha256": "341c18b15bd08a89593af06bdbc02f3ba1404e0f6e21abf901b884f2b1db8b87",
+  "note": "Text portion of an archived request; image bytes and service configuration are omitted."
+}

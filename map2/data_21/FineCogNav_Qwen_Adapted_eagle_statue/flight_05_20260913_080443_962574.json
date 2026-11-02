@@ -1,0 +1,39 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "21_finecog_05",
+  "route_id": "21",
+  "baseline": "finecog",
+  "repeat": 5,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "model_stop",
+  "decisions": 8,
+  "actions": 3,
+  "valid_decisions": 4,
+  "invalid_decisions": 4,
+  "model": "qwen3.5-35b-a3b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "navigation_end_position": [
+    106.0,
+    9.0,
+    -1.9908013343811035
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 0.8459172964096069,
+    "position": [
+      106.0,
+      9.0,
+      0.6527129411697388
+    ],
+    "contact_object": "ground_mod_tile_a210",
+    "contact_timestamp": 1789254169057446912,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 165.91117300000042,
+  "trajectory": "map2\\data_21\\FineCogNav_Qwen_Adapted_eagle_statue\\flight_05_20260913_080443_962574.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\21_finecog_05\\001"
+}

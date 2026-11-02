@@ -1,0 +1,82 @@
+{
+  "id": "formal_13_01",
+  "kind": "formal",
+  "route": 13,
+  "repeat": 1,
+  "complete": true,
+  "heading_check": {
+    "route": 13,
+    "baseline_turn_deg": 60.0,
+    "weighted_yaw_deg": 53.031615125017126,
+    "last_segment_yaw_deg": 35.6269250329808,
+    "delta_deg": -17.404690092036333,
+    "ablation_turn_deg": 42.59530990796367,
+    "baseline_start_yaw_deg": 0.0,
+    "baseline_end_yaw_deg": 59.919125219604744,
+    "ablation_start_yaw_deg": 0.0,
+    "ablation_end_yaw_deg": 42.51606688753495,
+    "actual_delta_deg": -17.403058332069804,
+    "actual_delta_error_deg": 0.0016317599665285343,
+    "initial_yaw_error_deg": 0.0,
+    "command_delta_error_deg": 0.0,
+    "passed": true
+  },
+  "started_at": "2026-10-16T01:55:10.054593+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "collision",
+  "decisions": 9,
+  "actions_executed": 9,
+  "max_action_position_change_m": 13.664045395175657,
+  "max_action_yaw_change_deg": 8.85901853726972,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 1.6077989471341425e-05,
+  "navigation_collision": {
+    "has_collided": true,
+    "time_stamp_ns": 1792227414691599872,
+    "object_name": "SM_Elm07HISMA",
+    "object_id": 53,
+    "position": [
+      447.4031982421875,
+      -20.738656997680664,
+      -4.434244155883789
+    ],
+    "impact_point": [
+      447.52178955078125,
+      -20.134431838989258,
+      -4.408042907714844
+    ],
+    "normal": [
+      -0.6840354204177856,
+      -0.6986942887306213,
+      -0.20957529544830322
+    ],
+    "penetration_depth": 0.0
+  },
+  "navigation_end": {
+    "wall_time": "2026-10-16T01:56:21.743941+08:00",
+    "yaw_deg": 43.9035281516339,
+    "orientation_xyzw": [
+      0.00062232103664428,
+      -0.000899754639249295,
+      0.37382590770721436,
+      0.9274982213973999
+    ],
+    "position": [
+      447.4031982421875,
+      -20.738656997680664,
+      -4.434244155883789
+    ]
+  },
+  "navigation_ended_at": "2026-10-16T01:56:21.743948+08:00",
+  "trajectory_sha256": "d1338ecf08563e61f07f8d2a600880f6dbd82d168ec44ae9c19c376a991ed532",
+  "metrics": {
+    "NE": 16.257492332798527,
+    "TL": 37.29692538177989,
+    "SR": 0,
+    "OR": 0,
+    "SPL": 0.0,
+    "oracle_dist": 12.688043241331766,
+    "shortest_path": 30.808004844520525,
+    "num_steps": 10
+  }
+}

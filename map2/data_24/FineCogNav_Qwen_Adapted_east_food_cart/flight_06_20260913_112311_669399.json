@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "24_finecog_06",
+  "route_id": "24",
+  "baseline": "finecog",
+  "repeat": 6,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 27,
+  "actions": 16,
+  "valid_decisions": 16,
+  "invalid_decisions": 11,
+  "model": "qwen3.5-35b-a3b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "ground_mod_walkway_a30",
+  "navigation_end_position": [
+    38.225345611572266,
+    -2.8605263233184814,
+    0.6445302963256836
+  ],
+  "landing": {
+    "landed": false,
+    "ground_z_from_depth": 1.6733877182006835,
+    "position": [
+      38.225345611572266,
+      -2.8605263233184814,
+      0.6445302963256836
+    ],
+    "contact_object": "ground_mod_walkway_a30",
+    "contact_timestamp": 1789257273481673216,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 536.7736399001442,
+  "trajectory": "map2\\data_24\\FineCogNav_Qwen_Adapted_east_food_cart\\flight_06_20260913_112311_669399.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\24_finecog_06\\001"
+}

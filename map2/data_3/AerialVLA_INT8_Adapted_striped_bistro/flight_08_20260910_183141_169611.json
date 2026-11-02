@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "03_aerialvla_08",
+  "route_id": "03",
+  "baseline": "aerialvla",
+  "repeat": 8,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 9,
+  "actions": 9,
+  "valid_decisions": 9,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "build_d_mod_lvl1_window_318",
+  "navigation_end_position": [
+    -67.25365447998047,
+    -16.01942253112793,
+    -3.483315944671631
+  ],
+  "landing": {
+    "landed": false,
+    "ground_z_from_depth": -0.01773624420165998,
+    "position": [
+      -67.25365447998047,
+      -16.019420623779297,
+      -3.4161880016326904
+    ],
+    "contact_object": "building_awning_a8",
+    "contact_timestamp": 1789038965124251136,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 80.75454869982786,
+  "trajectory": "map2\\data_3\\AerialVLA_INT8_Adapted_striped_bistro\\flight_08_20260910_183141_169611.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\03_aerialvla_08\\001"
+}

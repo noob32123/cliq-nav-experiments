@@ -1,0 +1,39 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "29_finecog_02",
+  "route_id": "29",
+  "baseline": "finecog",
+  "repeat": 2,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "model_stop",
+  "decisions": 10,
+  "actions": 7,
+  "valid_decisions": 8,
+  "invalid_decisions": 2,
+  "model": "qwen3.5-35b-a3b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "navigation_end_position": [
+    117.1267318725586,
+    -15.929706573486328,
+    -1.5880793333053589
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 1.033796739578247,
+    "position": [
+      117.14824676513672,
+      -15.896199226379395,
+      0.8396518230438232
+    ],
+    "contact_object": "TEMP_Road5",
+    "contact_timestamp": 1789292600552928000,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 209.01140669966117,
+  "trajectory": "map2\\data_29\\FineCogNav_Qwen_Adapted_traffic_island_bench\\flight_02_20260913_180429_770390.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\29_finecog_02\\001"
+}

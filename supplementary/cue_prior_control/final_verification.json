@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "verified_at": "2026-10-28T03:12:28.361411+08:00",
+  "new_formal_episodes": 440,
+  "excluded_smoke_episodes": 6,
+  "reused_historical_episodes": 880,
+  "comparison_episodes": 1320,
+  "route_clusters": {
+    "City Park": 14,
+    "Downtown West": 30
+  },
+  "repeats_per_condition_route": 10,
+  "frozen_file_hashes_checked": 919,
+  "map_asset_hashes_checked": 2,
+  "old_result_guards_unchanged": true,
+  "cue_checks": 2941,
+  "request_image_hash_checks": 8823,
+  "event_label_invariance_checks": 3960,
+  "numerical_statistic_checks": 240,
+  "routewise_metric_rows": 132,
+  "routewise_difference_rows": 132,
+  "episode_metric_rows": 1320,
+  "maximum_initial_turn_error_deg": 0.13707671363746954,
+  "paper_snapshot_checks": {
+    "paper_kbs.tex": "identical to pre-experiment review snapshot",
+    "supplementary_methods.tex": "identical to pre-experiment review snapshot",
+    "paper_kbs.pdf": "identical to pre-experiment review snapshot",
+    "supplementary_methods.pdf": "identical to pre-experiment review snapshot"
+  },
+  "bootstrap_draws": 10000,
+  "primary_sr_coverage": 0.975,
+  "exploratory_coverage": 0.95,
+  "interpretation": "cross-batch route-matched comparison; no same-batch causal claim",
+  "manuscript_updated": false
+}

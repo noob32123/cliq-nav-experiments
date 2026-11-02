@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "08_aerialvla_05",
+  "route_id": "08",
+  "baseline": "aerialvla",
+  "repeat": 5,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 1,
+  "actions": 1,
+  "valid_decisions": 1,
+  "invalid_decisions": 0,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "tree_generic_b21",
+  "navigation_end_position": [
+    -222.39163208007812,
+    6.114175796508789,
+    -6.126367568969727
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 0.8470642089843752,
+    "position": [
+      -222.392333984375,
+      6.1531829833984375,
+      0.6539367437362671
+    ],
+    "contact_object": "ground_mod_tile_a380",
+    "contact_timestamp": 1789110812383817984,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 13.628957800101489,
+  "trajectory": "map2\\data_8\\AerialVLA_INT8_Adapted_blue_awning\\flight_05_20260911_151424_393737.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\08_aerialvla_05\\001"
+}

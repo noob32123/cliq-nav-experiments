@@ -1,0 +1,19 @@
+{
+  "verified_at": "2026-10-16T14:06:45.414941+08:00",
+  "completed_at": "2026-10-16T03:07:18.931967+08:00",
+  "formal_results": 140,
+  "routes": 14,
+  "repeats_per_route": 10,
+  "deferred_results": 0,
+  "all_result_trajectory_hashes_verified": true,
+  "all_280_reset_takeoff_and_scene_frame_records_verified": true,
+  "frozen_code_baseline_history_paper_and_scene_hashes_verified": true,
+  "max_paired_heading_error_deg": 0.14772229852951568,
+  "max_start_xy_error_m": 0.06437130153839937,
+  "max_takeoff_altitude_error_m": 0.477402925491333,
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20260823,
+  "statistics_outputs_present": true,
+  "experiment_and_local_observer_exited_after_completion": true,
+  "scheduled_monitor_status": "PAUSED"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "formal_14_10",
+  "kind": "formal",
+  "route": 14,
+  "repeat": 10,
+  "complete": true,
+  "heading_check": {
+    "route": 14,
+    "baseline_turn_deg": -90.0,
+    "weighted_yaw_deg": -93.77323414083436,
+    "last_segment_yaw_deg": -143.3441361928535,
+    "delta_deg": -49.570902052019164,
+    "ablation_turn_deg": -139.57090205201916,
+    "baseline_start_yaw_deg": 0.0,
+    "baseline_end_yaw_deg": -89.92433237796341,
+    "ablation_start_yaw_deg": 0.0,
+    "ablation_end_yaw_deg": -139.51359262231497,
+    "actual_delta_deg": -49.58926024435158,
+    "actual_delta_error_deg": 0.01835819233241409,
+    "initial_yaw_error_deg": 0.0,
+    "command_delta_error_deg": 0.0,
+    "passed": true
+  },
+  "started_at": "2026-10-16T02:14:07.127408+08:00",
+  "model": "qwen3.5-35b-a3b",
+  "reason": "collision",
+  "decisions": 7,
+  "actions_executed": 7,
+  "max_action_position_change_m": 8.543300389815888,
+  "max_action_yaw_change_deg": 1.4109617633957896,
+  "first_frame_yaw_error_deg": 0.0,
+  "first_frame_camera_yaw_error_deg": 0.0,
+  "navigation_collision": {
+    "has_collided": true,
+    "time_stamp_ns": 1792233165484280832,
+    "object_name": "SM_ParkSquare04_1HISMA",
+    "object_id": 54,
+    "position": [
+      573.982421875,
+      56.19350051879883,
+      5.710151672363281
+    ],
+    "impact_point": [
+      574.0620727539062,
+      56.659828186035156,
+      5.912242412567139
+    ],
+    "normal": [
+      -4.03815730853907e-10,
+      -3.5834096800968496e-10,
+      -1.0
+    ],
+    "penetration_depth": 0.0
+  },
+  "navigation_end": {
+    "wall_time": "2026-10-16T02:15:38.704188+08:00",
+    "yaw_deg": -144.90461980651213,
+    "orientation_xyzw": [
+      6.918768917785201e-07,
+      7.77408331487095e-07,
+      -0.9534662961959839,
+      0.30149948596954346
+    ],
+    "position": [
+      573.982421875,
+      56.19350051879883,
+      5.710151672363281
+    ]
+  },
+  "navigation_ended_at": "2026-10-16T02:15:38.704196+08:00",
+  "trajectory_sha256": "544b45c069f2f2de5290c59672eae8937d5b3317961735edcc50c76cb59ef25d",
+  "metrics": {
+    "NE": 5.567985393353318,
+    "TL": 26.827330908642118,
+    "SR": 1,
+    "OR": 1,
+    "SPL": 0.5403296735956717,
+    "oracle_dist": 2.8273442122669117,
+    "shortest_path": 14.495602953309671,
+    "num_steps": 8
+  }
+}

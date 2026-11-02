@@ -1,0 +1,39 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "02_aerialvla_08",
+  "route_id": "02",
+  "baseline": "aerialvla",
+  "repeat": 8,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "max_iterations",
+  "decisions": 30,
+  "actions": 19,
+  "valid_decisions": 19,
+  "invalid_decisions": 11,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "navigation_end_position": [
+    -66.60503387451172,
+    -36.963050842285156,
+    -23.46965980529785
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": -11.433724212646485,
+    "position": [
+      -66.58419036865234,
+      -36.9158935546875,
+      -11.626103401184082
+    ],
+    "contact_object": "build_cafe_a_wall_windows_long318",
+    "contact_timestamp": 1789037227961192448,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 225.87501000007614,
+  "trajectory": "map2\\data_2\\AerialVLA_INT8_Adapted_brun_perez\\flight_08_20260910_181314_151312.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\02_aerialvla_08\\001"
+}

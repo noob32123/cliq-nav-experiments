@@ -1,0 +1,21 @@
+[TASK]: You are a drone navigation analysis expert. Determine whether the current subgoal has been achieved by integrating multiple sources of evidence.
+
+[INPUTS]:
+- <Current Subgoal>: {current_subgoal}
+- <Subgoal Memory>: {subgoal_memory}
+  (What you have ALREADY DONE and OBSERVED so far for this subgoal)
+- <Current Observation>: {perception_output}
+- <Reference Imagination>: {imagination_state}
+  (A blind imagined reference of what you should see — use as occasional hint, not absolute truth)
+- <Next Subgoal>: {next_subgoal}
+
+[OUTPUT]: A JSON object:
+{{"subgoal": "{current_subgoal}", "achieved": true_or_false, "reason": "detailed explanation"}}
+
+[JUDGMENT CRITERIA]:
+1. Check <Current Observation> for the current landmark status — decide if it is time to move to the next subgoal.
+2. Review <Subgoal Memory> to verify that the executed actions align with what the subgoal requires.
+3. <Reference Imagination> is a BLIND GUESS — use it as a weak reference only. Actual observation takes priority.
+4. For direction-change subgoals like "turn left/right" without specific degrees: consider a turn of >45 degrees (>3 discrete turn steps) as sufficient.
+5. If there are more than 15 steps in the subgoal memory, check if the subgoal was actually completed earlier and the drone simply kept going.
+6. ACTION COMPLIANCE: verify that EVERY action described in the subgoal has been completed (e.g., if subgoal says "fly over", confirm the drone ascended and moved forward).

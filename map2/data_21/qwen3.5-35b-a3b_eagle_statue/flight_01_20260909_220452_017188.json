@@ -1,0 +1,37 @@
+{
+  "batch_id": "formal_20260909_170427",
+  "id": "21_qwen_01",
+  "route_id": "21",
+  "clip": false,
+  "repeat": 1,
+  "status": "running",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 4,
+  "actions": 4,
+  "clip_enabled": false,
+  "model": "qwen3.5-35b-a3b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "collision_object": "prop_statue_eagle_11",
+  "navigation_end_position": [
+    94.73169708251953,
+    6.720136642456055,
+    -2.4305126667022705
+  ],
+  "landing": {
+    "landed": false,
+    "ground_z_from_depth": -0.5522900104522706,
+    "position": [
+      94.73169708251953,
+      6.720136642456055,
+      -2.4305126667022705
+    ],
+    "contact_object": "prop_statue_eagle_11",
+    "contact_timestamp": 1788963453450121984,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 30.566025500185788,
+  "trajectory": "map2\\data_21\\qwen3.5-35b-a3b_eagle_statue\\flight_01_20260909_220452_017188.csv",
+  "attempt_directory": "map2\\formal_20260909_170427\\attempts\\21_qwen_01\\001"
+}

@@ -1,0 +1,40 @@
+{
+  "batch_id": "baselines_formal_20260910_170654",
+  "id": "07_aerialvla_05",
+  "route_id": "07",
+  "baseline": "aerialvla",
+  "repeat": 5,
+  "status": "complete",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 8,
+  "actions": 7,
+  "valid_decisions": 7,
+  "invalid_decisions": 1,
+  "model": "OpenVLA-7B+AerialVLA-LoRA-INT8",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "goal_information": "evaluation_only",
+  "smoke_test": false,
+  "collision_object": "tree_pine_a8_75",
+  "navigation_end_position": [
+    25.685768127441406,
+    2.837787389755249,
+    -2.9268853664398193
+  ],
+  "landing": {
+    "landed": false,
+    "ground_z_from_depth": 0.7141160488128664,
+    "position": [
+      25.726619720458984,
+      2.8331868648529053,
+      0.3847072124481201
+    ],
+    "contact_object": "ground_garden_rails_c8",
+    "contact_timestamp": 1789107072949781504,
+    "speed_before_disarm": 0.21455325234696634
+  },
+  "wall_seconds": 68.05493250023574,
+  "trajectory": "map2\\data_7\\AerialVLA_INT8_Adapted_jacobs_deli\\flight_05_20260911_134555_551852.csv",
+  "attempt_directory": "map2\\baselines_formal_20260910_170654\\attempts\\07_aerialvla_05\\001"
+}

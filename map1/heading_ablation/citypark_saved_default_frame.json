@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "provenance": "User confirms default UE restart start; read unchanged Showcase saved viewport and reproduced editor Play From Here with transient PlayerStart; June log world translation agrees",
+  "editor_default_context": {
+    "map_path": "/Game/CityPark/Maps/Showcase.Showcase",
+    "saved_editor_viewport_location_ue_cm": [
+      -53688.73828125,
+      164.56546020507812,
+      181.2909393310547
+    ],
+    "saved_editor_viewport_rotation_deg": [
+      -31.19989013671875,
+      -1067.9442138671875,
+      0.0
+    ],
+    "player_starts_and_pawns": [],
+    "diagnostic_only": true,
+    "map_default_game_mode": "<Object '/Script/AirSim.AirSimGameMode' (0x0000025DD8CA1080) Class 'Class'>",
+    "play_probe_policy": "transient PlayerStart at unchanged saved viewport; matches June world-rebase log"
+  },
+  "editor_rpc_reference": {
+    "global_minus_local": [
+      0.0,
+      0.0,
+      0.37957855701446874
+    ],
+    "vehicle_pose": {
+      "position": [
+        0.0,
+        0.0,
+        -0.37957870960235596
+      ],
+      "orientation_xyzw": [
+        0.028240228071808815,
+        -0.26743176579475403,
+        0.10114560276269913,
+        0.9578372836112976
+      ]
+    },
+    "anchors": {
+      "Landscape_0": {
+        "global_ned": [
+          -365.2337951660156,
+          -452.6463317871094,
+          0.8129093647003174
+        ],
+        "vehicle_local_ned": [
+          -365.2337951660156,
+          -452.6463317871094,
+          0.43333080768584864
+        ]
+      },
+      "P_Fountain2_5": {
+        "global_ned": [
+          0.1494140625,
+          22.07098388671875,
+          5.503689289093018
+        ],
+        "vehicle_local_ned": [
+          0.1494140625,
+          22.07098388671875,
+          5.124110732078549
+        ]
+      },
+      "P_Fountain3_15": {
+        "global_ned": [
+          -34.53445053100586,
+          -140.2099609375,
+          2.1078670024871826
+        ],
+        "vehicle_local_ned": [
+          -34.53445053100586,
+          -140.2099609375,
+          1.7282884454727139
+        ]
+      },
+      "CameraActor_0": {
+        "global_ned": [
+          0.0073828124441206455,
+          -0.005654601845890284,
+          0.0029093932826071978
+        ],
+        "vehicle_local_ned": [
+          0.0073828124441206455,
+          -0.005654601845890284,
+          -0.37666916373186154
+        ]
+      },
+      "CameraActor_1": {
+        "global_ned": [
+          -388.3518371582031,
+          364.4180908203125,
+          -163.438720703125
+        ],
+        "vehicle_local_ned": [
+          -388.3518371582031,
+          364.4180908203125,
+          -163.81829926013947
+        ]
+      }
+    }
+  },
+  "map_path": "H:\\CityParkEnvironmentCollec\\Content\\CityPark\\Maps\\Showcase.umap",
+  "reference_origin_note": "AirSim local NED origin includes drone collision bounds; retain initial spawn rotation, then standard per-flight reset to upright zero yaw",
+  "vehicle_spawn_settings": {
+    "X": -536.8873828125,
+    "Y": 1.6456546020507812,
+    "Z": -1.812909393310547,
+    "Pitch": -31.19989013671875,
+    "Yaw": 12.0557861328125,
+    "Roll": 0.0
+  },
+  "anchors_local_ned": {
+    "Landscape_0": [
+      -365.2337951660156,
+      -452.6463317871094,
+      0.43333080768584864
+    ],
+    "P_Fountain2_5": [
+      0.1494140625,
+      22.07098388671875,
+      5.124110732078549
+    ],
+    "P_Fountain3_15": [
+      -34.53445053100586,
+      -140.2099609375,
+      1.7282884454727139
+    ],
+    "CameraActor_1": [
+      -388.3518371582031,
+      364.4180908203125,
+      -163.81829926013947
+    ]
+  },
+  "anchor_tolerance_m": 0.05,
+  "map_sha256": "38c470eea3cf0b6e524362bada32058cab2b0476374b379913a1e671a88289d5"
+}

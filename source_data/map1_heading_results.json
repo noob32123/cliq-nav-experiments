@@ -1,0 +1,158 @@
+{
+  "routes": 14,
+  "repeats": 10,
+  "seed": 20260823,
+  "bootstrap_resamples": 10000,
+  "confidence_level": 0.95,
+  "bootstrap_unit": "whole route; all 10 repeats retained",
+  "pairing": "same route indices across both methods; no episode pairing",
+  "difference_direction": "existing_full minus last_segment_delta",
+  "units": {
+    "SR": "fraction",
+    "NE": "m",
+    "SPL": "fraction",
+    "OR": "fraction",
+    "TL": "m"
+  },
+  "methods": {
+    "existing_full": {
+      "SR": {
+        "mean": 0.807142857142857,
+        "low": 0.7357142857142858,
+        "high": 0.8714285714285717
+      },
+      "NE": {
+        "mean": 9.807635704084845,
+        "low": 8.126594870470068,
+        "high": 11.763340585907782
+      },
+      "SPL": {
+        "mean": 0.6865262861051349,
+        "low": 0.6247196943125567,
+        "high": 0.7534892188874515
+      },
+      "OR": {
+        "mean": 0.8714285714285713,
+        "low": 0.7928571428571428,
+        "high": 0.942857142857143
+      },
+      "TL": {
+        "mean": 41.75392529178526,
+        "low": 32.517805396893465,
+        "high": 51.74317492291127
+      }
+    },
+    "last_segment_delta": {
+      "SR": {
+        "mean": 0.028571428571428574,
+        "low": 0.0071428571428571435,
+        "high": 0.049999999999999996
+      },
+      "NE": {
+        "mean": 36.9481852464496,
+        "low": 25.856833374410215,
+        "high": 50.69284091685176
+      },
+      "SPL": {
+        "mean": 0.021815253062161474,
+        "low": 0.005337252821747125,
+        "high": 0.0417162819829961
+      },
+      "OR": {
+        "mean": 0.10714285714285714,
+        "low": 0.049999999999999996,
+        "high": 0.17142857142857146
+      },
+      "TL": {
+        "mean": 39.40696127709634,
+        "low": 23.631409794030994,
+        "high": 59.56848139987256
+      }
+    }
+  },
+  "differences": {
+    "SR": {
+      "mean": 0.7785714285714286,
+      "low": 0.7071428571428571,
+      "high": 0.8428571428571432
+    },
+    "NE": {
+      "mean": -27.14054954236474,
+      "low": -40.87270559131511,
+      "high": -15.864116778360193
+    },
+    "SPL": {
+      "mean": 0.6647110330429733,
+      "low": 0.5920106878379567,
+      "high": 0.7403026220540291
+    },
+    "OR": {
+      "mean": 0.7642857142857142,
+      "low": 0.6857142857142857,
+      "high": 0.8428571428571431
+    },
+    "TL": {
+      "mean": 2.3469640146888957,
+      "low": -12.650307269285639,
+      "high": 13.747696819386094
+    }
+  },
+  "heading_verification": {
+    "passed": 140,
+    "required": 140,
+    "max_actual_delta_error_deg": 0.14772229852951568,
+    "max_initial_yaw_error_deg": 3.250579538871534e-08
+  },
+  "config": {
+    "model": "qwen3.5-35b-a3b",
+    "endpoint": "https://api.desire-drive.com/v1",
+    "rpc_port": 41452,
+    "scene_frame_reference": "map1\\heading_ablation\\citypark_saved_default_frame.json",
+    "scene_frame_reference_sha256": "1cd0b4887907934284cbd63a7c8264404c4c889bb1aa29374bc1c3c423ef5dc1",
+    "vehicle_spawn_settings": {
+      "X": -536.8873828125,
+      "Y": 1.6456546020507812,
+      "Z": -1.812909393310547,
+      "Pitch": -31.19989013671875,
+      "Yaw": 12.0557861328125,
+      "Roll": 0.0
+    },
+    "clock_speed": 5,
+    "max_iterations": 20,
+    "smoke_iterations": 2,
+    "horizontal_speed": 2,
+    "vertical_speed": 1.5,
+    "yaw_rate": 30,
+    "action_min_seconds": 0.5,
+    "post_action_wall_seconds": 4,
+    "max_tokens": 256,
+    "enable_thinking": false,
+    "request_timeout_seconds": 150,
+    "request_attempts": 3,
+    "seed": 20260823,
+    "bootstrap_resamples": 10000,
+    "engine": "H:\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+    "project": "H:\\CityParkEnvironmentCollec\\CityPark.uproject",
+    "heading_policy": "original signed initialization turn + wrap(last XY yaw - weighted XY yaw)",
+    "collision_policy": "record and consume initialization contacts; count only navigation contacts newer than takeover timestamp",
+    "smoke_acceptance": "heading/image/CLIP/real response gates plus >=1 executed action and >=0.05m displacement or >=0.2deg yaw response",
+    "reset_orientation_xyzw": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "initial_orientation_note": "upright zero-yaw quaternion; actual post-takeoff yaw is measured in both arms",
+    "baseline_yaw_limit": "historical CSV has XYZ only; new calibration reproduces baseline initialization commands",
+    "history_provenance": "existing six-point histories generated from historical first VLM movement; not independent GNSS recordings",
+    "legacy_warnings": [
+      "existing 3D history verification fails routes 3/4; inputs preserved",
+      "historical official endpoint, decoding and clock conditions may differ",
+      "historical endpoint CSV may include landing; new navigation CSV excludes landing",
+      "goal JSON disagrees on routes 7/13; use frozen original evaluator"
+    ]
+  },
+  "protected_inputs_verified": true,
+  "evaluation_version": "revised_v2",
+  "evaluation_manifest": "supplementary/episodes_manifest.csv"
+}

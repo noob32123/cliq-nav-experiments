@@ -1,0 +1,63 @@
+{
+  "evaluation_version": "revised_v2",
+  "date": "2026-10-26",
+  "timing": "Success radii changed during manuscript revision after outcomes were available; not a pre-experiment rule.",
+  "rule": "Halve the original 6 m radius on Downtown West routes whose configured start already met that original radius; retain 6 m elsewhere.",
+  "selection_inputs": "Configured XY starts, goals and original radii only; no method outcome used to choose the 3 m value.",
+  "changed_routes": [
+    {
+      "route": 9,
+      "start_goal_distance_m": 4.430679970388288,
+      "original_radius_m": 6.0,
+      "revised_radius_m": 3.0
+    },
+    {
+      "route": 14,
+      "start_goal_distance_m": 5.756719291402005,
+      "original_radius_m": 6.0,
+      "revised_radius_m": 3.0
+    },
+    {
+      "route": 16,
+      "start_goal_distance_m": 3.9995212213463818,
+      "original_radius_m": 6.0,
+      "revised_radius_m": 3.0
+    },
+    {
+      "route": 17,
+      "start_goal_distance_m": 4.264849938743449,
+      "original_radius_m": 6.0,
+      "revised_radius_m": 3.0
+    },
+    {
+      "route": 21,
+      "start_goal_distance_m": 5.525448850545985,
+      "original_radius_m": 6.0,
+      "revised_radius_m": 3.0
+    },
+    {
+      "route": 25,
+      "start_goal_distance_m": 5.99939638630422,
+      "original_radius_m": 6.0,
+      "revised_radius_m": 3.0
+    },
+    {
+      "route": 29,
+      "start_goal_distance_m": 5.996060790218854,
+      "original_radius_m": 6.0,
+      "revised_radius_m": 3.0
+    }
+  ],
+  "same_rule_for_all_conditions": true,
+  "changed_manifest_rows": 420,
+  "episodes_retained": 3340,
+  "episodes_excluded": 0,
+  "goal_coordinates_changed": false,
+  "trajectory_bytes_changed": false,
+  "NE_and_TL_identical_episode_by_episode": true,
+  "original_manifest": "episodes_manifest_original_6m.csv",
+  "original_results": "results_original_6m/",
+  "revised_manifest": "episodes_manifest.csv",
+  "revised_results": "results/",
+  "bootstrap": "Same whole-route procedure and seeds as original scoring; 10000 resamples."
+}

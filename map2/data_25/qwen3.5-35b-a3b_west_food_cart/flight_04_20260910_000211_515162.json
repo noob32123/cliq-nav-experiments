@@ -1,0 +1,37 @@
+{
+  "batch_id": "formal_20260909_170427",
+  "id": "25_qwen_04",
+  "route_id": "25",
+  "clip": false,
+  "repeat": 4,
+  "status": "running",
+  "attempts": 1,
+  "reason": "collision",
+  "decisions": 10,
+  "actions": 9,
+  "clip_enabled": false,
+  "model": "qwen3.5-35b-a3b",
+  "max_iterations": 30,
+  "clock_speed": 5,
+  "collision_object": "tree_generic_b10",
+  "navigation_end_position": [
+    -161.26675415039062,
+    4.799798965454102,
+    -3.7464942932128906
+  ],
+  "landing": {
+    "landed": true,
+    "ground_z_from_depth": 0.14375371932983416,
+    "position": [
+      -161.26547241210938,
+      4.798206806182861,
+      -0.16759757697582245
+    ],
+    "contact_object": "ground_mod_garden_planter_tall_b_118",
+    "contact_timestamp": 1788970287434384640,
+    "speed_before_disarm": 0.0
+  },
+  "wall_seconds": 47.0779592001345,
+  "trajectory": "map2\\data_25\\qwen3.5-35b-a3b_west_food_cart\\flight_04_20260910_000211_515162.csv",
+  "attempt_directory": "map2\\formal_20260909_170427\\attempts\\25_qwen_04\\001"
+}
